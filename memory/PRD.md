@@ -96,3 +96,10 @@ Develop the new Ecoandes platform (https://productosecoandes.com/) with B2C reta
 - Botón manual: Admin -> Importar precios -> "Sincronizar catálogo". Endpoints: POST /api/admin/catalog/sync, GET /api/admin/catalog/sync-status.
 - En un entorno nuevo NO se requiere ninguna acción manual: el backend se auto-repara al arrancar.
 - Lo que NO viaja (datos transaccionales, se pierden al saltar de entorno): pedidos, usuarios/clientes, leads de WhatsApp, archivos subidos (db.files). Si se necesitan, usar mongodump/mongorestore antes de saltar.
+
+## Fichas técnicas asignadas masivamente (Feb 2026 · última entrega)
+- La clienta subió 159 PDFs vía Admin > Archivos (/admin/archivos). Script `scripts/assign_tech_sheets_from_uploads.py` mapea cada SKU a su `original_filename` exacto (mapa manual seguro: 157 pares SKU→PDF, incluye desambiguación crítica como "Guaraná en polvo" vs "Semillas de Guaraná tostado", "Cacao en polvo/grano/nibs/manteca", "Almidón maíz/mandioca").
+- Resultado: **157/174 productos con `tech_sheet` funcional** (HTTP 200 verificado en los 157). 17 productos siguen sin ficha porque el cliente aún no subió el PDF correspondiente (Avena en grano, Arroz Redondo Integral, Orégano, Pimentón dulce, Dátil Medjoul, Espirales guisante, Mate, Manzanilla, Jengibre raíz, Sal Rosa, Coco deshidratado, Arrurruz, Tomate seco, Haba de soja, Hibisco, Macarrones lenteja roja, Sal negra Himalaya).
+- UI validada: pestaña "Ficha técnica" en `/producto/[slug]` muestra tarjeta con botones "Ver documento" y "Descargar PDF" apuntando al PDF real subido (verificado con Cacao Nibs → FICHA-TECNICA-CACAO-NIBS-2025.pdf, HTTP 200, 126 KB).
+- Idempotente: re-ejecutar el script solo actualiza los productos cuyo `tech_sheet.url` haya cambiado.
+
