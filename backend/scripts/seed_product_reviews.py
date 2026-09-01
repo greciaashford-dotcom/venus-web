@@ -1,13 +1,13 @@
 """Siembra de reseñas para todos los productos activos.
 
 Reglas (confirmadas por el cliente):
-- Mínimo 11 reseñas por producto (aquí 11–19, aleatorio).
+- Mínimo 19 reseñas por producto (aquí 19–28, aleatorio).
 - ~97% de las reseñas son de 5 estrellas y el resto de 4, repartidas
   indistintamente (algunos productos quedan con todas 5★).
 - Actualiza `web_rating` y `web_reviews` de cada producto para que las
   cartas muestren estrellas y nº de valoraciones.
 
-Idempotente: si un producto ya tiene >= 11 reseñas, no añade más
+Idempotente: si un producto ya tiene >= 19 reseñas, no añade más
 (solo recalcula web_rating/web_reviews).
 
 Uso: python -m scripts.seed_product_reviews
@@ -61,8 +61,8 @@ COMMENTS_4 = [
     "Buena relación calidad-precio. Recomendable.",
 ]
 
-MIN_REVIEWS = 11
-MAX_REVIEWS = 19
+MIN_REVIEWS = 19
+MAX_REVIEWS = 28
 P_FIVE_STARS = 0.97
 
 

@@ -6,6 +6,8 @@ import { api } from "../lib/api";
 import { useAuth } from "../context/AuthContext";
 import StarRating from "./StarRating";
 
+const VISIBLE_REVIEWS = 5;
+
 export default function ProductReviews({ productId }) {
   const { t } = useTranslation();
   const { user } = useAuth();
@@ -14,6 +16,7 @@ export default function ProductReviews({ productId }) {
   const [rating, setRating] = useState(0);
   const [comment, setComment] = useState("");
   const [submitting, setSubmitting] = useState(false);
+  const [showAll, setShowAll] = useState(false);
 
   const load = useCallback(async () => {
     setLoading(true);
@@ -33,6 +36,7 @@ export default function ProductReviews({ productId }) {
 
   useEffect(() => {
     if (productId) load();
+    setShowAll(false);
   }, [productId, load]);
 
   const submit = async (e) => {
@@ -130,20 +134,34 @@ export default function ProductReviews({ productId }) {
               {t("reviews.empty")}
             </div>
           ) : (
-            <ul className="space-y-6" data-testid="reviews-list">
-              {items.map((r) => (
-                <li key={r.id} className="border-b border-bone-200 pb-6 last:border-0">
-                  <div className="flex items-center justify-between">
-                    <div className="text-sm font-medium text-ink">{r.user_name}</div>
-                    <div className="text-xs text-ink-muted">
-                      {new Date(r.created_at).toLocaleDateString("es-ES", { year: "numeric", month: "short", day: "numeric" })}
+            <>
+              <ul className="space-y-6" data-testid="reviews-list">
+                {(showAll ? items : items.slice(0, VISIBLE_REVIEWS)).map((r) => (
+                  <li key={r.id} className="border-b border-bone-200 pb-6 last:border-0">
+                    <div className="flex items-center justify-between">
+                      <div className="text-sm font-medium text-ink">{r.user_name}</div>
+                      <div className="text-xs text-ink-muted">
+                        {new Date(r.created_at).toLocaleDateString("es-ES", { year: "numeric", month: "short", day: "numeric" })}
+                      </div>
                     </div>
-                  </div>
-                  <StarRating value={r.rating} readOnly size={14} className="mt-1.5" />
-                  {r.comment && <p className="text-sm text-ink-soft mt-2 leading-relaxed">{r.comment}</p>}
-                </li>
-              ))}
-            </ul>
+                    <StarRating value={r.rating} readOnly size={14} className="mt-1.5" />
+                    {r.comment && <p className="text-sm text-ink-soft mt-2 leading-relaxed">{r.comment}</p>}
+                  </li>
+                ))}
+              </ul>
+              {items.length > VISIBLE_REVIEWS && (
+                <button
+                  type="button"
+                  onClick={() => setShowAll((v) => !v)}
+                  data-testid="reviews-toggle-all"
+                  className="btn-outline w-full mt-6"
+                >
+                  {showAll
+                    ? t("reviews.showLess")
+                    : t("reviews.showAll", { count: items.length })}
+                </button>
+              )}
+            </>
           )}
         </div>
       </div>

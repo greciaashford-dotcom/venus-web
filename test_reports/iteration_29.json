@@ -1,0 +1,25 @@
+{
+  "summary": "Frontend regression verified for the 4 requested changes on EcoAndes. Button centering, per-product tech sheet PDFs (5 SKUs), reviews list w/ 5-visible + toggle, mobile bottom nav Heart->Store swap, and login regression all pass.",
+  "backend_issues": {"critical": [], "minor": []},
+  "frontend_issues": {
+    "ui_bugs": [],
+    "integration_issues": [],
+    "design_issues": [
+      {"screen": "Product Detail - Reviews toggle", "issues": ["Toggle label renders as 'SEE ALL REVIEWS (N)' in uppercase due to text-transform; consistent with site button style, likely intentional."]}
+    ]
+  },
+  "test_report_links": [],
+  "action_items": [],
+  "critical_code_review_comments": [
+    "React console warning: 'Each child in a list should have a unique key prop' inside TrafficMap svg render (Admin dashboard). Non-blocking but should be fixed by adding key props to mapped SVG children.",
+    "Shop page renders 432 product-card testids for 174 products (variants each get a card testid). Only currently-rendered cards show rating; consider deduping data-testids per product-slug or ensuring rating renders on all variants for consistency."
+  ],
+  "updated_files": [],
+  "success_rate": {"backend": "100%", "frontend": "100%"},
+  "test_credentials": "admin@ecoandes.com / Admin123! (verified working, redirects to /admin)",
+  "seed_data_creation": "None. Used existing 4087 seeded reviews and 5 pre-assigned tech-sheet PDFs.",
+  "retest_needed": false,
+  "main_agent_can_self_test": true,
+  "context_for_next_testing_agent": "Verified via UI: (1) PDFs at /docs/ACAI-FT-ECOANDES.pdf, /docs/ACEROLA-FT-ECOANDES-2023.pdf, /docs/ALMIDON-DE-MAIZ-NATIVO-FT-ECOANDES.pdf, /docs/ALMIDON-DE-MANDIOCA-FT-ECOANDES.pdf, /docs/FICHA-TECNICA-ALMENDRA-PELADA-2025.pdf all return HTTP 200 and each is linked from its product's Technical Sheet tab. (2) Reviews tab: acai=20, acerola=27, almidon maiz=28, almendra=22 reviews; toggle button data-testid='reviews-toggle-all' works ('SEE ALL REVIEWS (N)' <-> 'SEE FEWER REVIEWS'). (3) Product cards on /tienda display '5.0 (20)'-style rating+count; all 56 sampled visible cards had >=19 reviews. (4) Mobile bottom nav (390x844) contains exactly [bottomnav-menu, bottomnav-home, bottomnav-account, bottomnav-shop, bottomnav-cart]; bottomnav-wishlist is absent; bottomnav-shop navigates to /tienda. (5) Button centering: .btn-primary/.btn-outline/.btn-ghost all pass computed-style checks (display:inline-flex/flex, align-items:center, text-align:center). Generic <button> elements without those classes (icon-only, headless UI, etc.) have varied justify-content values, which is expected. (6) Admin login flow OK. Minor React key warning in Admin TrafficMap SVG (pre-existing).",
+  "rca of the issue": "N/A - no blocking issues found."
+}

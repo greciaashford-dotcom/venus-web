@@ -329,22 +329,12 @@ export default function Navbar() {
               </span>
             </Link>
             <Link
-              to="/lista-deseos"
-              data-testid="bottomnav-wishlist"
-              aria-label={t("nav.wishlist")}
-              className={`relative flex items-center justify-center transition-colors ${loc.pathname === "/lista-deseos" ? "text-white" : "text-bone-100/75 hover:text-white active:text-white"}`}
+              to="/tienda"
+              data-testid="bottomnav-shop"
+              aria-label={t("nav.shop")}
+              className={`flex items-center justify-center transition-colors ${loc.pathname.startsWith("/tienda") ? "text-white" : "text-bone-100/75 hover:text-white active:text-white"}`}
             >
-              <span className="relative">
-                <Heart size={22} />
-                {wishlistCount > 0 && (
-                  <span
-                    data-testid="bottomnav-wishlist-count"
-                    className="absolute -top-2 -right-2.5 bg-terracotta text-white text-[10px] h-4 min-w-[16px] px-1 rounded-full flex items-center justify-center font-medium"
-                  >
-                    {wishlistCount}
-                  </span>
-                )}
-              </span>
+              <Store size={22} />
             </Link>
             <button
               type="button"

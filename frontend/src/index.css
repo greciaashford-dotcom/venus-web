@@ -69,21 +69,21 @@ h1, h2, h3, h4, h5 {
 }
 
 .btn-primary {
-  @apply bg-sage-500 text-white hover:bg-sage-600 active:bg-sage-700 px-8 py-3.5 text-xs uppercase tracking-[0.22em] rounded-full shadow-sm hover:shadow-md focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-sage-500 focus-visible:ring-offset-2 focus-visible:ring-offset-bone-100 disabled:opacity-50 disabled:pointer-events-none;
+  @apply inline-flex items-center justify-center text-center leading-none bg-sage-500 text-white hover:bg-sage-600 active:bg-sage-700 px-8 py-3.5 text-xs uppercase tracking-[0.22em] rounded-full shadow-sm hover:shadow-md focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-sage-500 focus-visible:ring-offset-2 focus-visible:ring-offset-bone-100 disabled:opacity-50 disabled:pointer-events-none;
   transition: background-color .25s var(--ease-soft), box-shadow .25s var(--ease-soft), transform .2s var(--ease-soft);
 }
 .btn-primary:hover { transform: translateY(-2px); }
 .btn-primary:active { transform: translateY(0); }
 
 .btn-outline {
-  @apply bg-transparent border border-bone-200 text-ink hover:border-sage-500 hover:text-sage-700 active:bg-sage-50 px-8 py-3.5 text-xs uppercase tracking-[0.22em] rounded-full focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-sage-500 focus-visible:ring-offset-2 focus-visible:ring-offset-bone-100;
+  @apply inline-flex items-center justify-center text-center leading-none bg-transparent border border-bone-200 text-ink hover:border-sage-500 hover:text-sage-700 active:bg-sage-50 px-8 py-3.5 text-xs uppercase tracking-[0.22em] rounded-full focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-sage-500 focus-visible:ring-offset-2 focus-visible:ring-offset-bone-100;
   transition: border-color .25s var(--ease-soft), color .25s var(--ease-soft), background-color .25s var(--ease-soft), transform .2s var(--ease-soft);
 }
 .btn-outline:hover { transform: translateY(-2px); }
 .btn-outline:active { transform: translateY(0); }
 
 .btn-ghost {
-  @apply bg-transparent text-sage-600 hover:bg-sage-100 active:bg-sage-200 px-4 py-2 text-xs uppercase tracking-[0.22em] rounded-full transition-colors duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-sage-500;
+  @apply inline-flex items-center justify-center text-center leading-none bg-transparent text-sage-600 hover:bg-sage-100 active:bg-sage-200 px-4 py-2 text-xs uppercase tracking-[0.22em] rounded-full transition-colors duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-sage-500;
 }
 
 .input-eco {
