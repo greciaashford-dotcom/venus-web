@@ -1,0 +1,2140 @@
+{
+ "generated_at": "2026-08-03T18:30:29.653736+00:00",
+ "hero": {
+  "b2b": {
+   "label": "Soy profesional",
+   "link": "/profesional",
+   "translations": {
+    "en": "Professionals",
+    "zh": "我是专业采购商",
+    "fr": "Je suis professionnel",
+    "ja": "プロフェッショナルの方へ",
+    "it": "Sono un professionista",
+    "pt": "Sou profissional"
+   }
+  },
+  "slides": [
+   {
+    "id": "a7463c98-b4fc-48f4-b57b-2157df804b89",
+    "order": 0,
+    "active": true,
+    "image": "/api/files/ecoandes/images/b6a59b7044d84b45bf5fcf83d69a5b7b.png",
+    "image_mobile": "/api/files/ecoandes/images/ded79f0ab8b4420c9be28c953ffdef46.png",
+    "image_alt": "Cacao Nibs",
+    "overline": "Cacao Nibs · Variedad Criollo",
+    "h1": "Nibs de Cacao Bio para tu Energía y Vitalidad",
+    "subtitle": "Potencia tu día con los Nibs de Cacao Ecológicos de Ecoandes. 100% puro, bio, vegano, sin gluten y rico en antioxidantes. ¡Descubre su sabor auténtico!",
+    "cta_label": "Descubrir cacao",
+    "cta_link": "/tienda?q=cacao",
+    "translations": {
+     "en": {
+      "overline": "Cacao Nibs · Criollo Variety",
+      "h1": "BIO Cacao Nibs for Your Energy and Vitality",
+      "subtitle": "Boost your day with Ecoandes Organic Cacao Nibs. 100% pure, BIO, vegan, gluten-free, and rich in antioxidants. Discover their authentic flavor!",
+      "cta_label": "Discover Cacao"
+     },
+     "zh": {
+      "overline": "秘鲁原种可可豆碎 · 珍稀品种",
+      "h1": "BIO可可豆碎：活力充沛，能量满格",
+      "subtitle": "用Ecoandes的有机可可豆碎点燃你的每一天。100%纯净、BIO、纯素、无麸质，富含抗氧化剂。探索其纯正风味！",
+      "cta_label": "探索可可"
+     },
+     "fr": {
+      "overline": "Cacao Nibs · Variété Criollo",
+      "h1": "Nibs de Cacao BIO pour votre Énergie et Vitalité",
+      "subtitle": "Dynamisez votre journée avec les Nibs de Cacao BIO Ecoandes. 100% pur, bio, vegan, sans gluten et riche en antioxydants. Découvrez leur saveur authentique !",
+      "cta_label": "Découvrir le cacao"
+     },
+     "ja": {
+      "overline": "カカオニブ · クリオーロ種",
+      "h1": "バイオカカオニブで、あなたに活力とエネルギーを。",
+      "subtitle": "Ecoandesのオーガニックカカオニブで一日を充実させましょう。100%ピュア、BIO、ヴィーガン、グルテンフリー、抗酸化物質も豊富。本物の味をご体験ください！",
+      "cta_label": "カカオを見る"
+     },
+     "it": {
+      "overline": "Cacao Nibs · Varietà Criollo",
+      "h1": "Nibs di Cacao BIO per la tua Energia e Vitalità",
+      "subtitle": "Potenzia la tua giornata con i Nibs di Cacao Biologici di Ecoandes. 100% puro, BIO, vegano, senza glutine e ricco di antiossidanti. Scopri il suo sapore autentico!",
+      "cta_label": "Scopri il cacao"
+     },
+     "pt": {
+      "overline": "Nibs de Cacau · Variedade Crioula",
+      "h1": "Nibs de Cacau BIO para a Sua Energia e Vitalidade",
+      "subtitle": "Potencie o seu dia com os Nibs de Cacau Biológicos da Ecoandes. 100% puro, BIO, vegan, sem glúten e rico em antioxidantes. Descubra o seu sabor autêntico!",
+      "cta_label": "Descobrir Cacau"
+     }
+    }
+   },
+   {
+    "id": "19ab1d95-37a6-4ec8-8a3f-d9207a4dc235",
+    "order": 1,
+    "active": true,
+    "image": "/api/files/ecoandes/images/274d8528cb324a2db1fabd73a58bd947.png",
+    "image_mobile": "/api/files/ecoandes/images/a5626b373c594469bdc3966aaf293ffb.png",
+    "image_alt": "Maca Negra",
+    "overline": "Maca Negra · Superalimento Ecológico",
+    "h1": "Maca Negra Bio la fuente de energía y potencia natural para tu máximo rendimiento.",
+    "subtitle": "Potencia tu energía y enfoque con Maca Negra EcoAndes. Superalimento bio, sin gluten y 100% puro. ¡Siente el poder ecológico!",
+    "cta_label": "Descubrir maca",
+    "cta_link": "/tienda?q=maca",
+    "translations": {
+     "en": {
+      "overline": "Black Maca · Organic Superfood",
+      "h1": "BIO Black Maca: Your Source of Natural Energy and Power for Peak Performance.",
+      "subtitle": "Boost your energy and focus with EcoAndes Black Maca. BIO superfood, gluten-free, and 100% pure. Feel the organic power!",
+      "cta_label": "Discover Maca"
+     },
+     "zh": {
+      "overline": "黑玛卡 · 有机超级食物",
+      "h1": "BIO黑玛卡：天然能量源泉，助你超越巅峰",
+      "subtitle": "用EcoAndes黑玛卡提升你的能量与专注力。BIO超级食物，无麸质，100%纯净。感受有机力量！",
+      "cta_label": "探索玛卡"
+     },
+     "fr": {
+      "overline": "Maca Noire · Superaliment BIO",
+      "h1": "Maca Noire BIO : votre source d'énergie et de puissance naturelle pour des performances optimales.",
+      "subtitle": "Boostez votre énergie et votre concentration avec la Maca Noire EcoAndes. Superaliment bio, sans gluten et 100% pur. Ressentez la puissance écologique !",
+      "cta_label": "Découvrir la maca"
+     },
+     "ja": {
+      "overline": "黒マカ · オーガニックスーパーフード",
+      "h1": "BIO黒マカ：最高のパフォーマンスを引き出す、自然なエネルギーとパワーの源。",
+      "subtitle": "EcoAndesの黒マカで、エネルギーと集中力を高めましょう。BIOスーパーフード、グルテンフリー、100%ピュア。オーガニックの力を感じてください！",
+      "cta_label": "マカを見る"
+     },
+     "it": {
+      "overline": "Maca Nera · Superfood Biologico",
+      "h1": "Maca Nera BIO: la fonte di energia e potenza naturale per le tue massime prestazioni.",
+      "subtitle": "Potenzia la tua energia e la tua concentrazione con Maca Nera EcoAndes. Superfood BIO, senza glutine e 100% puro. Senti il potere biologico!",
+      "cta_label": "Scopri la maca"
+     },
+     "pt": {
+      "overline": "Maca Negra · Superalimento Biológico",
+      "h1": "Maca Negra BIO: A Fonte de Energia e Potência Natural para o Seu Máximo Desempenho.",
+      "subtitle": "Potencie a sua energia e foco com a Maca Negra EcoAndes. Superalimento BIO, sem glúten e 100% puro. Sinta o poder biológico!",
+      "cta_label": "Descobrir Maca"
+     }
+    }
+   },
+   {
+    "id": "25c10ce5-635a-4a6b-a2a4-8fae50ccbd98",
+    "order": 2,
+    "active": true,
+    "image": "/api/files/ecoandes/images/ea5a7be98305415692ade47257ed59ad.png",
+    "image_mobile": "/api/files/ecoandes/images/e068788cbddf4755a6d9fc73c3561365.png",
+    "image_alt": "Quinoa Real Tricolor",
+    "overline": "Quinoa Real Tricolor · Cultivo Ecológico",
+    "h1": "Super Alimento Ecológico — Nutrición Completa y Versátil",
+    "subtitle": "Fuente rica en proteínas completas, fibra, vitaminas y minerales. La Quinoa Real Tricolor EcoAndes apoya el sistema muscular y digestivo, proporcionando energía sostenida para tu día a día.",
+    "cta_label": "Descubrir quinoa",
+    "cta_link": "/tienda?q=quinoa",
+    "translations": {
+     "en": {
+      "overline": "Royal Tri-color Quinoa · Organic Cultivation",
+      "h1": "Organic Superfood — Complete and Versatile Nutrition",
+      "subtitle": "A rich source of complete proteins, fiber, vitamins, and minerals. EcoAndes Royal Tri-color Quinoa supports your muscular and digestive systems, providing sustained energy for your daily life.",
+      "cta_label": "Discover Quinoa"
+     },
+     "zh": {
+      "overline": "三色藜麦王 · 有机种植",
+      "h1": "有机超级食物：全面均衡，营养万用",
+      "subtitle": "富含完整蛋白质、纤维、维生素和矿物质。EcoAndes三色藜麦王支持肌肉和消化系统，为您的日常提供持续能量。",
+      "cta_label": "探索藜麦"
+     },
+     "fr": {
+      "overline": "Quinoa Royale Tricolore · Culture BIO",
+      "h1": "Super Aliment BIO — Nutrition Complète et Polyvalente",
+      "subtitle": "Riche source de protéines complètes, fibres, vitamines et minéraux. La Quinoa Royale Tricolore EcoAndes soutient les systèmes musculaire et digestif, en fournissant une énergie durable pour votre quotidien.",
+      "cta_label": "Découvrir la quinoa"
+     },
+     "ja": {
+      "overline": "キヌア・レアル（三色） · オーガニック栽培",
+      "h1": "オーガニックスーパーフード — 完璧で多様な栄養",
+      "subtitle": "完全なタンパク質、食物繊維、ビタミン、ミネラルを豊富に含むEcoAndesのキヌア・レアル（三色）は、筋肉と消化器系の健康をサポートし、日々の活動に持続的なエネルギーを供給します。",
+      "cta_label": "キヌアを見る"
+     },
+     "it": {
+      "overline": "Quinoa Reale Tricolore · Coltivazione Biologica",
+      "h1": "Superfood Biologico — Nutrizione Completa e Versatile",
+      "subtitle": "Fonte ricca di proteine complete, fibre, vitamine e minerali. La Quinoa Reale Tricolore EcoAndes supporta il sistema muscolare e digestivo, fornendo energia sostenuta per la tua quotidianità.",
+      "cta_label": "Scopri la quinoa"
+     },
+     "pt": {
+      "overline": "Quinoa Real Tricolor · Cultivo Biológico",
+      "h1": "Superalimento Biológico — Nutrição Completa e Versátil",
+      "subtitle": "Fonte rica em proteínas completas, fibra, vitaminas e minerais. A Quinoa Real Tricolor EcoAndes apoia o sistema muscular e digestivo, proporcionando energia sustentada para o seu dia a dia.",
+      "cta_label": "Descobrir Quinoa"
+     }
+    }
+   },
+   {
+    "id": "10aa0653-3722-4f00-9a4e-a774d1bcef96",
+    "order": 3,
+    "active": true,
+    "image": "/api/files/ecoandes/images/d46ad14f86fa45e68bb8c2f977db9eeb.png",
+    "image_mobile": "/api/files/ecoandes/images/1e76888c0de14213943c60fe66864012.png",
+    "image_alt": "Canela de Ceylán",
+    "overline": "Canela de Ceylán · Variedad Premium",
+    "h1": "Dulzura y Aroma Auténtico — Canela de Ceylan Bio",
+    "subtitle": "Descubre el verdadero sabor con nuestra Canela de Ceylan 100% ecológica. Un toque cálido, aromático y puro, perfecto para elevar tus postres, cafés y batidos diarios. Calidad premium, envasada con cuidado y cariño.",
+    "cta_label": "Descubrir canela",
+    "cta_link": "/tienda?q=canela",
+    "translations": {
+     "en": {
+      "overline": "Ceylon Cinnamon · Premium Variety",
+      "h1": "Authentic Sweetness and Aroma — BIO Ceylon Cinnamon",
+      "subtitle": "Discover true flavor with our 100% organic Ceylon Cinnamon. A warm, aromatic, and pure touch, perfect for elevating your daily desserts, coffees, and smoothies. Premium quality, packed with care and affection.",
+      "cta_label": "Discover Cinnamon"
+     },
+     "zh": {
+      "overline": "锡兰肉桂 · 珍品香料",
+      "h1": "纯正香甜，地道芬芳 — BIO锡兰肉桂",
+      "subtitle": "探索我们100%有机锡兰肉桂的真实风味。温暖、芳香、纯净的触感，完美提升您的甜点、咖啡和日常冰沙。优质出品，精心包装。",
+      "cta_label": "探索肉桂"
+     },
+     "fr": {
+      "overline": "Cannelle de Ceylan · Variété Premium",
+      "h1": "Douceur et Arôme Authentique — Cannelle de Ceylan BIO",
+      "subtitle": "Découvrez la vraie saveur avec notre Cannelle de Ceylan 100% BIO. Une touche chaude, aromatique et pure, parfaite pour sublimer vos desserts, cafés et smoothies quotidiens. Qualité premium, emballée avec soin et amour.",
+      "cta_label": "Découvrir la cannelle"
+     },
+     "ja": {
+      "overline": "セイロンシナモン · プレミアム品種",
+      "h1": "本物の甘さと香り — BIOセイロンシナモン",
+      "subtitle": "100%オーガニックのセイロンシナモンで、本物の味を発見してください。暖かく、芳醇でピュアな香りは、デザート、コーヒー、毎日のスムージーを格上げします。丁寧に愛情を込めて包装されたプレミアム品質です。",
+      "cta_label": "シナモンを見る"
+     },
+     "it": {
+      "overline": "Cannella di Ceylon · Varietà Premium",
+      "h1": "Dolcezza e Aroma Autentico — Cannella di Ceylon BIO",
+      "subtitle": "Scopri il vero sapore con la nostra Cannella di Ceylon 100% biologica. Un tocco caldo, aromatico e puro, perfetto per esaltare i tuoi dessert, caffè e frullati quotidiani. Qualità premium, confezionata con cura e passione.",
+      "cta_label": "Scopri la cannella"
+     },
+     "pt": {
+      "overline": "Canela do Ceilão · Variedade Premium",
+      "h1": "Doçura e Aroma Autêntico — Canela do Ceilão BIO",
+      "subtitle": "Descubra o verdadeiro sabor com a nossa Canela do Ceilão 100% biológica. Um toque quente, aromático e puro, perfeito para realçar as suas sobremesas, cafés e batidos diários. Qualidade premium, embalada com cuidado e carinho.",
+      "cta_label": "Descobrir Canela"
+     }
+    }
+   },
+   {
+    "id": "2992ce4f-b2a8-4ee1-8ac7-87ce3b2b6d48",
+    "order": 4,
+    "active": true,
+    "image": "/api/files/ecoandes/images/1c28d43b010f45e0a2a86f7cd6e80004.png",
+    "image_mobile": "/api/files/ecoandes/images/36bf6a2368f24c67b39289b4b24534a9.png",
+    "image_alt": "Cúrcuma Bio",
+    "overline": "Cúrcuma Bio · Cultivo Ecológico",
+    "h1": "El Oro de la India — Cúrcuma Bio en Polvo",
+    "subtitle": "Cúrcuma bio 100% pura, de la más alta calidad y cultivo ecológico certificado. Ideal para currys, arroces y tu leche dorada.",
+    "cta_label": "Descubrir cúrcuma",
+    "cta_link": "/tienda?q=curcuma",
+    "translations": {
+     "en": {
+      "overline": "BIO Turmeric · Organic Cultivation",
+      "h1": "The Gold of India — BIO Turmeric Powder",
+      "subtitle": "100% pure BIO turmeric, of the highest quality and certified organic cultivation. Ideal for curries, rice dishes, and your golden milk.",
+      "cta_label": "Discover Turmeric"
+     },
+     "zh": {
+      "overline": "BIO姜黄 · 有机种植",
+      "h1": "印度黄金 — BIO姜黄粉",
+      "subtitle": "100%纯净BIO姜黄，品质卓越，有机认证。咖喱、米饭和黄金奶的理想选择。",
+      "cta_label": "探索姜黄"
+     },
+     "fr": {
+      "overline": "Curcuma BIO · Culture BIO",
+      "h1": "L'Or de l'Inde — Curcuma BIO en Poudre",
+      "subtitle": "Curcuma BIO 100% pur, de la plus haute qualité et issu de culture biologique certifiée. Idéal pour les currys, les riz et votre lait d'or.",
+      "cta_label": "Découvrir le curcuma"
+     },
+     "ja": {
+      "overline": "BIOターメリック · オーガニック栽培",
+      "h1": "インドの黄金 — BIOターメリックパウダー",
+      "subtitle": "100%ピュアなBIOターメリックは、最高品質かつオーガニック認証された栽培品。カレー、ご飯、ゴールデンミルクに最適です。",
+      "cta_label": "ターメリックを見る"
+     },
+     "it": {
+      "overline": "Curcuma BIO · Coltivazione Biologica",
+      "h1": "L'Oro dell'India — Curcuma BIO in Polvere",
+      "subtitle": "Curcuma BIO 100% pura, della più alta qualità e da coltivazione biologica certificata. Ideale per curry, risotti e il tuo latte dorato.",
+      "cta_label": "Scopri la curcuma"
+     },
+     "pt": {
+      "overline": "Cúrcuma BIO · Cultivo Biológico",
+      "h1": "O Ouro da Índia — Cúrcuma BIO em Pó",
+      "subtitle": "Cúrcuma BIO 100% pura, da mais alta qualidade e cultivo biológico certificado. Ideal para caril, arroz e o seu leite dourado.",
+      "cta_label": "Descobrir Cúrcuma"
+     }
+    }
+   }
+  ],
+  "updated_at": "2026-08-03T17:27:32.610947+00:00"
+ },
+ "category_carousel": {
+  "items": [
+   {
+    "id": "2b4b49ab-9647-4b27-88c6-0f2220a916aa",
+    "order": 0,
+    "active": true,
+    "title": "CEREALES EN GRANO",
+    "cat": "PSEUDOCEREALES Y CEREALES EN GRANO",
+    "img": "https://assets.zyrosite.com/w7wEiJrqV2hbSrVN/cereales-en-grano-nvN4HZZDlUud1P7E.png"
+   },
+   {
+    "id": "7ea11f6b-1dfe-49d8-8a16-8bd90160c0be",
+    "order": 1,
+    "active": true,
+    "title": "SUPER ALIMENTOS",
+    "cat": "SUPERALIMENTOS EN POLVO U HOJA",
+    "img": "https://assets.zyrosite.com/w7wEiJrqV2hbSrVN/superalimentos-cuL4v4KFXGJdYA83.png"
+   },
+   {
+    "id": "722d5ac3-0544-49a6-98cb-481d6917553a",
+    "order": 2,
+    "active": true,
+    "title": "ARROCES",
+    "cat": "ARROCES",
+    "img": "https://assets.zyrosite.com/w7wEiJrqV2hbSrVN/arroces-c0rZdaWC9njktmzt.png"
+   },
+   {
+    "id": "098574ab-4109-4164-bf7b-d72ac2d2f9cc",
+    "order": 3,
+    "active": true,
+    "title": "AZÚCARES Y ENDULZANTES",
+    "cat": "AZUCARES Y ENDULZANTES",
+    "img": "https://assets.zyrosite.com/w7wEiJrqV2hbSrVN/azucares-y-endulzantes-X3Y6m6GRLw4EKlMp.png"
+   },
+   {
+    "id": "c17a3929-095d-4f6c-bd5d-194a8bfdde51",
+    "order": 4,
+    "active": true,
+    "title": "CACAO Y DERIVADOS",
+    "cat": "CACAO Y DERIVADOS",
+    "img": "https://assets.zyrosite.com/w7wEiJrqV2hbSrVN/cacao-y-derivados-kW3mfwsnGSMmBDZ9.png"
+   },
+   {
+    "id": "d993dddc-9747-4465-a583-0b20541eede2",
+    "order": 5,
+    "active": true,
+    "title": "COPOS",
+    "cat": "COPOS",
+    "img": "https://assets.zyrosite.com/w7wEiJrqV2hbSrVN/copos-Ha6zriYnCD5hsKyc.png"
+   },
+   {
+    "id": "13a68b71-f5f0-468b-9c54-98a366fd70d3",
+    "order": 6,
+    "active": true,
+    "title": "ESPECIAS",
+    "cat": "ESPECIAS Y CONDIMENTOS",
+    "img": "https://assets.zyrosite.com/w7wEiJrqV2hbSrVN/especias-UPhOHHOvtQnLOuMR.png"
+   },
+   {
+    "id": "7618770c-202d-49ee-bae3-dd8ef2f86d6a",
+    "order": 7,
+    "active": true,
+    "title": "SEMILLAS",
+    "cat": "SEMILLAS",
+    "img": "https://assets.zyrosite.com/w7wEiJrqV2hbSrVN/semillas-wLokHer8QfRzl1L0.png"
+   },
+   {
+    "id": "2b88bba5-3ec3-4553-b6f2-025524069bea",
+    "order": 8,
+    "active": true,
+    "title": "FRUTOS SECOS",
+    "cat": "FRUTOS SECOS",
+    "img": "https://assets.zyrosite.com/w7wEiJrqV2hbSrVN/frutos-secos-cvXFfd8j2BynRD0R.png"
+   },
+   {
+    "id": "28d51b10-8b4f-427f-91e8-63d63508d0a3",
+    "order": 9,
+    "active": true,
+    "title": "HARINAS",
+    "cat": "HARINAS",
+    "img": "https://assets.zyrosite.com/w7wEiJrqV2hbSrVN/harinas-PKEQ39X53eDRxXPh.png"
+   },
+   {
+    "id": "738f01b2-366a-4435-9862-8e98fb2e5e14",
+    "order": 10,
+    "active": true,
+    "title": "HINCHADOS",
+    "cat": "HINCHADOS y MUESLIS",
+    "img": "https://assets.zyrosite.com/w7wEiJrqV2hbSrVN/hinchados-VzCmOzf0TBU5aAGU.png"
+   },
+   {
+    "id": "165bad48-6225-4f60-9401-07ecc2f83ca1",
+    "order": 11,
+    "active": true,
+    "title": "LEGUMBRES",
+    "cat": "LEGUMBRES",
+    "img": "https://assets.zyrosite.com/w7wEiJrqV2hbSrVN/legunbres-HqdovJLrgEPM7t90.png"
+   },
+   {
+    "id": "d318db6e-61a2-4b53-9fe4-4707cd93f57c",
+    "order": 12,
+    "active": true,
+    "title": "ALMIDONES Y ESPESANTES",
+    "cat": "ALMIDONES y ESPESANTES",
+    "img": "https://assets.zyrosite.com/w7wEiJrqV2hbSrVN/almidones-y-espezantes-Y5mIqThw5z9KDtqF.png"
+   },
+   {
+    "id": "64f4ef14-d8d7-45d0-bf7c-8af1281ee9e0",
+    "order": 13,
+    "active": true,
+    "title": "FRUTA DESHIDRATADA",
+    "cat": "FRUTA DESHIDRATADA",
+    "img": "https://assets.zyrosite.com/w7wEiJrqV2hbSrVN/fruta-deshidratada-pUTD6MmhXkp8iefs.png"
+   },
+   {
+    "id": "aebbcc71-c31f-484d-9670-e9d311de585f",
+    "order": 14,
+    "active": true,
+    "title": "TEXTURIZADOS Y PROTEÍNAS",
+    "cat": "PROTEÍNAS",
+    "img": "https://assets.zyrosite.com/w7wEiJrqV2hbSrVN/texturizados-y-proteinas-kLTsjYFc5z2c9RJv.png"
+   }
+  ],
+  "updated_at": "2026-07-30T00:03:48.493913+00:00"
+ },
+ "legal_pages": [
+  {
+   "slug": "aviso-legal",
+   "title": "Aviso Legal",
+   "updated": "Febrero 2026",
+   "sections": [
+    {
+     "h": "1. Datos identificativos",
+     "p": "En cumplimiento del artículo 10 de la Ley 34/2002, de 11 de julio, de Servicios de la Sociedad de la Información y Comercio Electrónico (LSSI-CE), informamos a los usuarios de los siguientes datos del titular del sitio web:",
+     "ul": [
+      "Denominación social: Productos Ecoandes S.L.",
+      "CIF: B-XXXXXXXX",
+      "Domicilio social: C. Ferrocarril, 16, Edificio 12 Nave 4, 28880 Meco, Madrid (España)",
+      "Email de contacto: info@productosecoandes.com",
+      "Teléfono: 918 30 72 66",
+      "Sitio web: productosecoandes.com"
+     ]
+    },
+    {
+     "h": "2. Objeto",
+     "p": "El presente aviso legal regula el uso del sitio web productosecoandes.com (en adelante, el Sitio Web), que Productos Ecoandes S.L. pone a disposición de los usuarios de Internet. La utilización del Sitio Web atribuye la condición de usuario e implica la aceptación plena de todas las cláusulas aquí descritas."
+    },
+    {
+     "h": "3. Propiedad intelectual e industrial",
+     "p": "Todos los contenidos del Sitio Web (textos, fotografías, gráficos, imágenes, iconos, tecnología, software y diseño) son propiedad de Productos Ecoandes S.L. o de terceros que han autorizado su uso. Queda prohibida la reproducción total o parcial sin autorización expresa."
+    },
+    {
+     "h": "4. Responsabilidad",
+     "p": "Productos Ecoandes S.L. no se hace responsable de los daños o perjuicios derivados del acceso al Sitio Web ni del uso de la información contenida en él. El titular se reserva el derecho a modificar el contenido o suspender el servicio en cualquier momento."
+    },
+    {
+     "h": "5. Legislación aplicable y jurisdicción",
+     "p": "El presente aviso legal se rige por la legislación española. Cualquier controversia se someterá a los Juzgados y Tribunales del domicilio del consumidor (en consumo) o de la ciudad sede del titular (en relaciones B2B), salvo lo que disponga la normativa imperativa."
+    }
+   ],
+   "updated_at": "2026-07-30T00:03:50.997849+00:00"
+  },
+  {
+   "slug": "politica-cookies",
+   "title": "Política de Cookies",
+   "updated": "Febrero 2026",
+   "sections": [
+    {
+     "h": "1. ¿Qué son las cookies?",
+     "p": "Las cookies son pequeños archivos de texto que los sitios web envían al navegador del usuario para almacenar información que puede ser recuperada posteriormente. Son útiles para que el sitio recuerde tus preferencias o realice estadísticas de uso."
+    },
+    {
+     "h": "2. Tipos de cookies que usamos",
+     "p": "En este sitio utilizamos las siguientes categorías de cookies, conforme a la Guía de la AEPD sobre el uso de cookies:",
+     "ul": [
+      "Necesarias: indispensables para el funcionamiento del sitio (sesión, carrito de compra, idioma). No requieren consentimiento.",
+      "Analíticas: nos permiten medir y analizar el comportamiento de los usuarios para mejorar el servicio. Datos agregados y anonimizados.",
+      "Marketing: utilizadas para mostrar contenidos y publicidad personalizados en función de tus intereses."
+     ]
+    },
+    {
+     "h": "3. Gestión del consentimiento",
+     "p": "Al acceder al Sitio Web por primera vez, te mostramos un banner para que aceptes, rechaces o configures el uso de cookies no esenciales. Puedes modificar tus preferencias en cualquier momento eliminando los datos almacenados por tu navegador."
+    },
+    {
+     "h": "4. Cookies de terceros",
+     "p": "Algunas cookies pueden ser gestionadas por terceros (Stripe, PayPal y proveedores de analítica). Estos terceros se rigen por sus propias políticas de cookies y privacidad."
+    },
+    {
+     "h": "5. Cómo desactivar las cookies en tu navegador",
+     "p": "Puedes configurar tu navegador para bloquear o eliminar las cookies en cualquier momento. Los principales navegadores (Chrome, Firefox, Safari, Edge) ofrecen guías oficiales en sus secciones de ayuda."
+    }
+   ],
+   "updated_at": "2026-07-29T23:15:19.624087+00:00"
+  },
+  {
+   "slug": "politica-privacidad",
+   "title": "Política de Privacidad",
+   "updated": "Febrero 2026",
+   "sections": [
+    {
+     "h": "1. Responsable del tratamiento",
+     "p": "Productos Ecoandes S.L., con CIF B-XXXXXXXX, domicilio en C. Ferrocarril, 16, Edificio 12 Nave 4, 28880 Meco (Madrid) y email info@productosecoandes.com, es el responsable del tratamiento de tus datos personales conforme al Reglamento (UE) 2016/679 (RGPD) y la Ley Orgánica 3/2018 (LOPDGDD)."
+    },
+    {
+     "h": "2. Finalidades del tratamiento",
+     "p": "Tratamos tus datos para las siguientes finalidades:",
+     "ul": [
+      "Gestión de tu cuenta de usuario y de los pedidos realizados.",
+      "Facturación y cumplimiento de las obligaciones contables y fiscales.",
+      "Atención al cliente y resolución de incidencias.",
+      "Envío de comunicaciones comerciales (solo si lo has consentido expresamente)."
+     ]
+    },
+    {
+     "h": "3. Base legal",
+     "p": "La base legal del tratamiento es la ejecución del contrato de compraventa, el cumplimiento de obligaciones legales y, en su caso, el consentimiento del interesado."
+    },
+    {
+     "h": "4. Conservación de los datos",
+     "p": "Conservamos tus datos durante el tiempo necesario para la finalidad para la que fueron recabados y, posteriormente, durante los plazos de prescripción legal aplicables (hasta 6 años para datos contables)."
+    },
+    {
+     "h": "5. Destinatarios",
+     "p": "Tus datos podrán ser comunicados a Stripe y PayPal (proveedores de pago), Resend (envío de emails transaccionales) y Cloudinary (alojamiento de imágenes), todos ellos con contratos de encargo de tratamiento conforme al art. 28 RGPD."
+    },
+    {
+     "h": "6. Derechos",
+     "p": "Puedes ejercer en cualquier momento tus derechos de acceso, rectificación, supresión, oposición, limitación y portabilidad escribiendo a info@productosecoandes.com adjuntando copia de un documento identificativo. También puedes presentar reclamación ante la Agencia Española de Protección de Datos (www.aepd.es)."
+    }
+   ],
+   "updated_at": "2026-07-29T23:15:19.624710+00:00"
+  },
+  {
+   "slug": "condiciones",
+   "title": "Condiciones Generales de Contratación",
+   "updated": "Febrero 2026",
+   "sections": [
+    {
+     "h": "1. Objeto",
+     "p": "Las presentes Condiciones Generales regulan la compraventa de productos a través del sitio web productosecoandes.com, conforme al Real Decreto Legislativo 1/2007 (Ley General para la Defensa de los Consumidores y Usuarios) y la Ley 34/2002 (LSSI-CE)."
+    },
+    {
+     "h": "2. Productos y precios",
+     "p": "Todos los precios indicados incluyen el IVA aplicable, salvo que se indique lo contrario para las cuentas profesionales B2B. Los gastos de envío se calculan automáticamente en el checkout y se muestran antes de finalizar la compra."
+    },
+    {
+     "h": "3. Proceso de compra y pago",
+     "p": "El usuario selecciona los productos, indica los datos de envío y elige un método de pago (tarjeta vía Stripe, PayPal, o transferencia bancaria para clientes B2B). El contrato se perfecciona con la confirmación del pago."
+    },
+    {
+     "h": "4. Envío y entrega",
+     "p": "Los plazos de entrega son orientativos: 24-72 horas en península, plazos especiales para Baleares, Canarias, Ceuta y Melilla. Si la entrega se retrasara más de 30 días por causas imputables al vendedor, el cliente podrá resolver el contrato y obtener el reembolso."
+    },
+    {
+     "h": "5. Derecho de desistimiento",
+     "p": "El cliente dispone de 14 días naturales desde la recepción para desistir del contrato sin necesidad de justificación, salvo en productos perecederos abiertos o personalizados. Para ejercer este derecho, escríbenos a info@productosecoandes.com."
+    },
+    {
+     "h": "6. Garantía",
+     "p": "Conforme al art. 120 RDL 1/2007, los productos cuentan con garantía legal de tres años. Los productos alimentarios responden únicamente por defectos de calidad reclamados antes de la fecha de consumo preferente."
+    },
+    {
+     "h": "7. Resolución de litigios",
+     "p": "Conforme al Reglamento (UE) 524/2013, te informamos de la existencia de la plataforma de resolución de litigios de la Comisión Europea: https://ec.europa.eu/consumers/odr."
+    }
+   ],
+   "updated_at": "2026-07-29T23:15:19.625247+00:00"
+  }
+ ],
+ "files": [
+  {
+   "id": "c0c84cf3-4301-48da-9e02-8bfb9105753a",
+   "storage_path": "ecoandes/images/de132e53c89e4cce8f82d99ea07c2ba1.png",
+   "original_filename": "Cacao-nibs-1000x1000.png",
+   "content_type": "image/png",
+   "size": 418059,
+   "is_deleted": false,
+   "created_at": "2026-07-28T13:25:44.017836+00:00"
+  },
+  {
+   "id": "1150106e-4726-4244-9b3d-2fa686226dd4",
+   "storage_path": "ecoandes/images/d1612037c1dd434e92cd616713970c18.png",
+   "original_filename": "Amaranto-1000x1000.png",
+   "content_type": "image/png",
+   "size": 525454,
+   "is_deleted": false,
+   "created_at": "2026-07-28T13:26:44.699606+00:00"
+  },
+  {
+   "id": "0bb95776-4345-4db4-877a-0f3bade521c5",
+   "storage_path": "ecoandes/images/c59cccaefd0c4bfbb800df1a7edbcefe.png",
+   "original_filename": "Copos-de-avena-gruesos-1-1000x1000.png",
+   "content_type": "image/png",
+   "size": 375384,
+   "is_deleted": false,
+   "created_at": "2026-07-28T13:29:02.019430+00:00"
+  },
+  {
+   "id": "eaf8fa02-6a2d-451e-87b5-9a5f18f9ec65",
+   "storage_path": "ecoandes/images/5d9cf03a105242bd9e4811d0216cb4a9.png",
+   "original_filename": "Bulgur-1-1000x1000.png",
+   "content_type": "image/png",
+   "size": 503995,
+   "is_deleted": false,
+   "created_at": "2026-07-28T13:29:53.509964+00:00"
+  },
+  {
+   "id": "1571c967-7481-4d2f-a269-907be25f789a",
+   "storage_path": "ecoandes/tech-sheets/bc04ec31996d43fa8f0185010dfeaa0f.pdf",
+   "original_filename": "FICHA-TECNICA-URUCUM-EN-POLVO-2025.pdf",
+   "content_type": "application/pdf",
+   "size": 132011,
+   "is_deleted": false,
+   "created_at": "2026-07-29T21:58:31.742632+00:00"
+  },
+  {
+   "id": "f9ff9795-6e64-470d-832c-4ce603ed7ca4",
+   "storage_path": "ecoandes/tech-sheets/a103dc61c9294298a54b16b32a5901a2.pdf",
+   "original_filename": "FICHA-TECNICA-TRIGO-SARRACENO-FT-2025.pdf",
+   "content_type": "application/pdf",
+   "size": 130960,
+   "is_deleted": false,
+   "created_at": "2026-07-29T21:58:32.542412+00:00"
+  },
+  {
+   "id": "d6913e46-26e4-4760-a00b-114a7cf90b54",
+   "storage_path": "ecoandes/tech-sheets/fa685259d73e419293eee13768ece7a8.pdf",
+   "original_filename": "FICHA-TECNICA-TE-MATCHA-2025.pdf",
+   "content_type": "application/pdf",
+   "size": 139572,
+   "is_deleted": false,
+   "created_at": "2026-07-29T21:58:33.242811+00:00"
+  },
+  {
+   "id": "5d641635-75db-493e-9b53-2160817cb904",
+   "storage_path": "ecoandes/tech-sheets/5d8cec5583864acfafc2237c76fde9e1.pdf",
+   "original_filename": "FICHA-TECNICA-SOJA-TEXTURIZADA-GRUESA-2025.pdf",
+   "content_type": "application/pdf",
+   "size": 240659,
+   "is_deleted": false,
+   "created_at": "2026-07-29T21:58:34.587194+00:00"
+  },
+  {
+   "id": "ed32fcff-12b5-45ab-a20a-c99f5599efcc",
+   "storage_path": "ecoandes/tech-sheets/de7e5b2ac99049e7835a3777155f672b.pdf",
+   "original_filename": "FICHA-TECNICA-SOJA-TEXTURIZADA-FINA-2025.pdf",
+   "content_type": "application/pdf",
+   "size": 250130,
+   "is_deleted": false,
+   "created_at": "2026-07-29T21:58:35.638007+00:00"
+  },
+  {
+   "id": "d74a6f5b-f8d4-4d77-8b90-2fb872490ef6",
+   "storage_path": "ecoandes/tech-sheets/3147f1d8aedc4d3097564afb7baa1985.pdf",
+   "original_filename": "FICHA-TECNICA-SOJA-TEXTURIZADA-EXTRA-FINA-2025.pdf",
+   "content_type": "application/pdf",
+   "size": 244824,
+   "is_deleted": false,
+   "created_at": "2026-07-29T21:58:36.771917+00:00"
+  },
+  {
+   "id": "5e07c0b2-caaa-475d-ba74-8a3e2ae4c70c",
+   "storage_path": "ecoandes/tech-sheets/b683681907c842c9b62c0f3f2c81d183.pdf",
+   "original_filename": "FICHA-TECNICA-SIROPE-DE-ARROZ-2025.pdf",
+   "content_type": "application/pdf",
+   "size": 205866,
+   "is_deleted": false,
+   "created_at": "2026-07-29T21:58:38.877709+00:00"
+  },
+  {
+   "id": "2da1e112-bd94-48e8-b66e-71137e54e38b",
+   "storage_path": "ecoandes/tech-sheets/a241abcb8ad8426691d54603c7520592.pdf",
+   "original_filename": "FICHA-TECNICA-SIROPE-DE-AGAVE-2025.pdf",
+   "content_type": "application/pdf",
+   "size": 206652,
+   "is_deleted": false,
+   "created_at": "2026-07-29T21:58:40.354030+00:00"
+  },
+  {
+   "id": "edbc686c-442b-464e-88d0-dcabbbcd4b75",
+   "storage_path": "ecoandes/tech-sheets/56b9e3c510bc4e5ea20cb376f1bdc3ec.pdf",
+   "original_filename": "FICHA-TECNICA-SESAMO-PELADO-BLANCO-2025.pdf",
+   "content_type": "application/pdf",
+   "size": 126022,
+   "is_deleted": false,
+   "created_at": "2026-07-29T21:58:41.044301+00:00"
+  },
+  {
+   "id": "978fee31-7645-44c2-a6a5-b9b38a52811a",
+   "storage_path": "ecoandes/tech-sheets/8e22a9e43c7b4b8dbf9bb240136700e6.pdf",
+   "original_filename": "FICHA-TECNICA-SESAMO-NEGRO-2025.pdf",
+   "content_type": "application/pdf",
+   "size": 128311,
+   "is_deleted": false,
+   "created_at": "2026-07-29T21:58:41.812402+00:00"
+  },
+  {
+   "id": "f5101412-773a-4bb2-827a-5c36a6100c70",
+   "storage_path": "ecoandes/tech-sheets/61e2c783b9b842fe96bdfc3f8a1b84c7.pdf",
+   "original_filename": "FICHA-TECNICA-SESAMO-NATURAL-2025.pdf",
+   "content_type": "application/pdf",
+   "size": 128152,
+   "is_deleted": false,
+   "created_at": "2026-07-29T21:58:42.412107+00:00"
+  },
+  {
+   "id": "e5b1f2a6-44ce-4d86-b94b-b9493806d7e8",
+   "storage_path": "ecoandes/tech-sheets/598c192bbeae4e89b7c1fde9b95810b8.pdf",
+   "original_filename": "FICHA-TECNICA-LINO-MARRON-MOLIDO-2025.pdf",
+   "content_type": "application/pdf",
+   "size": 231180,
+   "is_deleted": false,
+   "created_at": "2026-07-29T21:58:43.357654+00:00"
+  },
+  {
+   "id": "ae585d4a-d6a7-499e-a947-0c16816ad018",
+   "storage_path": "ecoandes/tech-sheets/5f8a1a6e1e4e4b66a2533760eb4f6ae4.pdf",
+   "original_filename": "FICHA-TECNICA-SEMILLAS-LINO-MARRON-FT-2025.pdf",
+   "content_type": "application/pdf",
+   "size": 132509,
+   "is_deleted": false,
+   "created_at": "2026-07-29T21:58:44.053731+00:00"
+  },
+  {
+   "id": "99f08f28-1c96-43e0-a52d-53ff27eea3d0",
+   "storage_path": "ecoandes/tech-sheets/23c86d5faca34590b819564e2870afd7.pdf",
+   "original_filename": "FICHA-TECNICA-SEMILLAS-LINO-DORADO-2025.pdf",
+   "content_type": "application/pdf",
+   "size": 129845,
+   "is_deleted": false,
+   "created_at": "2026-07-29T21:58:44.537055+00:00"
+  },
+  {
+   "id": "7fb4289e-64f1-4f65-94e9-797ef8895e78",
+   "storage_path": "ecoandes/tech-sheets/68d62fe52a93453bb20a4361248b2f3b.pdf",
+   "original_filename": "FICHA-TECNICA-SEMILLAS-DE-GUARANA-TOSTADO-2025.pdf",
+   "content_type": "application/pdf",
+   "size": 136061,
+   "is_deleted": false,
+   "created_at": "2026-07-29T21:58:45.441789+00:00"
+  },
+  {
+   "id": "60e4f7e8-3ac7-4dd7-9e6d-e35e35926b71",
+   "storage_path": "ecoandes/tech-sheets/e136eff63bcf445ba89e293e0b6fcf27.pdf",
+   "original_filename": "FICHA-TECNICA-SEMILLAS-DE-GIRASOL-2025.pdf",
+   "content_type": "application/pdf",
+   "size": 129100,
+   "is_deleted": false,
+   "created_at": "2026-07-29T21:58:46.121689+00:00"
+  },
+  {
+   "id": "d735c3aa-856a-4bf3-8906-ea591a1e3bce",
+   "storage_path": "ecoandes/tech-sheets/6db7ab965eef4227b5e13e1a14fece6b.pdf",
+   "original_filename": "FICHA-TECNICA-CHIA-SEMILLAS-2025.pdf",
+   "content_type": "application/pdf",
+   "size": 137042,
+   "is_deleted": false,
+   "created_at": "2026-07-29T21:58:46.840457+00:00"
+  },
+  {
+   "id": "2addd3f2-0cab-4feb-8a85-bc3693239ef3",
+   "storage_path": "ecoandes/tech-sheets/3c902351f7694543a431c5704bd3dec9.pdf",
+   "original_filename": "FICHA-TECNICA-CANAMO-PELADO-SEMILLAS-2025.pdf",
+   "content_type": "application/pdf",
+   "size": 128251,
+   "is_deleted": false,
+   "created_at": "2026-07-29T21:58:47.546802+00:00"
+  },
+  {
+   "id": "e230a4f2-4baf-4424-92b6-5715eea99aa3",
+   "storage_path": "ecoandes/tech-sheets/433826f27b424a64be59100028bc8a16.pdf",
+   "original_filename": "FICHA-TECNICA-CANAMO-SIN-PELAR-SEMILLAS-2025.pdf",
+   "content_type": "application/pdf",
+   "size": 132765,
+   "is_deleted": false,
+   "created_at": "2026-07-29T21:58:48.212004+00:00"
+  },
+  {
+   "id": "91085f09-2a42-4955-81b1-b1801e6f5815",
+   "storage_path": "ecoandes/tech-sheets/33e11c0844344f30bfbb7712c7111987.pdf",
+   "original_filename": "FICHA-TECNICA-CALABAZA-PELADA-2025.pdf",
+   "content_type": "application/pdf",
+   "size": 129004,
+   "is_deleted": false,
+   "created_at": "2026-07-29T21:58:48.974037+00:00"
+  },
+  {
+   "id": "ef42cd59-148a-4944-9577-7412bc3465e5",
+   "storage_path": "ecoandes/tech-sheets/c653d7035b6a4e3994870883e22340bf.pdf",
+   "original_filename": "FICHA-TECNICA-AMAPOLA-SEMILLAS-2025.pdf",
+   "content_type": "application/pdf",
+   "size": 133072,
+   "is_deleted": false,
+   "created_at": "2026-07-29T21:58:49.759668+00:00"
+  },
+  {
+   "id": "539e9897-3c4c-475e-b867-0bdc84ff2eed",
+   "storage_path": "ecoandes/tech-sheets/9a1a9e9b893f490489131b21d8e6bf06.pdf",
+   "original_filename": "FICHA-TECNICA-ALFALFA-SEMILLAS-2025.pdf",
+   "content_type": "application/pdf",
+   "size": 127764,
+   "is_deleted": false,
+   "created_at": "2026-07-29T21:58:50.910323+00:00"
+  },
+  {
+   "id": "6e33382e-7692-4e2d-bb76-f5c8855f35e6",
+   "storage_path": "ecoandes/tech-sheets/bd0dd0b45ae9413bb1cfe02d1088a027.pdf",
+   "original_filename": "FICHA-TECNICA-RAS-EL-HANOUT-2025.pdf",
+   "content_type": "application/pdf",
+   "size": 223454,
+   "is_deleted": false,
+   "created_at": "2026-07-29T21:58:51.979496+00:00"
+  },
+  {
+   "id": "5ad4e388-4a2e-41d8-87d5-219dcf6e7cdb",
+   "storage_path": "ecoandes/tech-sheets/89b9139de2dc4a61807541279cc17d53.pdf",
+   "original_filename": "FICHA-TECNICA-QUINOA-REAL-TRICOLOR-2025.pdf",
+   "content_type": "application/pdf",
+   "size": 142243,
+   "is_deleted": false,
+   "created_at": "2026-07-29T21:58:52.708234+00:00"
+  },
+  {
+   "id": "3cbbde8d-9fae-49c7-a7a3-994cdd56ae62",
+   "storage_path": "ecoandes/tech-sheets/16463afdb1c84d359f8f7dfb9d736a77.pdf",
+   "original_filename": "FICHA-TECNICA-QUINOA-REAL-ROJA-2025.pdf",
+   "content_type": "application/pdf",
+   "size": 143479,
+   "is_deleted": false,
+   "created_at": "2026-07-29T21:58:53.649144+00:00"
+  },
+  {
+   "id": "6610642e-03a6-481f-bbc7-c03c23b5a140",
+   "storage_path": "ecoandes/tech-sheets/f97872bf6a4242038969114b9103db7c.pdf",
+   "original_filename": "FICHA-TECNICA-QUINOA-REAL-NEGRA-2025.pdf",
+   "content_type": "application/pdf",
+   "size": 128036,
+   "is_deleted": false,
+   "created_at": "2026-07-29T21:58:54.346800+00:00"
+  },
+  {
+   "id": "31089163-0e15-429d-885a-b22b6a427f63",
+   "storage_path": "ecoandes/tech-sheets/56365630155b45e49cfc3cfca457265f.pdf",
+   "original_filename": "FICHA-TECNICA-QUINOA-REAL-BLANCA-2025.pdf",
+   "content_type": "application/pdf",
+   "size": 130658,
+   "is_deleted": false,
+   "created_at": "2026-07-29T21:58:54.959590+00:00"
+  },
+  {
+   "id": "686e21bd-f45c-4732-a41a-f0cd6fcf2128",
+   "storage_path": "ecoandes/tech-sheets/ffabf624f2034f6f81029fe5493282da.pdf",
+   "original_filename": "QUINOA-HINCHADA-FT-2025-ECOANDES.pdf",
+   "content_type": "application/pdf",
+   "size": 260986,
+   "is_deleted": false,
+   "created_at": "2026-07-29T21:58:55.726094+00:00"
+  },
+  {
+   "id": "124bd48d-784b-46b2-bb86-d31e1eddab4e",
+   "storage_path": "ecoandes/tech-sheets/d6342cae1f894b6797b4dd7d3d3f78f3.pdf",
+   "original_filename": "FICHA-TECNICA-PSYLLIUM-EN-POLVO-2025.pdf",
+   "content_type": "application/pdf",
+   "size": 243248,
+   "is_deleted": false,
+   "created_at": "2026-07-29T21:58:56.990680+00:00"
+  },
+  {
+   "id": "c7edd2ff-b51a-4606-bea7-d640dcd2d9ae",
+   "storage_path": "ecoandes/tech-sheets/ba5d5b89c9f049f8a8c7e4f827423f27.pdf",
+   "original_filename": "FICHA-TECNICA-PSYLLIUM-HUSK-2025.pdf",
+   "content_type": "application/pdf",
+   "size": 143408,
+   "is_deleted": false,
+   "created_at": "2026-07-29T21:58:57.796767+00:00"
+  },
+  {
+   "id": "7baf85ae-6a3f-4856-b25e-1cd57c2568b0",
+   "storage_path": "ecoandes/tech-sheets/eb27a8f4ca57419d8d98494a5c3ab5cb.pdf",
+   "original_filename": "FICHA-TECNICA-PROTEINA-DE-GUISANTE-2025.pdf",
+   "content_type": "application/pdf",
+   "size": 203040,
+   "is_deleted": false,
+   "created_at": "2026-07-29T21:58:58.679769+00:00"
+  },
+  {
+   "id": "2b6730d8-8042-4701-92e3-c64ce606a46e",
+   "storage_path": "ecoandes/tech-sheets/17d16fa9ecb84746adfd147105687f6e.pdf",
+   "original_filename": "FICHA-TECNICA-PROTEINA-DE-CANAMO-2025.pdf",
+   "content_type": "application/pdf",
+   "size": 205210,
+   "is_deleted": false,
+   "created_at": "2026-07-29T21:59:00.256894+00:00"
+  },
+  {
+   "id": "3c405a8b-daa8-43f2-8bd3-5f529d24277f",
+   "storage_path": "ecoandes/tech-sheets/03edc268a4914f9285811241621dd07a.pdf",
+   "original_filename": "FICHA-TECNICA-PISTACHO-CASCARA-TOSTADO-SALADO-2025.pdf",
+   "content_type": "application/pdf",
+   "size": 255589,
+   "is_deleted": false,
+   "created_at": "2026-07-29T21:59:01.085203+00:00"
+  },
+  {
+   "id": "cbce31e5-269a-4610-9b71-ec4eba8a8014",
+   "storage_path": "ecoandes/tech-sheets/10e218c5e7b04fdb99c13e0f1ae2cdb0.pdf",
+   "original_filename": "FICHA-TECNICA-PISTACHO-PELADO-2025.pdf",
+   "content_type": "application/pdf",
+   "size": 255008,
+   "is_deleted": false,
+   "created_at": "2026-07-29T21:59:02.097156+00:00"
+  },
+  {
+   "id": "a4c410fd-ba37-48a2-b311-fc6e659a4021",
+   "storage_path": "ecoandes/tech-sheets/dc2089b301e146b89debb0189256be33.pdf",
+   "original_filename": "FICHA-TECNICA-PINON-NACIONAL-2025.pdf",
+   "content_type": "application/pdf",
+   "size": 254765,
+   "is_deleted": false,
+   "created_at": "2026-07-29T21:59:03.229090+00:00"
+  },
+  {
+   "id": "65831c1f-77b4-4bb0-9dd9-c196049431b9",
+   "storage_path": "ecoandes/tech-sheets/83f967eb0cd8453dad14f498fadc3239.pdf",
+   "original_filename": "FICHA-TECNICA-PIMIENTA-NEGRA-EN-POLVO-2025.pdf",
+   "content_type": "application/pdf",
+   "size": 133338,
+   "is_deleted": false,
+   "created_at": "2026-07-29T21:59:04.425793+00:00"
+  },
+  {
+   "id": "872c3e94-89fe-4f85-bdeb-fdc072e2fb49",
+   "storage_path": "ecoandes/tech-sheets/25e782f65264436e84c07aaa9943bf3c.pdf",
+   "original_filename": "FICHA-TECNICA-PIMIENTA-NEGRA-EN-GRANO-2025.pdf",
+   "content_type": "application/pdf",
+   "size": 134731,
+   "is_deleted": false,
+   "created_at": "2026-07-29T21:59:05.084726+00:00"
+  },
+  {
+   "id": "4de886b4-c34e-4085-8642-dcecfdc5125a",
+   "storage_path": "ecoandes/tech-sheets/06c5d3a135a94102922fe14eb12f9035.pdf",
+   "original_filename": "FICHA-TECNICA-PASAS-SULTANAS-2025.pdf",
+   "content_type": "application/pdf",
+   "size": 254170,
+   "is_deleted": false,
+   "created_at": "2026-07-29T21:59:05.915907+00:00"
+  },
+  {
+   "id": "0b28c647-0d6b-46c7-9bc6-99546e559522",
+   "storage_path": "ecoandes/tech-sheets/1fe8de84a64d456390295c68bbdd3590.pdf",
+   "original_filename": "FICHA-TECNICA-AZUCAR-PANELA-2025.pdf",
+   "content_type": "application/pdf",
+   "size": 223242,
+   "is_deleted": false,
+   "created_at": "2026-07-29T21:59:06.641644+00:00"
+  },
+  {
+   "id": "8c1bf353-1dd7-4e0a-899c-2f4688a465d4",
+   "storage_path": "ecoandes/tech-sheets/c7b11fdaa8db406291f295ff74dc61b8.pdf",
+   "original_filename": "FICHA-TECNICA-ALBARICOQUE-OREJONES-2025-.pdf",
+   "content_type": "application/pdf",
+   "size": 241624,
+   "is_deleted": false,
+   "created_at": "2026-07-29T21:59:07.420864+00:00"
+  },
+  {
+   "id": "eb836ae9-a78b-4394-8db7-3d2e00be74d5",
+   "storage_path": "ecoandes/tech-sheets/c63f6a45761b46878d18693a5be6d939.pdf",
+   "original_filename": "FICHA-TECNICA-NUEZ-MOSCADA-GRANO-2025.pdf",
+   "content_type": "application/pdf",
+   "size": 212851,
+   "is_deleted": false,
+   "created_at": "2026-07-29T21:59:08.148713+00:00"
+  },
+  {
+   "id": "1eb1149f-338d-4b99-b5a8-f2670e542b68",
+   "storage_path": "ecoandes/tech-sheets/8d00f753928d4229a9196debe91f1853.pdf",
+   "original_filename": "FICHA-TECNICA-NUEZ-MOSCADA-EN-POLVO-2025.pdf",
+   "content_type": "application/pdf",
+   "size": 131935,
+   "is_deleted": false,
+   "created_at": "2026-07-29T21:59:08.777302+00:00"
+  },
+  {
+   "id": "d256380d-c739-4d3f-a01a-1b0a62649c4a",
+   "storage_path": "ecoandes/tech-sheets/f57b3895697c4834b58d5d0ea6f59716.pdf",
+   "original_filename": "FICHA-TECNICA-NUEZ-DE-BRASIL-2025.pdf",
+   "content_type": "application/pdf",
+   "size": 206293,
+   "is_deleted": false,
+   "created_at": "2026-07-29T21:59:09.410871+00:00"
+  },
+  {
+   "id": "aab7c4a5-19f9-4e3d-9d51-7019b83daca2",
+   "storage_path": "ecoandes/tech-sheets/4120261389004556847f0b7dde8d077f.pdf",
+   "original_filename": "FICHA-TECNICA-MOSTAZA-EN-POLVO-2025.pdf",
+   "content_type": "application/pdf",
+   "size": 134196,
+   "is_deleted": false,
+   "created_at": "2026-07-29T21:59:09.926404+00:00"
+  },
+  {
+   "id": "90bda3c5-30d2-4ea1-b268-389d315c821a",
+   "storage_path": "ecoandes/tech-sheets/99f2028e1e5c4223824f4317ba15846f.pdf",
+   "original_filename": "FICHA-TECNICA-MOSTAZA-EN-GRANO-2025.pdf",
+   "content_type": "application/pdf",
+   "size": 142797,
+   "is_deleted": false,
+   "created_at": "2026-07-29T21:59:10.619788+00:00"
+  },
+  {
+   "id": "bc031253-38c3-4f97-97af-0a75c85580fa",
+   "storage_path": "ecoandes/tech-sheets/026ad69edad64fca98d9002a4bebc750.pdf",
+   "original_filename": "FICHA-TECNICA-MORINGA-2025.pdf",
+   "content_type": "application/pdf",
+   "size": 136843,
+   "is_deleted": false,
+   "created_at": "2026-07-29T21:59:11.240690+00:00"
+  },
+  {
+   "id": "b1fec79a-72d4-4eb1-af9c-34787aabb810",
+   "storage_path": "ecoandes/tech-sheets/cea6ff207c7c4593bd57c8168e853b30.pdf",
+   "original_filename": "FICHA-TECNICA-MORAS-DESHIDRATADAS-2025.pdf",
+   "content_type": "application/pdf",
+   "size": 232105,
+   "is_deleted": false,
+   "created_at": "2026-07-29T21:59:12.024945+00:00"
+  },
+  {
+   "id": "a3a153e4-94ca-43b8-89c5-3b65418aadaa",
+   "storage_path": "ecoandes/tech-sheets/d9d8fc444b8345319e9ddecec0221c12.pdf",
+   "original_filename": "FICHA-TECNICA-MIJO-HINCHADO-2025.pdf",
+   "content_type": "application/pdf",
+   "size": 216446,
+   "is_deleted": false,
+   "created_at": "2026-07-29T21:59:12.830270+00:00"
+  },
+  {
+   "id": "79d28e06-d762-4b67-8724-840cdf328f12",
+   "storage_path": "ecoandes/tech-sheets/c86c64d2efa240ada51ca23b69e48dfd.pdf",
+   "original_filename": "FICHA-TECNICA-MIJO-2025.pdf",
+   "content_type": "application/pdf",
+   "size": 127406,
+   "is_deleted": false,
+   "created_at": "2026-07-29T21:59:13.365540+00:00"
+  },
+  {
+   "id": "6555dcbd-8df9-4912-bfc3-559e8ac80ac3",
+   "storage_path": "ecoandes/tech-sheets/318337697ba3466f81c73f493ad97b2e.pdf",
+   "original_filename": "FICHA-TECNICA-MAQUI-FT-2025.pdf",
+   "content_type": "application/pdf",
+   "size": 145302,
+   "is_deleted": false,
+   "created_at": "2026-07-29T21:59:14.211757+00:00"
+  },
+  {
+   "id": "0f5a651b-3b7e-4edf-8967-382e9ecb8c9e",
+   "storage_path": "ecoandes/tech-sheets/d9fed50c83e647b38fef5e1f684735f9.pdf",
+   "original_filename": "FICHA-TECNICA-MANTECA-DE-CACAO-2025.pdf",
+   "content_type": "application/pdf",
+   "size": 137418,
+   "is_deleted": false,
+   "created_at": "2026-07-29T21:59:14.857425+00:00"
+  },
+  {
+   "id": "9e7df26e-31c4-4fa5-849c-18a71b6fc1da",
+   "storage_path": "ecoandes/tech-sheets/2ccc7bf1b66a4078b5ba557e9a3bb33f.pdf",
+   "original_filename": "FICHA-TECNICA-MANGO-RODAJAS-2025.pdf",
+   "content_type": "application/pdf",
+   "size": 211076,
+   "is_deleted": false,
+   "created_at": "2026-07-29T21:59:15.509576+00:00"
+  },
+  {
+   "id": "f9b89bc0-c8d3-41db-883a-8f6721b6e5f5",
+   "storage_path": "ecoandes/tech-sheets/43cdfcf8c8a34f84b214c1a6637cc0f6.pdf",
+   "original_filename": "FICHA-TECNICA-MAIZ-PARA-PALOMITAS-2025.pdf",
+   "content_type": "application/pdf",
+   "size": 126508,
+   "is_deleted": false,
+   "created_at": "2026-07-29T21:59:16.204030+00:00"
+  },
+  {
+   "id": "ae1baf4d-069b-4b91-a69a-37ac5a1b83c1",
+   "storage_path": "ecoandes/tech-sheets/128e35cb31ab4bb09424535403cca69a.pdf",
+   "original_filename": "MACARRONES_INTEGRALES_BIO_-ECOANDES.pdf",
+   "content_type": "application/pdf",
+   "size": 956673,
+   "is_deleted": false,
+   "created_at": "2026-07-29T21:59:17.675130+00:00"
+  },
+  {
+   "id": "a57d5fe1-8c8e-4d5c-8038-bffd62dbeba7",
+   "storage_path": "ecoandes/tech-sheets/a5cb9684a6b545a7ae4cb8b580d2b647.pdf",
+   "original_filename": "MACARRONES-BLANCOS-FT-ECOANDES (1).pdf",
+   "content_type": "application/pdf",
+   "size": 955982,
+   "is_deleted": false,
+   "created_at": "2026-07-29T21:59:19.078091+00:00"
+  },
+  {
+   "id": "ad362419-29eb-4cc1-91e2-082b82e8f29b",
+   "storage_path": "ecoandes/tech-sheets/41702384356c485fa6ce309b61436ab9.pdf",
+   "original_filename": "MACARRONES-BLANCOS-FT-ECOANDES.pdf",
+   "content_type": "application/pdf",
+   "size": 955982,
+   "is_deleted": false,
+   "created_at": "2026-07-29T21:59:20.371469+00:00"
+  },
+  {
+   "id": "851cfc50-d81e-4f16-9729-14fe75246831",
+   "storage_path": "ecoandes/tech-sheets/bf1023f2d6094958adb91f6748327298.pdf",
+   "original_filename": "FICHA-TECNICA-MACA-ROJA-2025.pdf",
+   "content_type": "application/pdf",
+   "size": 141891,
+   "is_deleted": false,
+   "created_at": "2026-07-29T21:59:21.141922+00:00"
+  },
+  {
+   "id": "d8be0d92-ea08-4f3b-a0f7-59e312a5f610",
+   "storage_path": "ecoandes/tech-sheets/9be32f474c104a6880d24542a630090c.pdf",
+   "original_filename": "FICHA-TECNICA-MACA-NEGRA-2025.pdf",
+   "content_type": "application/pdf",
+   "size": 138093,
+   "is_deleted": false,
+   "created_at": "2026-07-29T21:59:21.825727+00:00"
+  },
+  {
+   "id": "e7fcb0d9-d8d7-48bc-b755-b955776bb574",
+   "storage_path": "ecoandes/tech-sheets/caae63f21633426aa7d6858cf6844d9c.pdf",
+   "original_filename": "FICHA-TECNICA-MACA-2025.pdf",
+   "content_type": "application/pdf",
+   "size": 137140,
+   "is_deleted": false,
+   "created_at": "2026-07-29T21:59:22.372958+00:00"
+  },
+  {
+   "id": "dfaafbd7-e67b-4870-a46c-d7db6424913f",
+   "storage_path": "ecoandes/tech-sheets/6f07c8b6b28843c381e592a0284dcb6d.pdf",
+   "original_filename": "FICHA-TECNICA-LUCUMA-2025.pdf",
+   "content_type": "application/pdf",
+   "size": 139289,
+   "is_deleted": false,
+   "created_at": "2026-07-29T21:59:22.975961+00:00"
+  },
+  {
+   "id": "dc3f284d-1b93-463d-ba77-443668119725",
+   "storage_path": "ecoandes/tech-sheets/0867d5f827ce412984a56eb5e28cd402.pdf",
+   "original_filename": "FICHA-TECNICA-LEVADURA-NUTRICIONAL-EN-COPOS-2025.pdf",
+   "content_type": "application/pdf",
+   "size": 124681,
+   "is_deleted": false,
+   "created_at": "2026-07-29T21:59:23.525617+00:00"
+  },
+  {
+   "id": "afe68665-5418-4cef-ac63-9b72b4ee9300",
+   "storage_path": "ecoandes/tech-sheets/35cafd7cea35421e8ee3303812bcdccb.pdf",
+   "original_filename": "FICHA-TECNICA-LENTEJAS-DUPUY-2025.pdf",
+   "content_type": "application/pdf",
+   "size": 125557,
+   "is_deleted": false,
+   "created_at": "2026-07-29T21:59:24.179731+00:00"
+  },
+  {
+   "id": "e221597a-840a-4e5d-878d-209c9d3890b3",
+   "storage_path": "ecoandes/tech-sheets/6b05429e4de249b4a4c5c20567ebbb61.pdf",
+   "original_filename": "FICHA-TECNICA-LENTEJA-ROJA-CORAL-MITADES-2025.pdf",
+   "content_type": "application/pdf",
+   "size": 130126,
+   "is_deleted": false,
+   "created_at": "2026-07-29T21:59:24.832926+00:00"
+  },
+  {
+   "id": "470584b9-9d24-4eb0-a9b7-1eea028c66ef",
+   "storage_path": "ecoandes/tech-sheets/977f775b5271449a8d3f678180282d8b.pdf",
+   "original_filename": "FICHA-TECNICA-LENTEJAS-PARDINA-2025.pdf",
+   "content_type": "application/pdf",
+   "size": 128005,
+   "is_deleted": false,
+   "created_at": "2026-07-29T21:59:25.422223+00:00"
+  },
+  {
+   "id": "b3838ab1-fb21-4ba7-923b-ff181bfa4a91",
+   "storage_path": "ecoandes/tech-sheets/ef64a168145643358a92ff933f6ae799.pdf",
+   "original_filename": "FICHA-TECNICA-LENTEJAS-CASTELLANA-2025.pdf",
+   "content_type": "application/pdf",
+   "size": 132001,
+   "is_deleted": false,
+   "created_at": "2026-07-29T21:59:25.919538+00:00"
+  },
+  {
+   "id": "df6d2441-5fcb-4fd4-bc5d-56725fb2e17b",
+   "storage_path": "ecoandes/tech-sheets/a3ed16c608bb4609b340bd90f65d1481.pdf",
+   "original_filename": "FICHA-TECNICA-LECHE-DE-COCO-EN-POLVO-2025.pdf",
+   "content_type": "application/pdf",
+   "size": 208926,
+   "is_deleted": false,
+   "created_at": "2026-07-29T21:59:26.631152+00:00"
+  },
+  {
+   "id": "f31e58f9-8e1a-41c7-b01d-2f2551febeaa",
+   "storage_path": "ecoandes/tech-sheets/255cd3f5e5f948b5aeee254da24ed0b8.pdf",
+   "original_filename": "FICHA-TECNICA-JUDIA-MUNGO-2025 (1).pdf",
+   "content_type": "application/pdf",
+   "size": 126179,
+   "is_deleted": false,
+   "created_at": "2026-07-29T21:59:27.246950+00:00"
+  },
+  {
+   "id": "9922edc9-852b-4ee0-8112-8761c05b0bd9",
+   "storage_path": "ecoandes/tech-sheets/ff485a819ab042e39f7e776ffae9e3c0.pdf",
+   "original_filename": "FICHA-TECNICA-JENGIBRE-EN-POLVO-2025.pdf",
+   "content_type": "application/pdf",
+   "size": 142278,
+   "is_deleted": false,
+   "created_at": "2026-07-29T21:59:27.856277+00:00"
+  },
+  {
+   "id": "658ecc2f-c088-4da8-9c2c-82e3c0cb8dd5",
+   "storage_path": "ecoandes/tech-sheets/3efae0a01493400c91ad236d0c861163.pdf",
+   "original_filename": "FICHA-TECNICA-JENGIBRE-DADOS-CON-AZUCAR-2025.pdf",
+   "content_type": "application/pdf",
+   "size": 207653,
+   "is_deleted": false,
+   "created_at": "2026-07-29T21:59:28.548738+00:00"
+  },
+  {
+   "id": "18423eb5-4d13-4464-a24d-ca420621da6c",
+   "storage_path": "ecoandes/tech-sheets/9c5665f94c8f4a22b083799dec8415bd.pdf",
+   "original_filename": "FICHA-TECNICA-HINOJO-GRANO-2025.pdf",
+   "content_type": "application/pdf",
+   "size": 215576,
+   "is_deleted": false,
+   "created_at": "2026-07-29T21:59:29.569719+00:00"
+  },
+  {
+   "id": "dd125212-6b9d-4ee9-9e15-5903e3abef48",
+   "storage_path": "ecoandes/tech-sheets/b3b2e90a66ee497484f53b9c0aa1f6b6.pdf",
+   "original_filename": "FICHA-TECNICA-HIGO-TURCO-2025.pdf",
+   "content_type": "application/pdf",
+   "size": 219532,
+   "is_deleted": false,
+   "created_at": "2026-07-29T21:59:30.182065+00:00"
+  },
+  {
+   "id": "34061a0d-1774-45d2-9bb6-94ded2e17e49",
+   "storage_path": "ecoandes/tech-sheets/9dbc9e93f6ad4e10a52c97e573ca2fa7.pdf",
+   "original_filename": "FICHA-TECNICA-HARINA-DE-ESPELTA-INTEGRAL-2025.pdf",
+   "content_type": "application/pdf",
+   "size": 212981,
+   "is_deleted": false,
+   "created_at": "2026-07-29T21:59:30.864183+00:00"
+  },
+  {
+   "id": "14b7e16e-3166-4293-8616-a652acf81e1d",
+   "storage_path": "ecoandes/tech-sheets/35070776b75f4f32be820828b0fd5db1.pdf",
+   "original_filename": "FICHA-TECNICA-HARINA-DE-TRIGO-SARRACENO-2025.pdf",
+   "content_type": "application/pdf",
+   "size": 219054,
+   "is_deleted": false,
+   "created_at": "2026-07-29T21:59:31.709122+00:00"
+  },
+  {
+   "id": "6351fcc5-0048-4081-8fc0-57615669fe1b",
+   "storage_path": "ecoandes/tech-sheets/0a41f1a9befd431f9142f65f57d5e6ea.pdf",
+   "original_filename": "HARINA-DE-TEFF-BLANCA-FT-ECOANDES-2024.pdf",
+   "content_type": "application/pdf",
+   "size": 961735,
+   "is_deleted": false,
+   "created_at": "2026-07-29T21:59:33.179684+00:00"
+  },
+  {
+   "id": "2b0c69d2-234a-4362-ac03-40216cc9c643",
+   "storage_path": "ecoandes/tech-sheets/dc98d8b66a4f4fe4829d5f56a41c97a5.pdf",
+   "original_filename": "FICHA-TECNICA-HARINA-DE-QUINOA-REAL-2025.pdf",
+   "content_type": "application/pdf",
+   "size": 236462,
+   "is_deleted": false,
+   "created_at": "2026-07-29T21:59:34.000067+00:00"
+  },
+  {
+   "id": "72b74151-f83b-4d4a-af66-e8782f46eaf3",
+   "storage_path": "ecoandes/tech-sheets/cebc6da2f3a64c0095debb81f92e4ae3.pdf",
+   "original_filename": "FICHA-TECNICA-HARINA-DE-MANDIOCA-2025.pdf",
+   "content_type": "application/pdf",
+   "size": 204345,
+   "is_deleted": false,
+   "created_at": "2026-07-29T21:59:34.926706+00:00"
+  },
+  {
+   "id": "da37a9e7-5e5c-4e42-b4bf-1e1e8087e99d",
+   "storage_path": "ecoandes/tech-sheets/124b5f162fc64532b5d176aee2091125.pdf",
+   "original_filename": "FICHA-TECNICA-HARINA-DE-MAIZ-2025-.pdf",
+   "content_type": "application/pdf",
+   "size": 206435,
+   "is_deleted": false,
+   "created_at": "2026-07-29T21:59:35.637169+00:00"
+  },
+  {
+   "id": "9c6779d0-dc1a-4052-8366-a88f67179698",
+   "storage_path": "ecoandes/tech-sheets/66e2c0e5d31c41e095ff25b43661dd64.pdf",
+   "original_filename": "FICHA-TECNICA-HARINA-DE-GARBANZO-2025.pdf",
+   "content_type": "application/pdf",
+   "size": 234174,
+   "is_deleted": false,
+   "created_at": "2026-07-29T21:59:36.434130+00:00"
+  },
+  {
+   "id": "48de806e-fe9b-4a2a-b068-66323e450f76",
+   "storage_path": "ecoandes/tech-sheets/e9dac8d1de82449ca71d478d962b38f3.pdf",
+   "original_filename": "FICHA-TECNICA-HARINA-DE-COCO-2025.pdf",
+   "content_type": "application/pdf",
+   "size": 207846,
+   "is_deleted": false,
+   "created_at": "2026-07-29T21:59:37.271730+00:00"
+  },
+  {
+   "id": "ac1331ea-04fa-41cb-a2c2-bda1363be31d",
+   "storage_path": "ecoandes/tech-sheets/f6098a0001924a1190b581a014ccdc91.pdf",
+   "original_filename": "FICHA-TECNICA-HARINA-DE-CHIA-2025.pdf",
+   "content_type": "application/pdf",
+   "size": 251187,
+   "is_deleted": false,
+   "created_at": "2026-07-29T21:59:37.988996+00:00"
+  },
+  {
+   "id": "1908c604-4b41-4745-b5f9-1d7d1f773c35",
+   "storage_path": "ecoandes/tech-sheets/f70c8e5ef5ee4b53894ba991b36bb04b.pdf",
+   "original_filename": "FICHA-TECNICA-HARINA-DE-CASTANA-2025.pdf",
+   "content_type": "application/pdf",
+   "size": 358471,
+   "is_deleted": false,
+   "created_at": "2026-07-29T21:59:38.726660+00:00"
+  },
+  {
+   "id": "d6902c93-8743-40ac-9b56-08c68b31e1bb",
+   "storage_path": "ecoandes/tech-sheets/9e5881c48cc44b0485c3aaf8e1405f98.pdf",
+   "original_filename": "FICHA-TECNICA-HARINA-DE-BANANA-2025.pdf",
+   "content_type": "application/pdf",
+   "size": 202855,
+   "is_deleted": false,
+   "created_at": "2026-07-29T21:59:39.347104+00:00"
+  },
+  {
+   "id": "99b8a9cf-5588-4807-88df-4fa470e3d6ca",
+   "storage_path": "ecoandes/tech-sheets/68e9661a08d0476e858ebee26b79a032.pdf",
+   "original_filename": "FICHA-TECNICA-HARINA-DE-AVENA-INTEGRAL-BIO-SIN-GLUTEN-2025.pdf",
+   "content_type": "application/pdf",
+   "size": 246953,
+   "is_deleted": false,
+   "created_at": "2026-07-29T21:59:40.127625+00:00"
+  },
+  {
+   "id": "6d99fc76-274d-46fa-bd31-227c932b8682",
+   "storage_path": "ecoandes/tech-sheets/82564137cd22450c83dfa1247a59f252.pdf",
+   "original_filename": "FICHA-TECNICA-HARINA-DE-ARROZ-INTEGRAL-2025.pdf",
+   "content_type": "application/pdf",
+   "size": 247652,
+   "is_deleted": false,
+   "created_at": "2026-07-29T21:59:40.831239+00:00"
+  },
+  {
+   "id": "67b460f7-875b-43f3-94b8-a7e810e0a0d2",
+   "storage_path": "ecoandes/tech-sheets/a8c2ce04c06840c286c068406ba928c7.pdf",
+   "original_filename": "FICHA-TECNICA-HARINA-DE-AMARANTO-2025.pdf",
+   "content_type": "application/pdf",
+   "size": 210314,
+   "is_deleted": false,
+   "created_at": "2026-07-29T21:59:41.450560+00:00"
+  },
+  {
+   "id": "99a35b56-2fc4-4232-82e1-d32e449030e2",
+   "storage_path": "ecoandes/tech-sheets/a1f880f295184c48b5134c02378bd911.pdf",
+   "original_filename": "FICHA-TECNICA-HARINA-DE-ALMENDRA-2025.pdf",
+   "content_type": "application/pdf",
+   "size": 224598,
+   "is_deleted": false,
+   "created_at": "2026-07-29T21:59:42.291307+00:00"
+  },
+  {
+   "id": "35577acb-412b-4b6c-9532-b78279d8eb01",
+   "storage_path": "ecoandes/tech-sheets/2fed2108c3c4401c8c5cca134044c8e6.pdf",
+   "original_filename": "FICHA-TECNICA-HARINA-DE-ALGARROBA-2025.pdf",
+   "content_type": "application/pdf",
+   "size": 221614,
+   "is_deleted": false,
+   "created_at": "2026-07-29T21:59:42.999635+00:00"
+  },
+  {
+   "id": "5c679dab-d063-4f3d-a210-b32bc44bf8ec",
+   "storage_path": "ecoandes/tech-sheets/90f1aee73d16410bac245dcae7a27754.pdf",
+   "original_filename": "FICHA-TECNICA-JUDIA-MUNGO-2025.pdf",
+   "content_type": "application/pdf",
+   "size": 126179,
+   "is_deleted": false,
+   "created_at": "2026-07-29T21:59:43.778720+00:00"
+  },
+  {
+   "id": "7216f6f0-e9c9-4b9d-9b81-fcaa01c315eb",
+   "storage_path": "ecoandes/tech-sheets/e5bf0899cd714c4797add441f1a26795.pdf",
+   "original_filename": "FICHA-TECNICA-GUAYUSA-2025.pdf",
+   "content_type": "application/pdf",
+   "size": 143222,
+   "is_deleted": false,
+   "created_at": "2026-07-29T21:59:44.400117+00:00"
+  },
+  {
+   "id": "256fba59-a470-4dc8-bf45-83e098be0e8b",
+   "storage_path": "ecoandes/tech-sheets/f0e95e6a5f244e13bd8669588887c89a.pdf",
+   "original_filename": "FICHA-TECNICA-GUARANA-2025.pdf",
+   "content_type": "application/pdf",
+   "size": 136167,
+   "is_deleted": false,
+   "created_at": "2026-07-29T21:59:44.867550+00:00"
+  },
+  {
+   "id": "ea4c8604-493a-432d-a7b9-88416dad4d0e",
+   "storage_path": "ecoandes/tech-sheets/731c186fd2044e648e8fac16395222c2.pdf",
+   "original_filename": "GOMA-GUAR-FT-ECOANDES.pdf",
+   "content_type": "application/pdf",
+   "size": 936426,
+   "is_deleted": false,
+   "created_at": "2026-07-29T21:59:46.077674+00:00"
+  },
+  {
+   "id": "4baf3c4d-4c7b-4567-b9bb-a4f5da753494",
+   "storage_path": "ecoandes/tech-sheets/7f501e8a7f9b40d880b5ad776856fcd1.pdf",
+   "original_filename": "FICHA-TECNICA-GLUTEN-DE-TRIGO-2025.pdf",
+   "content_type": "application/pdf",
+   "size": 251625,
+   "is_deleted": false,
+   "created_at": "2026-07-29T21:59:46.761402+00:00"
+  },
+  {
+   "id": "35ec6afb-05b5-4c54-a53f-6870a26c6de9",
+   "storage_path": "ecoandes/tech-sheets/eaa16c9d470a444383528e48b12a1211.pdf",
+   "original_filename": "FICHA-TECNICA-GARBANZO-PEDROSILLANO-2025.pdf",
+   "content_type": "application/pdf",
+   "size": 135253,
+   "is_deleted": false,
+   "created_at": "2026-07-29T21:59:47.355291+00:00"
+  },
+  {
+   "id": "042eae47-120b-4777-a19d-aeafbee6e46a",
+   "storage_path": "ecoandes/tech-sheets/3e72026b02d34108a2345dd7f82975f9.pdf",
+   "original_filename": "FICHA-TECNICA-GARBANZO-LECHOSO-2025.pdf",
+   "content_type": "application/pdf",
+   "size": 127768,
+   "is_deleted": false,
+   "created_at": "2026-07-29T21:59:47.858546+00:00"
+  },
+  {
+   "id": "c2cdedff-3744-42b8-8f22-5126a951dd09",
+   "storage_path": "ecoandes/tech-sheets/297991cc35f94034b0e27e853013cb1f.pdf",
+   "original_filename": "FICHA-TECNICA-GARBANZO-CASTELLANO-GORDO-CAT.-EXTRA-2025.pdf",
+   "content_type": "application/pdf",
+   "size": 135149,
+   "is_deleted": false,
+   "created_at": "2026-07-29T21:59:48.407390+00:00"
+  },
+  {
+   "id": "9e9701f1-85d3-4592-b555-f0f4eaa9812a",
+   "storage_path": "ecoandes/tech-sheets/fe251d4b3c7f4470bfeb6b700b99ef6f.pdf",
+   "original_filename": "FICHA-TECNICA-GARAM-MASALA-2025.pdf",
+   "content_type": "application/pdf",
+   "size": 225399,
+   "is_deleted": false,
+   "created_at": "2026-07-29T21:59:48.976601+00:00"
+  },
+  {
+   "id": "568b15c1-fa0f-44e0-94f3-50b28155fce5",
+   "storage_path": "ecoandes/tech-sheets/434615c7380745c88a30b23b1dc322a0.pdf",
+   "original_filename": "FICHA-TECNICA-FENOGRECO-SEMILLA-2025.pdf",
+   "content_type": "application/pdf",
+   "size": 138529,
+   "is_deleted": false,
+   "created_at": "2026-07-29T21:59:49.465994+00:00"
+  },
+  {
+   "id": "0b6386f3-4eaf-4fad-8c0b-11c758cab7dd",
+   "storage_path": "ecoandes/tech-sheets/bf50746c28df4fd7b33831f767ca3581.pdf",
+   "original_filename": "FECULA-DE-PATATA-FT-ECOANDES.pdf",
+   "content_type": "application/pdf",
+   "size": 930727,
+   "is_deleted": false,
+   "created_at": "2026-07-29T21:59:50.605088+00:00"
+  },
+  {
+   "id": "d7ab0622-671f-46cb-bb2b-fe4edcabadcb",
+   "storage_path": "ecoandes/tech-sheets/6ecb61b04e3e43e8917cc77b2101dc82.pdf",
+   "original_filename": "FICHA-TECNICA-ESTEVIA-POLVO-2025.pdf",
+   "content_type": "application/pdf",
+   "size": 204355,
+   "is_deleted": false,
+   "created_at": "2026-07-29T21:59:51.250759+00:00"
+  },
+  {
+   "id": "e37a2c1f-4eb3-4b72-9b67-747de4415c2a",
+   "storage_path": "ecoandes/tech-sheets/818dfd8ce0ef42c4afa39d01dcf53fe5.pdf",
+   "original_filename": "FICHA-TECNICA-ESTEVIA-HOJA-2025.pdf",
+   "content_type": "application/pdf",
+   "size": 220220,
+   "is_deleted": false,
+   "created_at": "2026-07-29T21:59:52.289628+00:00"
+  },
+  {
+   "id": "d6b24a0b-12a3-4ef2-8074-b03a69b80e28",
+   "storage_path": "ecoandes/tech-sheets/ad4a9a5518e24abd9ad61ddc53872189.pdf",
+   "original_filename": "FICHA-TECNICA-ESPIRULINA-2025.pdf",
+   "content_type": "application/pdf",
+   "size": 145984,
+   "is_deleted": false,
+   "created_at": "2026-07-29T21:59:53.004141+00:00"
+  },
+  {
+   "id": "aa136f43-8b46-46f1-a577-871d2e726e38",
+   "storage_path": "ecoandes/tech-sheets/abc77385fa17460eb4097b0f08d798c0.pdf",
+   "original_filename": "ESPIRALES_INTEGRALES_BIO_ECOANDES.pdf",
+   "content_type": "application/pdf",
+   "size": 820773,
+   "is_deleted": false,
+   "created_at": "2026-07-29T21:59:54.478876+00:00"
+  },
+  {
+   "id": "7761b923-590a-44e4-bf59-45475a8aae48",
+   "storage_path": "ecoandes/tech-sheets/d427b880d8594412be3f8d12f3004916.pdf",
+   "original_filename": "ESPAGUETIS_INTEGRALES_BIO_ECOANDES.pdf",
+   "content_type": "application/pdf",
+   "size": 902451,
+   "is_deleted": false,
+   "created_at": "2026-07-29T21:59:56.085945+00:00"
+  },
+  {
+   "id": "6cac1a6f-ea44-44df-aee4-e9c8e2c0c8bb",
+   "storage_path": "ecoandes/tech-sheets/2981c8a2247348c2be1428ff40ab03b5.pdf",
+   "original_filename": "ESPAGUETIS-BLANCOS-FT-ECOANDES.pdf",
+   "content_type": "application/pdf",
+   "size": 961055,
+   "is_deleted": false,
+   "created_at": "2026-07-29T21:59:57.633194+00:00"
+  },
+  {
+   "id": "13b9c765-9820-45ef-a658-4d8185ced268",
+   "storage_path": "ecoandes/tech-sheets/33babab8f8554be08aa980143ccf98ec.pdf",
+   "original_filename": "FICHA-TECNICA-ENELDO-EN-HOJA-2025.pdf",
+   "content_type": "application/pdf",
+   "size": 136670,
+   "is_deleted": false,
+   "created_at": "2026-07-29T22:01:06.414365+00:00"
+  },
+  {
+   "id": "26b2d038-cf3c-4129-882d-79cc192218d8",
+   "storage_path": "ecoandes/tech-sheets/b2a0f1f9dbe44da5affc869c65daeb39.pdf",
+   "original_filename": "FICHA-TECNICA-DATIL-SIN-HUESO-2025.pdf",
+   "content_type": "application/pdf",
+   "size": 210017,
+   "is_deleted": false,
+   "created_at": "2026-07-29T22:01:06.768247+00:00"
+  },
+  {
+   "id": "690abad7-505e-43c4-b15d-6e7d20b96a51",
+   "storage_path": "ecoandes/tech-sheets/7c063db1f1034faca8ad51f745e8ebe9.pdf",
+   "original_filename": "FICHA-TECNICA-CURRY-INDIO-2025.pdf",
+   "content_type": "application/pdf",
+   "size": 207018,
+   "is_deleted": false,
+   "created_at": "2026-07-29T22:01:07.969652+00:00"
+  },
+  {
+   "id": "7dcb842d-f4ac-4f2b-add7-80e986cc5c8e",
+   "storage_path": "ecoandes/tech-sheets/c220dfbb28fe4338846d8cdb2efab653.pdf",
+   "original_filename": "FICHA-TECNICA-CURCUMA-EN-POLVO-2025.pdf",
+   "content_type": "application/pdf",
+   "size": 129532,
+   "is_deleted": false,
+   "created_at": "2026-07-29T22:01:09.733992+00:00"
+  },
+  {
+   "id": "038b1aaa-e975-4ecc-b7f7-3cae858ef228",
+   "storage_path": "ecoandes/tech-sheets/d5fbe4d410954d128b1c118dce005b36.pdf",
+   "original_filename": "FICHA-TECNICA-COPOS-DE-TRIGO-SARRACENO-2025.pdf",
+   "content_type": "application/pdf",
+   "size": 130594,
+   "is_deleted": false,
+   "created_at": "2026-07-29T22:01:10.942684+00:00"
+  },
+  {
+   "id": "808ba77d-b573-4a63-ba79-1a7e83cd8e7c",
+   "storage_path": "ecoandes/tech-sheets/b99095f9ca7647549f381308352dac6a.pdf",
+   "original_filename": "FICHA-TECNICA-COPOS-DE-QUINOA-2025.pdf",
+   "content_type": "application/pdf",
+   "size": 125267,
+   "is_deleted": false,
+   "created_at": "2026-07-29T22:01:12.470037+00:00"
+  },
+  {
+   "id": "6b2e7579-1517-4e7a-8975-72a6e133cf1f",
+   "storage_path": "ecoandes/tech-sheets/bf784dcf363b4385a4272e9e6ad7354b.pdf",
+   "original_filename": "FICHA-TECNICA-COPOS-FINOS-DE-AVENA-2025.pdf",
+   "content_type": "application/pdf",
+   "size": 127348,
+   "is_deleted": false,
+   "created_at": "2026-07-29T22:01:13.477028+00:00"
+  },
+  {
+   "id": "39626550-de00-46fb-b832-c4c4cb07b1bf",
+   "storage_path": "ecoandes/tech-sheets/19d5aa560cfc458790ebceaef0dffe36.pdf",
+   "original_filename": "FICHA-TECNICA-COPOS-GRUESOS-DE-AVENA-2025.pdf",
+   "content_type": "application/pdf",
+   "size": 131753,
+   "is_deleted": false,
+   "created_at": "2026-07-29T22:01:15.299362+00:00"
+  },
+  {
+   "id": "aec31397-cd95-4aaf-b7ec-64dec6dbcd99",
+   "storage_path": "ecoandes/tech-sheets/005481c9351241b0b98fb5157bf55dd7.pdf",
+   "original_filename": "FICHA-TECNICA-COMINO-MOLIDO-2025.pdf",
+   "content_type": "application/pdf",
+   "size": 126266,
+   "is_deleted": false,
+   "created_at": "2026-07-29T22:01:17.330120+00:00"
+  },
+  {
+   "id": "62dde207-2aea-484c-850c-e41a580761a2",
+   "storage_path": "ecoandes/tech-sheets/067231dd00e64db190713d70630b7488.pdf",
+   "original_filename": "FICHA-TECNICA-COMINO-SEMILLAS-2025.pdf",
+   "content_type": "application/pdf",
+   "size": 126454,
+   "is_deleted": false,
+   "created_at": "2026-07-29T22:01:18.629313+00:00"
+  },
+  {
+   "id": "7331d41f-5669-405c-b2fd-2b4c65eba54c",
+   "storage_path": "ecoandes/tech-sheets/4ac34302d10e44648056ce559362a337.pdf",
+   "original_filename": "FICHA-TECNICA-COCO-RALLADO-2025.pdf",
+   "content_type": "application/pdf",
+   "size": 207859,
+   "is_deleted": false,
+   "created_at": "2026-07-29T22:01:20.156895+00:00"
+  },
+  {
+   "id": "73d8da15-34dd-4e3a-9b43-8810dcc449be",
+   "storage_path": "ecoandes/tech-sheets/b3b9280f18ff4338b7762ff1ed3b83ed.pdf",
+   "original_filename": "FICHA-TECNICA-CLAVO-DE-OLOR-EN-POLVO-2025-1.pdf",
+   "content_type": "application/pdf",
+   "size": 236023,
+   "is_deleted": false,
+   "created_at": "2026-07-29T22:01:21.058634+00:00"
+  },
+  {
+   "id": "44737445-96a6-4ed6-8336-e9906815e440",
+   "storage_path": "ecoandes/tech-sheets/bcf4da5df3774298b1959890905b6c9e.pdf",
+   "original_filename": "FICHA-TECNICA-CLAVO-DE-OLOR-EN-GRANO-2025-1.pdf",
+   "content_type": "application/pdf",
+   "size": 237080,
+   "is_deleted": false,
+   "created_at": "2026-07-29T22:01:21.873038+00:00"
+  },
+  {
+   "id": "30daf0e8-d721-40a8-873f-a9fda851b2f9",
+   "storage_path": "ecoandes/tech-sheets/406d084289804524afd7878b6a3eea54.pdf",
+   "original_filename": "FICHA-TECNICA-CILANTRO-EN-SEMILLA-2025.pdf",
+   "content_type": "application/pdf",
+   "size": 124216,
+   "is_deleted": false,
+   "created_at": "2026-07-29T22:01:22.513020+00:00"
+  },
+  {
+   "id": "81a4b275-08b1-480b-a6de-04d049c2684a",
+   "storage_path": "ecoandes/tech-sheets/74e927d4f7324ddaad96e438ea2ca425.pdf",
+   "original_filename": "FICHA-TECNICA-CILANTRO-EN-POLVO-2025.pdf",
+   "content_type": "application/pdf",
+   "size": 123415,
+   "is_deleted": false,
+   "created_at": "2026-07-29T22:01:23.357423+00:00"
+  },
+  {
+   "id": "527c6e41-09da-4d13-a5d9-a107223f2006",
+   "storage_path": "ecoandes/tech-sheets/1e779e1a62e04ca4ba3fe876f55d0e4e.pdf",
+   "original_filename": "FICHA-TECNICA-CHUFA-ENTERA-2025.pdf",
+   "content_type": "application/pdf",
+   "size": 210307,
+   "is_deleted": false,
+   "created_at": "2026-07-29T22:01:24.246009+00:00"
+  },
+  {
+   "id": "16bf48a3-51e8-4063-ab92-272877e496cb",
+   "storage_path": "ecoandes/tech-sheets/523624ce95ea4f03a3969a7d0b8a352d.pdf",
+   "original_filename": "FICHA-TECNICA-CHUFA-PELADA-2025.pdf",
+   "content_type": "application/pdf",
+   "size": 211804,
+   "is_deleted": false,
+   "created_at": "2026-07-29T22:01:25.138393+00:00"
+  },
+  {
+   "id": "c4301a98-21c5-4106-ae43-13f4068419d6",
+   "storage_path": "ecoandes/tech-sheets/0afd66f95a1c4deda0b19196cb66ee25.pdf",
+   "original_filename": "FICHA-TECNICA-CHLORELLA-2025.pdf",
+   "content_type": "application/pdf",
+   "size": 138089,
+   "is_deleted": false,
+   "created_at": "2026-07-29T22:01:25.875926+00:00"
+  },
+  {
+   "id": "692d4b29-ea04-4163-858f-4ff4e6a8f838",
+   "storage_path": "ecoandes/tech-sheets/2a849fdc8b1a4229960b617d9e351433.pdf",
+   "original_filename": "FICHA-TECNICA-CEBOLLA-EN-POLVO-2025-1.pdf",
+   "content_type": "application/pdf",
+   "size": 218430,
+   "is_deleted": false,
+   "created_at": "2026-07-29T22:01:26.677157+00:00"
+  },
+  {
+   "id": "a7d0af5f-c80c-437c-925d-95c8d2906309",
+   "storage_path": "ecoandes/tech-sheets/2be6d69a5e5c4e86942c46a86e3191d6.pdf",
+   "original_filename": "FICHA-TECNICA-CEBOLLA-EN-ESCAMAS-2025.pdf",
+   "content_type": "application/pdf",
+   "size": 142777,
+   "is_deleted": false,
+   "created_at": "2026-07-29T22:01:27.321560+00:00"
+  },
+  {
+   "id": "0bc06dcb-6cd2-48fa-ba0d-08dd516e44bf",
+   "storage_path": "ecoandes/tech-sheets/d084b18b36394e888c549769e36ec571.pdf",
+   "original_filename": "FICHA-TECNICA-CARDAMOMO-GRANO-2025-1.pdf",
+   "content_type": "application/pdf",
+   "size": 226686,
+   "is_deleted": false,
+   "created_at": "2026-07-29T22:01:28.209704+00:00"
+  },
+  {
+   "id": "7c9c7b22-2bed-458d-aa12-3c1fe74cf698",
+   "storage_path": "ecoandes/tech-sheets/089f82e668404298bf1e81c66ba96a79.pdf",
+   "original_filename": "FICHA-TECNICA-CANELA-EN-RAMA-CELYAN-2025.pdf",
+   "content_type": "application/pdf",
+   "size": 211858,
+   "is_deleted": false,
+   "created_at": "2026-07-29T22:01:28.847404+00:00"
+  },
+  {
+   "id": "498ee829-0842-4031-b614-6060ceb4b5da",
+   "storage_path": "ecoandes/tech-sheets/50e8db38cbb7497faa35874638f285d1.pdf",
+   "original_filename": "FICHA-TECNICA-CANELA-EN-POLVO-2025.pdf",
+   "content_type": "application/pdf",
+   "size": 142527,
+   "is_deleted": false,
+   "created_at": "2026-07-29T22:01:29.712277+00:00"
+  },
+  {
+   "id": "5c592277-7952-4f8c-a82b-5b3b5468b457",
+   "storage_path": "ecoandes/tech-sheets/184ae32af5f24a149b9365037da83739.pdf",
+   "original_filename": "CAMU-CAMU-FT-ECOANDES.pdf",
+   "content_type": "application/pdf",
+   "size": 1011856,
+   "is_deleted": false,
+   "created_at": "2026-07-29T22:01:31.376846+00:00"
+  },
+  {
+   "id": "9302afd6-a307-4c29-a4fd-4192a42abd50",
+   "storage_path": "ecoandes/tech-sheets/36dd9def17e54eaf9c4b4c18998bd82b.pdf",
+   "original_filename": "FICHA-TECNICA-CACAO-NIBS-2025.pdf",
+   "content_type": "application/pdf",
+   "size": 126485,
+   "is_deleted": false,
+   "created_at": "2026-07-29T22:01:32.116550+00:00"
+  },
+  {
+   "id": "4d220617-2e38-4a9a-8906-83014d001382",
+   "storage_path": "ecoandes/tech-sheets/42dfddeedc384b4f9503c1102dbe25d2.pdf",
+   "original_filename": "FICHA-TECNICA-CACAO-EN-POLVO-2025.pdf",
+   "content_type": "application/pdf",
+   "size": 136127,
+   "is_deleted": false,
+   "created_at": "2026-07-29T22:01:32.809551+00:00"
+  },
+  {
+   "id": "f63b0cc4-7022-4263-8b43-ec2285e37ff2",
+   "storage_path": "ecoandes/tech-sheets/540e5d92e3e347c2bd56f2836da63a6a.pdf",
+   "original_filename": "FICHA-TECNICA-CACAO-EN-GRANO-2025.pdf",
+   "content_type": "application/pdf",
+   "size": 129165,
+   "is_deleted": false,
+   "created_at": "2026-07-29T22:01:33.492197+00:00"
+  },
+  {
+   "id": "a01151e6-13e6-4141-a5ea-abd7d196e90a",
+   "storage_path": "ecoandes/tech-sheets/f12bd658e9ba498abfee04eca6c475f3.pdf",
+   "original_filename": "FICHA-TECNICA-CACAHUETE-REPELADO-2025.pdf",
+   "content_type": "application/pdf",
+   "size": 250466,
+   "is_deleted": false,
+   "created_at": "2026-07-29T22:01:34.510768+00:00"
+  },
+  {
+   "id": "c3d2827e-2163-4bdc-9ce7-b16975f07a2f",
+   "storage_path": "ecoandes/tech-sheets/bb48b7a98db442c8b45503799c4cb823.pdf",
+   "original_filename": "FICHA-TECNICA-BULGUR-2025.pdf",
+   "content_type": "application/pdf",
+   "size": 140624,
+   "is_deleted": false,
+   "created_at": "2026-07-29T22:01:35.174722+00:00"
+  },
+  {
+   "id": "ae608744-3e23-4bb3-8f98-29df674f6671",
+   "storage_path": "ecoandes/tech-sheets/29e5abd751d24f669e3920d88ef84a46.pdf",
+   "original_filename": "FICHA-TECNICA-BAYAS-DE-GOJI-2025.pdf",
+   "content_type": "application/pdf",
+   "size": 262339,
+   "is_deleted": false,
+   "created_at": "2026-07-29T22:01:36.136740+00:00"
+  },
+  {
+   "id": "01bcab8c-e6cb-4bd6-9a44-ad2282d0081b",
+   "storage_path": "ecoandes/tech-sheets/87485b5dd8154e26a8b756e80331a2a9.pdf",
+   "original_filename": "BAOBAB-FT-ECOANDES.pdf",
+   "content_type": "application/pdf",
+   "size": 897540,
+   "is_deleted": false,
+   "created_at": "2026-07-29T22:01:37.851402+00:00"
+  },
+  {
+   "id": "0180c0d4-5e7f-47aa-a5b8-c4227feac00a",
+   "storage_path": "ecoandes/tech-sheets/71b808a121ea434096d0b4d83fd9e583.pdf",
+   "original_filename": "FICHA-TECNICA-BANANA-CHIPS-2025.pdf",
+   "content_type": "application/pdf",
+   "size": 229525,
+   "is_deleted": false,
+   "created_at": "2026-07-29T22:01:38.616119+00:00"
+  },
+  {
+   "id": "45f9db2e-3755-4d67-9fef-9d83408300ac",
+   "storage_path": "ecoandes/tech-sheets/875153105bc047eaa0877cc690877433.pdf",
+   "original_filename": "FICHA-TECNICA-AZUKI-2025.pdf",
+   "content_type": "application/pdf",
+   "size": 129487,
+   "is_deleted": false,
+   "created_at": "2026-07-29T22:01:39.329851+00:00"
+  },
+  {
+   "id": "d8d1fc0f-4685-43bc-afd9-a2ddd523fced",
+   "storage_path": "ecoandes/tech-sheets/d091f2a9afba48408e06def3f90eea79.pdf",
+   "original_filename": "FICHA-TECNICA-AZUCAR-DE-COCO-2025.pdf",
+   "content_type": "application/pdf",
+   "size": 247639,
+   "is_deleted": false,
+   "created_at": "2026-07-29T22:01:40.011461+00:00"
+  },
+  {
+   "id": "9f9ef4d7-861d-4ea2-9a36-dd8b1b47affe",
+   "storage_path": "ecoandes/tech-sheets/d3b699d6701a4788ad904248a722f20f.pdf",
+   "original_filename": "FICHA-TECNICA-AVELLANAS-2025.pdf",
+   "content_type": "application/pdf",
+   "size": 237488,
+   "is_deleted": false,
+   "created_at": "2026-07-29T22:01:40.770800+00:00"
+  },
+  {
+   "id": "ba3146e5-ef2e-4ce8-8238-a4b482e8e420",
+   "storage_path": "ecoandes/tech-sheets/439acc949d444fe5bd1701491e47e76f.pdf",
+   "original_filename": "FICHA-TECNICA-AVELLANAS-TOSTADAS-Y-TROCEADAS-2025.pdf",
+   "content_type": "application/pdf",
+   "size": 206464,
+   "is_deleted": false,
+   "created_at": "2026-07-29T22:01:41.574032+00:00"
+  },
+  {
+   "id": "c2281dff-1286-4cfe-9875-0ec4006e03cf",
+   "storage_path": "ecoandes/tech-sheets/931b36ae735b46c1bf99f38910e855a1.pdf",
+   "original_filename": "FICHA-TECNICA-ARROZ-SALVAJE-2025_compressed.pdf",
+   "content_type": "application/pdf",
+   "size": 130816,
+   "is_deleted": false,
+   "created_at": "2026-07-29T22:01:42.315201+00:00"
+  },
+  {
+   "id": "a0f11696-c72b-475a-8558-7b87b2c01725",
+   "storage_path": "ecoandes/tech-sheets/04ae2ff7a55f4aa5a9d8780bcd9bebc8.pdf",
+   "original_filename": "FICHA-TECNICA-ARROZ-ROJO-2025.pdf",
+   "content_type": "application/pdf",
+   "size": 130285,
+   "is_deleted": false,
+   "created_at": "2026-07-29T22:01:42.913023+00:00"
+  },
+  {
+   "id": "9f322662-236e-4422-8f3f-16c0cb2f1742",
+   "storage_path": "ecoandes/tech-sheets/f6ba186b56034e69a34faca990690e4e.pdf",
+   "original_filename": "FICHA-TECNICA-ARROZ-NEGRO-2025.pdf",
+   "content_type": "application/pdf",
+   "size": 128902,
+   "is_deleted": false,
+   "created_at": "2026-07-29T22:01:43.662986+00:00"
+  },
+  {
+   "id": "cd8c3c2c-33fa-44c3-899e-d082845e4f5d",
+   "storage_path": "ecoandes/tech-sheets/87ea8f58c3d946bb99af9be68589aceb.pdf",
+   "original_filename": "FICHA-TECNICA-ARROZ-JAZMIN-INTEGRAL-2025.pdf",
+   "content_type": "application/pdf",
+   "size": 132487,
+   "is_deleted": false,
+   "created_at": "2026-07-29T22:01:44.409099+00:00"
+  },
+  {
+   "id": "76515613-8c52-4c02-9f5a-5724fc6fba36",
+   "storage_path": "ecoandes/tech-sheets/dfb4418708304921afcd9f68d69a694f.pdf",
+   "original_filename": "FICHA-TECNICA-ARROZ-JAZMIN-BLANCO-2025.pdf",
+   "content_type": "application/pdf",
+   "size": 131667,
+   "is_deleted": false,
+   "created_at": "2026-07-29T22:01:45.164867+00:00"
+  },
+  {
+   "id": "185b2b32-ae59-42d2-b8ca-9e9e2031dec0",
+   "storage_path": "ecoandes/tech-sheets/a2687319bd0445ec970e20e9b17c3efd.pdf",
+   "original_filename": "FICHA-TECNICA-ARROZ-BASMATI-INTEGRAL-2025.pdf",
+   "content_type": "application/pdf",
+   "size": 130432,
+   "is_deleted": false,
+   "created_at": "2026-07-29T22:01:45.698299+00:00"
+  },
+  {
+   "id": "ed1a5dda-ceb9-4ce1-b63f-887974d4f9d2",
+   "storage_path": "ecoandes/tech-sheets/fdebea5df5734a8e8b25982bed26f2c9.pdf",
+   "original_filename": "FICHA-TECNICA-ARROZ-BASMATI-2025.pdf",
+   "content_type": "application/pdf",
+   "size": 128448,
+   "is_deleted": false,
+   "created_at": "2026-07-29T22:01:46.401216+00:00"
+  },
+  {
+   "id": "5b1abcb2-0f05-4d66-9b76-9ac1547e92bc",
+   "storage_path": "ecoandes/tech-sheets/43443be1ea534d3e9049f2b6b95f1717.pdf",
+   "original_filename": "FICHA-TECNICA-ARANDANOS-ROJOS-SIN-AZUCAR-2025.pdf",
+   "content_type": "application/pdf",
+   "size": 245875,
+   "is_deleted": false,
+   "created_at": "2026-07-29T22:01:47.090882+00:00"
+  },
+  {
+   "id": "17f50d89-931a-4fef-a241-3ccec57bee0f",
+   "storage_path": "ecoandes/tech-sheets/f81a06356d884c3ca269dea35ac1483a.pdf",
+   "original_filename": "ANIS-VERDE-FT-ECOANDES-2025_compressed.pdf",
+   "content_type": "application/pdf",
+   "size": 153098,
+   "is_deleted": false,
+   "created_at": "2026-07-29T22:01:47.815572+00:00"
+  },
+  {
+   "id": "45757745-8d56-404e-979b-43d3a80127e0",
+   "storage_path": "ecoandes/tech-sheets/5fbb5b9e53bd4160a3d9f9e249fbd7f4.pdf",
+   "original_filename": "FICHA-TECNICA-ANIS-ESTRELLADO-2025.pdf",
+   "content_type": "application/pdf",
+   "size": 129609,
+   "is_deleted": false,
+   "created_at": "2026-07-29T22:01:48.482192+00:00"
+  },
+  {
+   "id": "ce465c6b-f5bd-4203-817b-667e844302ef",
+   "storage_path": "ecoandes/tech-sheets/ed4ebd8bca54431e99111a35b9637b97.pdf",
+   "original_filename": "FICHA-TECNICA-ANACARDOS-2025.pdf",
+   "content_type": "application/pdf",
+   "size": 226540,
+   "is_deleted": false,
+   "created_at": "2026-07-29T22:01:50.678741+00:00"
+  },
+  {
+   "id": "858b0d80-0d13-4715-a24e-b85e702517ab",
+   "storage_path": "ecoandes/tech-sheets/467a40f89fa94dd388f0eb5a9dc3814b.pdf",
+   "original_filename": "AMARANTO-HINCHADO-FT-ECOANDES.pdf",
+   "content_type": "application/pdf",
+   "size": 839444,
+   "is_deleted": false,
+   "created_at": "2026-07-29T22:01:52.643838+00:00"
+  },
+  {
+   "id": "1109fb73-56b9-4f26-8f21-e698d6cf1950",
+   "storage_path": "ecoandes/tech-sheets/296f326b898a45c28543807e57d815da.pdf",
+   "original_filename": "FICHA-TECNICA-AMARANTO-2025.pdf",
+   "content_type": "application/pdf",
+   "size": 139967,
+   "is_deleted": false,
+   "created_at": "2026-07-29T22:01:53.369430+00:00"
+  },
+  {
+   "id": "7a13d7aa-1c75-4169-8579-74d96a498f11",
+   "storage_path": "ecoandes/tech-sheets/9075abeb5dca4e1595dfa8e3ca92cf19.pdf",
+   "original_filename": "FICHA-TECNICA-ALUBIA-ROJA-KIDNEY-2025.pdf",
+   "content_type": "application/pdf",
+   "size": 128293,
+   "is_deleted": false,
+   "created_at": "2026-07-29T22:01:54.022599+00:00"
+  },
+  {
+   "id": "6a3b0c81-29b0-425c-ad2e-62feeacea7b3",
+   "storage_path": "ecoandes/tech-sheets/cd6b411edd994edea002cfc9f3d3d801.pdf",
+   "original_filename": "ALMIDON-DE-MANDIOCA-FT-ECOANDES.pdf",
+   "content_type": "application/pdf",
+   "size": 929142,
+   "is_deleted": false,
+   "created_at": "2026-07-29T22:01:55.627136+00:00"
+  },
+  {
+   "id": "0645f489-2254-4c9a-a57b-09743b96f48d",
+   "storage_path": "ecoandes/tech-sheets/1ca63c64b6794cd68332a54bdc4f6f58.pdf",
+   "original_filename": "ALMIDON-DE-MAIZ-NATIVO-FT-ECOANDES.pdf",
+   "content_type": "application/pdf",
+   "size": 999920,
+   "is_deleted": false,
+   "created_at": "2026-07-29T22:01:57.223569+00:00"
+  },
+  {
+   "id": "8239f501-732f-4911-b38b-46ce602efb40",
+   "storage_path": "ecoandes/tech-sheets/6ef59cbf550a407fad6f84319ec380a8.pdf",
+   "original_filename": "FICHA-TECNICA-ALMENDRA-PELADA-2025.pdf",
+   "content_type": "application/pdf",
+   "size": 208035,
+   "is_deleted": false,
+   "created_at": "2026-07-29T22:01:57.944044+00:00"
+  },
+  {
+   "id": "8752d08c-8f94-472b-ab6f-962b8bba1d49",
+   "storage_path": "ecoandes/tech-sheets/d2125be4ff504e929fd2ad9b079e5e6e.pdf",
+   "original_filename": "ACEROLA-FT-ECOANDES-2023.pdf",
+   "content_type": "application/pdf",
+   "size": 1011889,
+   "is_deleted": false,
+   "created_at": "2026-07-29T22:01:59.559271+00:00"
+  },
+  {
+   "id": "85d32d04-d30f-48fb-99c3-79110763d389",
+   "storage_path": "ecoandes/tech-sheets/590b81119da149aeb5a25d3d77cf7d5d.pdf",
+   "original_filename": "ACAI-FT-ECOANDES.pdf",
+   "content_type": "application/pdf",
+   "size": 901783,
+   "is_deleted": false,
+   "created_at": "2026-07-29T22:02:01.223395+00:00"
+  },
+  {
+   "id": "141a4ab3-3baf-46fc-87d4-05889b698784",
+   "storage_path": "ecoandes/images/b6a59b7044d84b45bf5fcf83d69a5b7b.png",
+   "original_filename": "Cacao Nibs Bio.png",
+   "content_type": "image/png",
+   "size": 1432598,
+   "is_deleted": false,
+   "created_at": "2026-07-30T18:34:37.634220+00:00"
+  },
+  {
+   "id": "35666d90-a30e-49d5-be31-307a8ec17469",
+   "storage_path": "ecoandes/images/8c0f47fab08142bc98ac074f8a1fc6b9.png",
+   "original_filename": "ChatGPT Image 31 jul 2026, 20_21_59.png",
+   "content_type": "image/png",
+   "size": 1791220,
+   "is_deleted": false,
+   "created_at": "2026-08-01T09:54:25.873234+00:00"
+  },
+  {
+   "id": "ba37e59d-cff8-4126-994d-430f3daab778",
+   "storage_path": "ecoandes/images/274d8528cb324a2db1fabd73a58bd947.png",
+   "original_filename": "Maca Negra Bio.png",
+   "content_type": "image/png",
+   "size": 1791220,
+   "is_deleted": false,
+   "created_at": "2026-08-01T09:56:29.553519+00:00"
+  },
+  {
+   "id": "3aa26b03-ee5b-4b94-9f82-69ee0551579e",
+   "storage_path": "ecoandes/images/ea5a7be98305415692ade47257ed59ad.png",
+   "original_filename": "Quinoa Tricolor Bio.png",
+   "content_type": "image/png",
+   "size": 1824906,
+   "is_deleted": false,
+   "created_at": "2026-08-01T09:56:43.006366+00:00"
+  },
+  {
+   "id": "010936a2-378a-483d-a1cb-a5066353afe9",
+   "storage_path": "ecoandes/images/d46ad14f86fa45e68bb8c2f977db9eeb.png",
+   "original_filename": "Canela en Polvo Bio.png",
+   "content_type": "image/png",
+   "size": 1575774,
+   "is_deleted": false,
+   "created_at": "2026-08-01T09:57:00.357926+00:00"
+  },
+  {
+   "id": "2c1c3198-2c39-460d-b7cb-e9f128fd007f",
+   "storage_path": "ecoandes/images/1c28d43b010f45e0a2a86f7cd6e80004.png",
+   "original_filename": "Curcuma en Polvo Bio.png",
+   "content_type": "image/png",
+   "size": 1664682,
+   "is_deleted": false,
+   "created_at": "2026-08-01T09:57:11.957353+00:00"
+  },
+  {
+   "id": "9679e8d0-b159-4cba-9546-6fc8611bb8e7",
+   "storage_path": "ecoandes/images/1e486f6b77e4497580ac95601bdc0edc.png",
+   "original_filename": "34b04340-6f58-4f08-82fc-4a7dda2185b4.png",
+   "content_type": "image/png",
+   "size": 1751335,
+   "is_deleted": false,
+   "created_at": "2026-08-03T16:23:33.075777+00:00"
+  },
+  {
+   "id": "c21c9198-b202-4084-9dc4-02b14824cdd5",
+   "storage_path": "ecoandes/images/ded79f0ab8b4420c9be28c953ffdef46.png",
+   "original_filename": "e35ced67-12a5-45f1-8dfa-eefa4c6b0210.png",
+   "content_type": "image/png",
+   "size": 1361536,
+   "is_deleted": false,
+   "created_at": "2026-08-03T16:29:54.980898+00:00"
+  },
+  {
+   "id": "e885f279-2ba0-4eec-928f-4b6c8697f53c",
+   "storage_path": "ecoandes/images/b182484d0bd745fdb72f65a0bb65e4b9.png",
+   "original_filename": "db854bf8-3bfa-49b8-8f63-523f6ee18259.png",
+   "content_type": "image/png",
+   "size": 1711689,
+   "is_deleted": false,
+   "created_at": "2026-08-03T16:38:46.569679+00:00"
+  },
+  {
+   "id": "ce809b88-4891-4c7d-91eb-266dbeeba5b9",
+   "storage_path": "ecoandes/images/a5626b373c594469bdc3966aaf293ffb.png",
+   "original_filename": "27c40bbe-5180-4b12-95fd-bff2a1667ece.png",
+   "content_type": "image/png",
+   "size": 1371061,
+   "is_deleted": false,
+   "created_at": "2026-08-03T17:19:35.067802+00:00"
+  },
+  {
+   "id": "59eeb341-7e02-4820-a8f1-b5af9999ba6e",
+   "storage_path": "ecoandes/images/e068788cbddf4755a6d9fc73c3561365.png",
+   "original_filename": "8b6eb8b8-58ff-4ee0-bff6-ec4231e61fd6.png",
+   "content_type": "image/png",
+   "size": 1656059,
+   "is_deleted": false,
+   "created_at": "2026-08-03T17:19:48.523480+00:00"
+  },
+  {
+   "id": "4d191fb6-2a2f-479d-9851-7a75ec6606f7",
+   "storage_path": "ecoandes/images/1e76888c0de14213943c60fe66864012.png",
+   "original_filename": "daefd910-5332-43c1-a832-bd6e3f1243e9.png",
+   "content_type": "image/png",
+   "size": 1628173,
+   "is_deleted": false,
+   "created_at": "2026-08-03T17:20:44.863238+00:00"
+  },
+  {
+   "id": "1b2fee1a-4ad9-49b1-b230-f8be66b0173f",
+   "storage_path": "ecoandes/images/b573dca3c1aa435d94342319057461cd.png",
+   "original_filename": "e18c8b3c-d332-4924-a594-ab4a89635cf6.png",
+   "content_type": "image/png",
+   "size": 1627955,
+   "is_deleted": false,
+   "created_at": "2026-08-03T17:26:42.500654+00:00"
+  },
+  {
+   "id": "eca4f5a9-99aa-4df5-9ce9-8d23365a8d25",
+   "storage_path": "ecoandes/images/36bf6a2368f24c67b39289b4b24534a9.png",
+   "original_filename": "e18c8b3c-d332-4924-a594-ab4a89635cf6.png",
+   "content_type": "image/png",
+   "size": 1627955,
+   "is_deleted": false,
+   "created_at": "2026-08-03T17:27:14.083377+00:00"
+  }
+ ]
+}

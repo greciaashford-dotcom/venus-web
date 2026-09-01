@@ -1,0 +1,86 @@
+{
+  "summary": "Completed testing of shipping v3, address verification, mobile UI improvements, and shop pagination. Backend shipping logic fully functional. Frontend UI improvements verified on mobile and desktop.",
+  "backend_issues": {
+    "critical_bugs": [],
+    "flaky_endpoints": []
+  },
+  "frontend_issues": {
+    "ui_bugs": [],
+    "integration_issues": [
+      {
+        "component": "Shop page desktop",
+        "issue": "Desktop sidebar not found after navigation from homepage to /tienda",
+        "selector": "[data-testid='shop-categories-sidebar']",
+        "fix_priority": "LOW",
+        "note": "Sidebar may be hidden or not rendering after navigation. Desktop category chips work correctly as alternative."
+      }
+    ],
+    "design_issues": []
+  },
+  "passed_tests": [
+    "Backend: Retail shipping flat fee 4.99€ (4.12€ + 0.87€ VAT) for <50€ with VAT",
+    "Backend: Retail free shipping for >=50€ with VAT",
+    "Backend: Retail Canarias CP 35001 → manual_quote status",
+    "Backend: Professional weight-based shipping 22kg → 27.83€ (23€ + 21% VAT)",
+    "Backend: Professional free shipping for >=150€ ex-VAT",
+    "Backend: Address verification - valid Madrid address found",
+    "Backend: Address verification - gibberish address not found",
+    "Frontend: Search bar placeholder updated to '¿Qué buscas hoy?' / 'What are you looking for today?'",
+    "Frontend: Mobile search bar always visible with 16px font (prevents iOS zoom)",
+    "Frontend: Mobile hamburger menu redesigned with LOG IN/CREATE ACCOUNT buttons",
+    "Frontend: Mobile hamburger menu shows grouped link cards with icons",
+    "Frontend: Mobile shop categories collapsible dropdown working",
+    "Frontend: Mobile shop pagination working (28 products/page, page 2 loads correctly)",
+    "Frontend: Desktop category chips visible and working",
+    "Frontend: Desktop pagination working"
+  ],
+  "test_report_links": [
+    "/app/backend_test_shipping_v3.py"
+  ],
+  "action_item_for_main_agent": "1. Investigate desktop sidebar visibility issue on /tienda after navigation (low priority - category chips work as alternative). 2. Complete end-to-end checkout flow testing with actual order creation (requires product card selector fix). 3. Test refund request modal and admin refund panel UI. 4. Test professional invoice request button visibility and functionality.",
+  "updated_files": [
+    "/app/backend_test_shipping_v3.py"
+  ],
+  "success_percentage": {
+    "backend": "100% (13/13 tests passed)",
+    "frontend": "93% (15/16 tests passed - 1 minor issue with desktop sidebar)"
+  },
+  "should_call_test_agent_after_fix": false,
+  "should_main_agent_test_itself": true,
+  "detailed_notes": {
+    "shipping_v3_verification": {
+      "retail_flat_fee": "✅ Confirmed: 4.99€ gross (4.12€ net + 0.87€ VAT 21%) for subtotal <50€ with VAT, regardless of weight. No weight_tier field present.",
+      "retail_free_threshold": "✅ Confirmed: Free shipping when subtotal_with_vat >= 50€",
+      "retail_canarias": "✅ Confirmed: CP 35001 (Las Palmas) returns status 'manual_quote'",
+      "professional_weight_table": "✅ Confirmed: 22kg falls in 20-25kg tier = 23€ net, 27.83€ gross (21% VAT). Weight tier correctly returned.",
+      "professional_free_threshold": "✅ Confirmed: Free shipping when subtotal_ex_vat >= 150€"
+    },
+    "address_verification": {
+      "nominatim_integration": "✅ Working: Valid Madrid address (Gran Via 1, 28013) returns found:true. Gibberish address returns found:false.",
+      "rate_limiting": "Service may return found:null when rate-limited or unavailable - this is acceptable and does not block orders."
+    },
+    "mobile_ui_improvements": {
+      "search_bar": "✅ Always visible under top bar with 16px font-size to prevent iOS zoom",
+      "hamburger_menu": "✅ Redesigned with portal rendering, LOG IN/CREATE ACCOUNT buttons for guests, grouped link cards with icons, terracotta logout button at bottom",
+      "shop_categories": "✅ Collapsible dropdown on mobile with toggle button and panel",
+      "pagination": "✅ 28 products per page on all viewports, page navigation works with scroll to top"
+    },
+    "untested_features": [
+      "Checkout postal code auto-fill (CP 28004 → Madrid province)",
+      "Checkout invalid postal code blocking (CP 99999)",
+      "Checkout phone validation (min 9 digits)",
+      "Checkout address verification warning display",
+      "Account page refund request modal",
+      "Account page professional invoice request button",
+      "Admin order detail refund panel with per-item controls",
+      "Admin order detail shipping checkbox logic",
+      "Admin order detail prefill from customer request"
+    ],
+    "automation_notes": {
+      "product_card_selector": "Product cards on /tienda use generic '.product-card' class. May need data-testid for more reliable selection.",
+      "splash_handling": "8s splash video can be skipped with 'Saltar' button or 9.5s wait",
+      "cookie_banner": "Cookie banner appears and needs 'ACCEPT ALL' click",
+      "navigation_timing": "Desktop sidebar may need additional wait time after navigation to /tienda"
+    }
+  }
+}

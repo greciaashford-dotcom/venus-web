@@ -1,0 +1,477 @@
+// 12 blog posts sobre los ingredientes ecológicos más vendidos de Ecoandes.
+// Imágenes WebP locales optimizadas en /public/blog/*.webp
+// `related_query` coincide exactamente con los nombres de producto del catálogo.
+export const BLOG_POSTS = [
+  {
+    slug: "quinoa-real-ecologica-superalimento",
+    title: "Quinoa real ecológica: el superalimento que conquistó el mundo",
+    excerpt:
+      "Sagrada para las culturas precolombinas y proteína vegetal completa, la quinoa es hoy un imprescindible de cualquier despensa BIO.",
+    cover: "/blog/quinoa.webp",
+    category: "PSEUDOCEREALES",
+    read_time: "6 min",
+    date: "2026-02-12",
+    author: "Equipo Ecoandes",
+    related_query: "quinoa",
+    body: [
+      {
+        h: "Un grano sagrado con miles de años de historia",
+        p: "La quinoa real (Chenopodium quinoa) se cultiva desde hace más de 5.000 años en las altiplanicies de la cordillera de los Andes, en Bolivia, Perú y Ecuador, a entre 3.500 y 4.000 metros de altitud. Su extraordinaria resistencia a la sequía, las heladas y los suelos pobres llevó a la FAO a declarar 2013 como Año Internacional de la Quinoa, reconociendo su papel en la seguridad alimentaria mundial."
+      },
+      {
+        h: "Proteína vegetal completa y sin gluten",
+        p: "A diferencia de la mayoría de los vegetales, la quinoa aporta los nueve aminoácidos esenciales en proporciones equilibradas, con cerca de 13-14 g de proteína por cada 100 g de grano seco. Suma también fibra, hierro, magnesio, fósforo y manganeso, y es naturalmente libre de gluten, por lo que resulta una alternativa idónea a los cereales tradicionales para personas celíacas o con sensibilidad."
+      },
+      {
+        h: "Saciante y de índice glucémico moderado",
+        p: "La combinación de fibra y proteína contribuye a una digestión más pausada y a una mayor sensación de saciedad, con un índice glucémico moderado respecto a otros cereales refinados. Es una base excelente para platos equilibrados que ayudan a mantener la energía estable a lo largo del día."
+      },
+      {
+        h: "Cómo cocinarla en casa",
+        p: "Acláarala bien bajo el grifo para retirar las saponinas (el recubrimiento natural de sabor amargo). Cuécela con una proporción de 1 medida de quinoa por 2 de agua durante 12-15 minutos a fuego suave y déjala reposar tapada. Sirve como base de ensaladas tibias, bowls y sopas, como guarnición o, hinchada, en desayunos y repostería."
+      },
+      {
+        h: "Calidad Ecoandes",
+        p: "Seleccionamos quinoa real ecológica certificada y trazable hasta el productor de origen. Disponible en formatos para el hogar (500 g y 1 kg) y profesional (5 kg y 20 kg) para tiendas, obradores y restauración."
+      }
+    ],
+    sources: [
+      { label: "FAO — Año Internacional de la Quinoa", url: "https://www.fao.org/quinoa-2013/es/" },
+      { label: "USDA FoodData Central — Quinoa", url: "https://fdc.nal.usda.gov/" },
+      { label: "Harvard T.H. Chan — The Nutrition Source", url: "https://nutritionsource.hsph.harvard.edu/food-features/quinoa/" }
+    ]
+  },
+  {
+    slug: "harina-avena-integral-bio",
+    title: "Harina de avena integral BIO: betaglucanos para tus recetas diarias",
+    excerpt:
+      "Suave, nutritiva y rica en fibra soluble. La harina integral de avena ecológica es el comodín saludable de tu repostería.",
+    cover: "/blog/avena.webp",
+    category: "HARINAS",
+    read_time: "5 min",
+    date: "2026-02-05",
+    author: "Equipo Ecoandes",
+    related_query: "avena",
+    body: [
+      {
+        h: "Más que una harina común",
+        p: "La harina de avena integral conserva el salvado y el germen del grano (Avena sativa), fuentes naturales de fibra soluble, vitaminas del grupo B, manganeso y antioxidantes. El resultado es una harina ligera, ligeramente dulce y mucho más nutritiva que las harinas refinadas."
+      },
+      {
+        h: "Betaglucanos y colesterol: lo que dice la ciencia",
+        p: "La avena destaca por su contenido en betaglucanos, un tipo de fibra soluble. La EFSA (Autoridad Europea de Seguridad Alimentaria) reconoce la declaración de que el consumo de unos 3 g diarios de betaglucanos de avena contribuye a mantener niveles normales de colesterol en sangre, dentro de una dieta equilibrada."
+      },
+      {
+        h: "Saciedad y energía estable",
+        p: "La fibra soluble de la avena forma un gel viscoso durante la digestión que ralentiza el vaciado gástrico, favoreciendo la saciedad y una liberación más gradual de la energía. Por eso es una de las harinas más recomendadas en desayunos y dietas equilibradas."
+      },
+      {
+        h: "Recetas que la hacen imprescindible",
+        p: "Pancakes esponjosos, bizcochos sin azúcares añadidos, granolas caseras, masas para galletas o panes mixtos. Combina muy bien con harinas integrales como la espelta o el trigo sarraceno."
+      },
+      {
+        h: "Calidad Ecoandes",
+        p: "Molida a baja temperatura para preservar sus nutrientes y certificada ecológica, disponible en formatos a granel pensados tanto para el hogar como para el obrador."
+      }
+    ],
+    sources: [
+      { label: "EFSA — Betaglucanos de avena y colesterol", url: "https://www.efsa.europa.eu/en/efsajournal/pub/1885" },
+      { label: "Harvard T.H. Chan — Oats", url: "https://nutritionsource.hsph.harvard.edu/food-features/oats/" },
+      { label: "BEDCA — Base de Datos Española de Composición de Alimentos", url: "https://www.bedca.net/" }
+    ]
+  },
+  {
+    slug: "maca-ecologica-energia-vitalidad",
+    title: "Maca ecológica: la raíz de la energía y la vitalidad del altiplano",
+    excerpt:
+      "Cultivada a más de 4.000 metros, la maca es una de las raíces adaptógenas más apreciadas para acompañar el día a día.",
+    cover: "/blog/maca.webp",
+    category: "SUPERALIMENTOS EN POLVO U HOJA",
+    read_time: "6 min",
+    date: "2026-01-28",
+    author: "Equipo Ecoandes",
+    related_query: "maca",
+    body: [
+      {
+        h: "Una raíz cultivada en las alturas",
+        p: "La maca (Lepidium meyenii) es una raíz emparentada con el rábano que crece en la meseta de Bombón, en la región de Junín (Perú), a más de 4.000 metros de altitud. Se cultiva desde hace al menos 2.000 años y, tras la cosecha, se seca al sol y se muele hasta obtener un polvo de sabor que recuerda al caramelo y la nuez."
+      },
+      {
+        h: "Un adaptógeno con tradición",
+        p: "La maca se incluye entre los llamados adaptógenos, alimentos que la tradición asocia con una mejor adaptación del organismo al esfuerzo físico y mental. Nutricionalmente aporta hidratos de carbono, fibra, minerales como potasio, hierro y calcio, y compuestos característicos como los glucosinolatos."
+      },
+      {
+        h: "Variedades amarilla, roja y negra",
+        p: "Existen distintos fenotipos según el color de la raíz. La maca amarilla es la más habitual y equilibrada; la roja y la negra son más escasas y muy valoradas. Todas comparten un perfil nutricional similar con matices de sabor e intensidad."
+      },
+      {
+        h: "Cómo incorporarla a tu rutina",
+        p: "Una cucharadita (entre 3 y 5 g) al día disuelta en batidos, leches vegetales, yogures, porridge o bowls. También funciona en repostería energética: bizcochos, bolas raw y barritas. La evidencia clínica sobre la maca es todavía limitada, por lo que conviene tomarla como un alimento más dentro de una dieta variada."
+      },
+      {
+        h: "Maca BIO de Ecoandes",
+        p: "Ofrecemos maca ecológica certificada, también en versión gelatinizada para una mejor digestibilidad, con trazabilidad completa hasta el productor de origen."
+      }
+    ],
+    sources: [
+      { label: "USDA FoodData Central — Maca", url: "https://fdc.nal.usda.gov/" },
+      { label: "PubMed — Revisiones científicas sobre Lepidium meyenii", url: "https://pubmed.ncbi.nlm.nih.gov/?term=lepidium+meyenii+maca" },
+      { label: "FAO — Cultivos andinos infrautilizados", url: "https://www.fao.org/" }
+    ]
+  },
+  {
+    slug: "semillas-chia-omega-3-fibra",
+    title: "Semillas de chía: omega-3 vegetal y fibra en cada cucharada",
+    excerpt:
+      "Una de las semillas más densamente nutritivas del planeta. Perfectas para puddings, batidos y como sustituto del huevo.",
+    cover: "/blog/chia.webp",
+    category: "SEMILLAS",
+    read_time: "5 min",
+    date: "2026-01-20",
+    author: "Equipo Ecoandes",
+    related_query: "chia",
+    body: [
+      {
+        h: "Pequeñas pero poderosas",
+        p: "La chía (Salvia hispanica) era un alimento básico de las culturas azteca y maya de Mesoamérica. Hoy se reconoce como una de las semillas más densas en nutrientes: aporta ácidos grasos omega-3 de origen vegetal (ALA), fibra soluble, proteína, calcio, magnesio, fósforo y hierro."
+      },
+      {
+        h: "Omega-3 vegetal y fibra de calidad",
+        p: "La chía es una de las fuentes vegetales más ricas en ácido alfa-linolénico (ALA), un ácido graso omega-3 esencial. Su elevado contenido en fibra contribuye al tránsito intestinal normal. En la Unión Europea, la chía está autorizada como nuevo alimento con condiciones de uso definidas."
+      },
+      {
+        h: "El truco del gel",
+        p: "Al hidratarse, las semillas forman un gel mucilaginoso ideal para puddings, para espesar batidos o para sustituir el huevo en repostería vegana: 1 cucharada de chía + 3 de agua, reposando 10-15 minutos, equivale a un huevo."
+      },
+      {
+        h: "Ideas para el día a día",
+        p: "Un pudding con bebida vegetal y frutos rojos para el desayuno, espolvoreadas sobre ensaladas o yogures, integradas en granolas caseras o en panes y galletas."
+      },
+      {
+        h: "Nuestra chía",
+        p: "Procedente de cultivo ecológico certificado y libre de impurezas, disponible en formatos para el hogar y profesional, además de en harina de chía."
+      }
+    ],
+    sources: [
+      { label: "Comisión Europea — Chía como nuevo alimento (Novel Food)", url: "https://food.ec.europa.eu/food-safety/novel-food_en" },
+      { label: "USDA FoodData Central — Chia seeds", url: "https://fdc.nal.usda.gov/" },
+      { label: "Harvard T.H. Chan — The Nutrition Source", url: "https://nutritionsource.hsph.harvard.edu/" }
+    ]
+  },
+  {
+    slug: "cacao-puro-bio-antioxidantes",
+    title: "Cacao puro BIO: flavanoles y el sabor más auténtico",
+    excerpt:
+      "Sin azúcar ni aditivos. El cacao puro conserva sus flavanoles y aporta un sabor intenso y genuino a tus recetas.",
+    cover: "/blog/cacao.webp",
+    category: "CACAO Y DERIVADOS",
+    read_time: "5 min",
+    date: "2026-01-12",
+    author: "Equipo Ecoandes",
+    related_query: "cacao",
+    body: [
+      {
+        h: "Del fruto a la taza",
+        p: "El cacao puro procede de las habas del árbol Theobroma cacao, que se fermentan, se secan y se procesan. Cuanto menos se refina, más conserva sus polifenoles y flavanoles, compuestos vegetales con propiedades antioxidantes. La variedad criollo es la más aromática y apreciada."
+      },
+      {
+        h: "Flavanoles del cacao: lo que reconoce la EFSA",
+        p: "La EFSA admite una declaración según la cual los flavanoles del cacao contribuyen a mantener la elasticidad normal de los vasos sanguíneos, con una ingesta de referencia de 200 mg al día. El cacao puro y poco procesado conserva mejor estos compuestos que el chocolate industrial azucarado."
+      },
+      {
+        h: "Minerales y carácter",
+        p: "Un buen cacao desgrasado aporta magnesio, hierro y teobromina, un estimulante natural suave. A diferencia del chocolate con leche, el cacao puro no contiene azúcares ni grasas añadidas."
+      },
+      {
+        h: "Cómo disfrutarlo",
+        p: "Caliente con bebida vegetal y un toque de canela, en bizcochos sin azúcar, en bolas energéticas con dátil y avena, o como base de tartas y cremas. Los nibs aportan un punto crujiente a granolas y postres."
+      },
+      {
+        h: "Nuestro cacao",
+        p: "Cacao criollo de origen, certificado ecológico, disponible en granos, nibs y polvo, procesado para preservar al máximo su perfil aromático y nutricional."
+      }
+    ],
+    sources: [
+      { label: "EFSA — Flavanoles del cacao y vasos sanguíneos", url: "https://www.efsa.europa.eu/en/efsajournal/pub/2809" },
+      { label: "USDA FoodData Central — Cocoa", url: "https://fdc.nal.usda.gov/" },
+      { label: "Harvard T.H. Chan — The Nutrition Source", url: "https://nutritionsource.hsph.harvard.edu/" }
+    ]
+  },
+  {
+    slug: "lentejas-bio-proteina-vegetal",
+    title: "Lentejas BIO: la proteína vegetal más sostenible",
+    excerpt:
+      "Económicas, deliciosas y respetuosas con la tierra. Las lentejas son la base de una alimentación sana y consciente.",
+    cover: "/blog/lentejas.webp",
+    category: "LEGUMBRES",
+    read_time: "5 min",
+    date: "2026-01-04",
+    author: "Equipo Ecoandes",
+    related_query: "lenteja",
+    body: [
+      {
+        h: "Una legumbre con más de 9.000 años",
+        p: "Las lentejas (Lens culinaris) se cultivan desde hace más de 9.000 años en la cuenca mediterránea y Oriente Próximo. Son una de las legumbres más fáciles de preparar: no necesitan remojo previo y se cocinan en menos de 30 minutos."
+      },
+      {
+        h: "Densidad nutricional",
+        p: "Aportan entre un 24 y un 26 % de proteína sobre el grano seco, fibra soluble e insoluble, hierro vegetal, ácido fólico, zinc y potasio. Combinadas con un cereal, ofrecen una proteína de muy buena calidad."
+      },
+      {
+        h: "Una elección sostenible",
+        p: "Las legumbres fijan nitrógeno en el suelo y tienen una huella hídrica y de carbono baja frente a las proteínas animales. La FAO dedicó 2016 al Año Internacional de las Legumbres precisamente por su papel en una alimentación y agricultura sostenibles."
+      },
+      {
+        h: "Más allá del guiso tradicional",
+        p: "Hummus de lenteja, ensaladas tibias, hamburguesas vegetales, sopas tipo dahl o crepes elaboradas con harina de lenteja roja. Su versatilidad va mucho más allá del plato de cuchara."
+      },
+      {
+        h: "Variedades en Ecoandes",
+        p: "Lenteja pardina, castellana, verde Du Puy y beluga, todas de cultivo ecológico certificado y trazable."
+      }
+    ],
+    sources: [
+      { label: "FAO — Año Internacional de las Legumbres 2016", url: "https://www.fao.org/pulses-2016/es/" },
+      { label: "USDA FoodData Central — Lentils", url: "https://fdc.nal.usda.gov/" },
+      { label: "BEDCA — Composición de Alimentos", url: "https://www.bedca.net/" }
+    ]
+  },
+  {
+    slug: "curcuma-bio-especia-dorada",
+    title: "Cúrcuma BIO: la especia dorada y el poder de la curcumina",
+    excerpt:
+      "El color y el carácter de los curris. Descubre la cúrcuma ecológica, la curcumina y el truco para aprovecharla mejor.",
+    cover: "/blog/curcuma.webp",
+    category: "ESPECIAS Y CONDIMENTOS",
+    read_time: "5 min",
+    date: "2026-02-18",
+    author: "Equipo Ecoandes",
+    related_query: "curcuma",
+    body: [
+      {
+        h: "La raíz dorada del sur de Asia",
+        p: "La cúrcuma (Curcuma longa) es el rizoma de una planta tropical originaria del sur de Asia, emparentada con el jengibre. Una vez seco y molido, da lugar al polvo de color dorado intenso que tiñe y aromatiza los curris, y que se utiliza en la cocina india desde hace miles de años."
+      },
+      {
+        h: "Curcumina: el compuesto estrella",
+        p: "Su pigmento característico se debe a los curcuminoides, especialmente la curcumina, un polifenol estudiado por sus propiedades antioxidantes. Conviene saber que la curcumina se absorbe con dificultad: combinarla con pimienta negra (que aporta piperina) y con una fuente de grasa mejora notablemente su biodisponibilidad."
+      },
+      {
+        h: "Usos en la cocina",
+        p: "Imprescindible en currys, arroces, guisos de legumbres, cremas de verduras y en la popular 'golden milk' o leche dorada con bebida vegetal, pimienta y un toque de jengibre. Aporta color, aroma cálido y un ligero amargor."
+      },
+      {
+        h: "Con prudencia",
+        p: "La cúrcuma es un alimento seguro en las cantidades habituales de cocina. Las dosis concentradas en forma de suplemento deben consultarse con un profesional sanitario, especialmente en caso de tratamiento médico o embarazo; la cúrcuma de uso culinario no sustituye ningún tratamiento."
+      },
+      {
+        h: "Nuestra cúrcuma",
+        p: "Cúrcuma en polvo ecológica certificada, molida y de aroma intenso, ideal para el día a día en cocina y repostería."
+      }
+    ],
+    sources: [
+      { label: "NCCIH (NIH) — Turmeric", url: "https://www.nccih.nih.gov/health/turmeric" },
+      { label: "USDA FoodData Central — Turmeric", url: "https://fdc.nal.usda.gov/" },
+      { label: "EFSA — Curcumina (E 100)", url: "https://www.efsa.europa.eu/" }
+    ]
+  },
+  {
+    slug: "canela-ceylan-bio",
+    title: "Canela de Ceilán BIO: aroma cálido y la auténtica canela",
+    excerpt:
+      "No toda la canela es igual. Te contamos por qué la de Ceilán es la 'verdadera canela' y cómo sacarle partido.",
+    cover: "/blog/canela.webp",
+    category: "ESPECIAS Y CONDIMENTOS",
+    read_time: "5 min",
+    date: "2026-02-22",
+    author: "Equipo Ecoandes",
+    related_query: "canela",
+    body: [
+      {
+        h: "Ceilán frente a Cassia",
+        p: "La canela de Ceilán (Cinnamomum verum) se considera la 'verdadera canela'. Procede de la corteza interna del árbol y se distingue de la canela Cassia, más común y económica. Su aroma es más delicado, dulce y refinado, con una textura quebradiza en rama."
+      },
+      {
+        h: "Por qué importa la cumarina",
+        p: "La canela Cassia contiene cantidades notables de cumarina, un compuesto que la EFSA recomienda no consumir en exceso. La canela de Ceilán presenta niveles de cumarina mucho más bajos, lo que la hace especialmente interesante para quienes la usan a diario."
+      },
+      {
+        h: "Compuestos aromáticos",
+        p: "Su perfil se debe principalmente al cinamaldehído, responsable del aroma y de buena parte de sus propiedades antioxidantes. La canela también se ha estudiado en relación con el metabolismo, aunque la evidencia es todavía limitada."
+      },
+      {
+        h: "Usos en la cocina",
+        p: "Imprescindible en repostería (bizcochos, compotas, arroz con leche), en infusiones, en porridge y batidos, pero también en platos salados como tajines y guisos especiados. En rama aromatiza líquidos; en polvo se integra en masas y cremas."
+      },
+      {
+        h: "Nuestra canela",
+        p: "Canela de Ceilán ecológica certificada, disponible en rama y en polvo, con un aroma cálido y equilibrado."
+      }
+    ],
+    sources: [
+      { label: "EFSA — Cumarina en alimentos", url: "https://www.efsa.europa.eu/en/topics/topic/coumarin" },
+      { label: "USDA FoodData Central — Cinnamon", url: "https://fdc.nal.usda.gov/" },
+      { label: "BEDCA — Composición de Alimentos", url: "https://www.bedca.net/" }
+    ]
+  },
+  {
+    slug: "espelta-bio-trigo-ancestral",
+    title: "Espelta BIO: el trigo ancestral que vuelve a tu mesa",
+    excerpt:
+      "Sabor a nuez y un perfil nutricional interesante. La espelta ecológica es la base perfecta para panes y repostería con carácter.",
+    cover: "/blog/espelta.webp",
+    category: "CEREALES",
+    read_time: "5 min",
+    date: "2026-02-26",
+    author: "Equipo Ecoandes",
+    related_query: "espelta",
+    body: [
+      {
+        h: "Un cereal ancestral",
+        p: "La espelta (Triticum spelta) es una variedad ancestral de trigo cultivada durante milenios en Europa y Oriente Próximo. Tras décadas en segundo plano, ha recuperado protagonismo por su sabor y por su cultivo, que se adapta bien a la agricultura ecológica."
+      },
+      {
+        h: "Perfil nutricional",
+        p: "Aporta fibra, proteína vegetal y minerales como magnesio, fósforo, zinc y hierro, además de vitaminas del grupo B. Su versión integral conserva el salvado y el germen, con mayor densidad nutricional que las harinas refinadas."
+      },
+      {
+        h: "Importante: contiene gluten",
+        p: "La espelta es un tipo de trigo y, por tanto, contiene gluten. No es apta para personas celíacas ni con sensibilidad al gluten no celíaca. Para el resto, es una alternativa con carácter a la harina de trigo común."
+      },
+      {
+        h: "Sabor y panificación",
+        p: "Su sabor recuerda a la nuez y aporta panes y bizcochos más aromáticos. La harina integral de espelta combina muy bien con avena y centeno; el grano entero es ideal para ensaladas, sopas y guarniciones tipo 'spelt risotto'."
+      },
+      {
+        h: "Nuestra espelta",
+        p: "Disponible en grano y en harina integral, de cultivo ecológico certificado, para hogar y obrador."
+      }
+    ],
+    sources: [
+      { label: "USDA FoodData Central — Spelt", url: "https://fdc.nal.usda.gov/" },
+      { label: "BEDCA — Composición de Alimentos", url: "https://www.bedca.net/" },
+      { label: "FEN — Fundación Española de la Nutrición", url: "https://www.fen.org.es/" }
+    ]
+  },
+  {
+    slug: "garbanzos-bio-proteina-mediterranea",
+    title: "Garbanzos BIO: versatilidad y proteína de la dieta mediterránea",
+    excerpt:
+      "Del cocido al hummus y el falafel. El garbanzo ecológico es una de las legumbres más versátiles y nutritivas que existen.",
+    cover: "/blog/garbanzos.webp",
+    category: "LEGUMBRES",
+    read_time: "5 min",
+    date: "2026-03-02",
+    author: "Equipo Ecoandes",
+    related_query: "garbanzo",
+    body: [
+      {
+        h: "Una legumbre mediterránea milenaria",
+        p: "El garbanzo (Cicer arietinum) se cultiva desde hace miles de años en el Mediterráneo y Oriente Próximo, y es uno de los pilares de la dieta mediterránea y de muchas cocinas del mundo, desde la española hasta la india u oriental."
+      },
+      {
+        h: "Nutrición en cada cuchara",
+        p: "Aporta alrededor de 19 g de proteína por cada 100 g de grano seco, fibra, folato, hierro, fósforo y manganeso. Combinado con cereales como el arroz o el pan, ofrece una proteína vegetal de gran calidad."
+      },
+      {
+        h: "Versatilidad sin límites",
+        p: "Más allá del cocido tradicional, el garbanzo brilla en hummus, ensaladas, guisos especiados, falafel y panes y crepes elaborados con harina de garbanzo (como la 'panisse' o la 'socca'). Incluso el agua de cocción, el aquafaba, sirve para montar recetas veganas."
+      },
+      {
+        h: "Bueno para ti y para la tierra",
+        p: "Como el resto de legumbres, el garbanzo fija nitrógeno en el suelo y mejora su fertilidad, con una huella ambiental baja. Es una pieza clave en una alimentación sostenible y consciente."
+      },
+      {
+        h: "Variedades en Ecoandes",
+        p: "Garbanzo castellano, lechoso y pedrosillano, todos de cultivo ecológico certificado, con texturas y tamaños pensados para cada receta."
+      }
+    ],
+    sources: [
+      { label: "FAO — Año Internacional de las Legumbres 2016", url: "https://www.fao.org/pulses-2016/es/" },
+      { label: "USDA FoodData Central — Chickpeas", url: "https://fdc.nal.usda.gov/" },
+      { label: "BEDCA — Composición de Alimentos", url: "https://www.bedca.net/" }
+    ]
+  },
+  {
+    slug: "semillas-lino-bio-omega-3",
+    title: "Semillas de lino BIO: omega-3, lignanos y fibra",
+    excerpt:
+      "Una semilla pequeña con un gran perfil nutricional. Te contamos por qué conviene tomarla molida y cómo usarla.",
+    cover: "/blog/lino.webp",
+    category: "SEMILLAS",
+    read_time: "5 min",
+    date: "2026-03-06",
+    author: "Equipo Ecoandes",
+    related_query: "lino",
+    body: [
+      {
+        h: "Una semilla con larga historia",
+        p: "El lino (Linum usitatissimum) se cultiva desde la antigüedad tanto por su fibra textil como por sus semillas. Hoy se valora sobre todo por su excepcional perfil nutricional, que la convierte en un complemento sencillo para enriquecer la dieta diaria."
+      },
+      {
+        h: "ALA, lignanos y mucílago",
+        p: "El lino es una de las fuentes vegetales más ricas en ácido alfa-linolénico (ALA), un ácido graso omega-3 esencial. Aporta además lignanos —compuestos con actividad antioxidante— y una fibra mucilaginosa que contribuye al tránsito intestinal normal."
+      },
+      {
+        h: "Mejor molido",
+        p: "La cubierta de la semilla es muy resistente, por lo que entera puede pasar sin digerirse. Para aprovechar sus nutrientes conviene tomarla molida o triturarla en el momento. Conserva el lino molido en un recipiente hermético y en frío para evitar que sus grasas se oxiden."
+      },
+      {
+        h: "Cómo usarlo",
+        p: "Espolvoreado sobre yogures, porridge, ensaladas y cremas; integrado en panes y bizcochos; o como sustituto del huevo (1 cucharada de lino molido + 3 de agua, reposando unos minutos). Su mucílago también ayuda a ligar masas."
+      },
+      {
+        h: "Nuestro lino",
+        p: "Semillas de lino dorado y marrón de cultivo ecológico certificado, disponibles también molidas, listas para usar."
+      }
+    ],
+    sources: [
+      { label: "EFSA — ALA y mantenimiento del colesterol normal", url: "https://www.efsa.europa.eu/en/efsajournal/pub/1252" },
+      { label: "USDA FoodData Central — Flaxseed", url: "https://fdc.nal.usda.gov/" },
+      { label: "Harvard T.H. Chan — Flaxseed", url: "https://nutritionsource.hsph.harvard.edu/" }
+    ]
+  },
+  {
+    slug: "jengibre-bio-raiz-picante",
+    title: "Jengibre BIO: la raíz picante para tu cocina y bienestar",
+    excerpt:
+      "Fresco, en polvo o confitado: descubre el jengibre ecológico, sus gingeroles y mil formas de disfrutarlo.",
+    cover: "/blog/jengibre.webp",
+    category: "ESPECIAS Y CONDIMENTOS",
+    read_time: "5 min",
+    date: "2026-03-10",
+    author: "Equipo Ecoandes",
+    related_query: "jengibre",
+    body: [
+      {
+        h: "Una raíz aromática y picante",
+        p: "El jengibre (Zingiber officinale) es el rizoma de una planta tropical originaria de Asia, utilizado desde hace milenios tanto en la cocina como en la medicina tradicional. Su sabor cálido y picante lo ha convertido en un ingrediente imprescindible en cocinas de todo el mundo."
+      },
+      {
+        h: "Gingeroles y shogaoles",
+        p: "Su carácter picante se debe principalmente a los gingeroles. Al secarse, parte de estos compuestos se transforman en shogaoles, que aportan un picor algo distinto. Ambos están detrás del interés científico por sus propiedades antioxidantes."
+      },
+      {
+        h: "Tradición y evidencia",
+        p: "El jengibre se ha empleado tradicionalmente para aliviar las náuseas y favorecer la digestión, y algunos estudios respaldan este uso. Aun así, la evidencia es limitada y, como alimento, no sustituye ningún tratamiento médico; conviene moderar su consumo durante el embarazo o si se toma medicación."
+      },
+      {
+        h: "Mil formas de usarlo",
+        p: "Fresco rallado en salteados, sopas y aliños; en polvo en repostería, currys y golden milk; en infusión con limón y miel; o confitado como dulce o topping. Combina especialmente bien con la cúrcuma y la canela."
+      },
+      {
+        h: "Nuestro jengibre",
+        p: "Disponible en polvo y en dados confitados con azúcar de caña, de cultivo ecológico certificado, para cocina dulce y salada."
+      }
+    ],
+    sources: [
+      { label: "NCCIH (NIH) — Ginger", url: "https://www.nccih.nih.gov/health/ginger" },
+      { label: "USDA FoodData Central — Ginger", url: "https://fdc.nal.usda.gov/" },
+      { label: "BEDCA — Composición de Alimentos", url: "https://www.bedca.net/" }
+    ]
+  }
+];
+
+export function getBlogPost(slug) {
+  return BLOG_POSTS.find((p) => p.slug === slug) || null;
+}

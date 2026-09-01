@@ -1,0 +1,14 @@
+[
+  {
+    "content": "ProductCard: revertir a layout horizontal móvil, píldoras formato arriba/precio abajo, selector de cantidad en todas las tarjetas, sin categoría/descripción; Shop sin prop detailed",
+    "status": "completed"
+  },
+  {
+    "content": "ProductDetail móvil: orden categoría+nombre → estrellas → descripción → imagen → precio+formatos → resto (solo orden, mismo diseño; escritorio intacto)",
+    "status": "completed"
+  },
+  {
+    "content": "Compilar + screenshots móvil/escritorio + testing",
+    "status": "completed"
+  }
+]

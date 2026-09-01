@@ -1,0 +1,44 @@
+{
+  "summary": "Completed testing of 4 EcoAndes changes: 1) Trazabilidad text updated in all locales, 2) Admin products search padding fix (magnifier icon no longer overlaps placeholder), 3) Hero carousel orientation-aware (landscape/portrait modes with different banners), 4) Admin hero dual image fields (web horizontal + mobile vertical). All backend APIs and frontend features working correctly.",
+  "backend_issues": {
+    "critical_bugs": [],
+    "flaky_endpoints": []
+  },
+  "frontend_issues": {
+    "ui_bugs": [],
+    "integration_issues": [],
+    "design_issues": []
+  },
+  "passed_tests": [
+    "BACKEND: GET /api/hero returns 5 slides with non-empty image AND image_mobile (zyrosite.com SVGs)",
+    "BACKEND: GET /api/admin/hero returns slides with image_mobile field",
+    "BACKEND: PUT /api/admin/hero preserves image_mobile when saving (sent back exact values, verified intact)",
+    "FRONTEND: Admin products search input has paddingLeft=40px (magnifier icon at 12px, no overlap with placeholder)",
+    "FRONTEND: Hero landscape mode shows horizontal banner (1352x452), portrait hero hidden",
+    "FRONTEND: Hero portrait mode (390x844) shows vertical banner (810x1012) with text at TOP, images loaded (naturalWidth > 0)",
+    "FRONTEND: Portrait dots ([data-testid='hero-pdot-1']) switch slides correctly",
+    "FRONTEND: Trazabilidad section shows new text 'Conoce el origen y certificación de cada lote. Agricultura ecológica y sostenible.' in Spanish",
+    "FRONTEND: Admin hero page (/admin/portada) shows dual image fields: 'Imagen web (horizontal)' with [data-testid='hero-img-0'] and 'Imagen móvil (vertical)' with [data-testid='hero-img-mobile-0'] plus 'Subir móvil' button",
+    "REGRESSION: Homepage loads without errors",
+    "REGRESSION: Shop page (/tienda) loads 696 products without errors"
+  ],
+  "test_report_links": [
+    "/app/backend_test_hero_mobile.py",
+    "/app/.screenshots/admin-products-search-padding.png",
+    "/app/.screenshots/hero-landscape.png",
+    "/app/.screenshots/hero-portrait.png",
+    "/app/.screenshots/hero-portrait-slide2.png",
+    "/app/.screenshots/trazabilidad-with-lang-selector.png",
+    "/app/.screenshots/admin-hero-dual-images.png"
+  ],
+  "action_item_for_main_agent": "",
+  "updated_files": [
+    "/app/backend_test_hero_mobile.py"
+  ],
+  "success_percentage": {
+    "backend": "100% (5/5 tests passed)",
+    "frontend": "100% (11/11 tests passed)"
+  },
+  "should_call_test_agent_after_fix": "false",
+  "should_main_agent_test_itself": "false"
+}

@@ -1,0 +1,416 @@
+/* ==========================================================================
+   EcoAndes · Footer — CSS puro, estrategia Mobile-First
+   Grid + Flexbox + Media Queries fluidas. Sin frameworks de utilidad.
+   ========================================================================== */
+
+:root {
+  --eco-green: #72a638;
+  --eco-green-dark: #5c8a2b;
+  --eco-ink: #2d332f;
+  --eco-ink-soft: #606962;
+  --eco-ink-muted: #9ba39d;
+  --eco-bg-soft: #f9faf8;
+  --eco-cream: #fdfcf9;
+  --eco-line: rgba(45, 51, 47, 0.1);
+  --eco-white: #ffffff;
+  --eco-radius: 10px;
+  --eco-transition: all 0.3s ease;
+  --eco-container: 1240px;
+  --eco-pad-x: 5%;
+}
+
+.eco-footer * {
+  box-sizing: border-box;
+}
+
+.eco-footer {
+  margin-top: 5rem;
+  font-family: inherit;
+}
+
+.eco-footer__container {
+  max-width: var(--eco-container);
+  margin: 0 auto;
+  padding-left: var(--eco-pad-x);
+  padding-right: var(--eco-pad-x);
+}
+
+@media (min-width: 1280px) {
+  .eco-footer__container {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+
+/* --------------------------------------------------------------------------
+   5.1 Bloque superior: Newsletter (mobile-first: columna → fila)
+   -------------------------------------------------------------------------- */
+.eco-footer__newsletter {
+  background: var(--eco-green);
+  color: var(--eco-white);
+}
+
+.eco-footer__newsletter-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 1.5rem;
+  padding-top: 2.75rem;
+  padding-bottom: 2.75rem;
+}
+
+.eco-footer__newsletter-title {
+  margin: 0 0 0.4rem;
+  font-weight: 300;
+  font-size: clamp(1.35rem, 3.5vw, 1.9rem);
+  line-height: 1.2;
+}
+
+.eco-footer__newsletter-sub {
+  margin: 0;
+  font-size: 0.9rem;
+  opacity: 0.92;
+  font-weight: 300;
+  max-width: 34rem;
+}
+
+.eco-footer__form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  width: 100%;
+}
+
+.eco-footer__input {
+  width: 100%;
+  padding: 0.85rem 1.1rem;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  border-radius: var(--eco-radius);
+  background: var(--eco-cream);
+  color: var(--eco-ink);
+  font-size: 0.95rem;
+  outline: none;
+  transition: var(--eco-transition);
+}
+
+.eco-footer__input::placeholder {
+  color: var(--eco-ink-muted);
+}
+
+.eco-footer__input:focus {
+  border-color: var(--eco-white);
+  box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.25);
+}
+
+.eco-footer__submit {
+  padding: 0.85rem 1.6rem;
+  border: 1px solid var(--eco-white);
+  border-radius: var(--eco-radius);
+  background: var(--eco-white);
+  color: var(--eco-green-dark);
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: var(--eco-transition);
+  white-space: nowrap;
+}
+
+.eco-footer__submit:hover,
+.eco-footer__submit:focus-visible {
+  background: var(--eco-green-dark);
+  color: var(--eco-white);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.16);
+}
+
+.eco-footer__submit:disabled {
+  opacity: 0.65;
+  cursor: wait;
+  transform: none;
+}
+
+@media (min-width: 560px) {
+  .eco-footer__form {
+    flex-direction: row;
+  }
+  .eco-footer__input {
+    flex: 1;
+  }
+}
+
+@media (min-width: 768px) {
+  .eco-footer__newsletter-inner {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+    gap: 3rem;
+  }
+  .eco-footer__form {
+    width: auto;
+    min-width: 24rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .eco-footer__form {
+    min-width: 28rem;
+  }
+}
+
+/* --------------------------------------------------------------------------
+   5.2 Bloque principal: navegación y contacto (1 col → 2 col → 4 col)
+   -------------------------------------------------------------------------- */
+.eco-footer__main {
+  background: var(--eco-bg-soft);
+  color: var(--eco-ink);
+}
+
+.eco-footer__grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+@media (min-width: 768px) {
+  .eco-footer__grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 2.5rem;
+    padding-top: 3.75rem;
+    padding-bottom: 3.75rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .eco-footer__grid {
+    grid-template-columns: 2fr 1fr 1fr 1.5fr;
+    gap: 3rem;
+  }
+}
+
+.eco-footer__heading {
+  margin: 0 0 1.1rem;
+  font-size: 0.72rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--eco-ink);
+}
+
+/* Columna 1: marca */
+.eco-footer__logo {
+  height: 66px;
+  width: auto;
+  object-fit: contain;
+  margin-bottom: 1.1rem;
+}
+
+.eco-footer__tagline {
+  margin: 0 0 1.4rem;
+  font-size: 0.9rem;
+  font-weight: 300;
+  line-height: 1.65;
+  color: var(--eco-ink-soft);
+  max-width: 26rem;
+}
+
+.eco-footer__contact {
+  list-style: none;
+  margin: 0 0 1.4rem;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.65rem;
+}
+
+.eco-footer__contact a {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 0.55rem;
+  color: var(--eco-ink-soft);
+  text-decoration: none;
+  font-size: 0.88rem;
+  line-height: 1.5;
+  transition: var(--eco-transition);
+}
+
+.eco-footer__contact a:hover {
+  color: var(--eco-green-dark);
+}
+
+.eco-footer__contact svg {
+  flex-shrink: 0;
+  margin-top: 0.18rem;
+}
+
+.eco-footer__socials {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  gap: 0.7rem;
+}
+
+.eco-footer__social {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  border: 1px solid var(--eco-line);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--eco-ink-soft);
+  background: var(--eco-white);
+  transition: var(--eco-transition);
+}
+
+.eco-footer__social:hover,
+.eco-footer__social:focus-visible {
+  background: var(--eco-green);
+  border-color: var(--eco-green);
+  color: var(--eco-white);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(114, 166, 56, 0.35);
+}
+
+/* Columnas 2 y 3: enlaces */
+.eco-footer__links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+}
+
+.eco-footer__links a {
+  display: inline-block;
+  color: var(--eco-ink-soft);
+  text-decoration: none;
+  font-size: 0.9rem;
+  transition: var(--eco-transition);
+}
+
+.eco-footer__links a:hover,
+.eco-footer__links a:focus-visible {
+  color: var(--eco-green-dark);
+  transform: translateX(5px);
+}
+
+/* Columna 4: tienda física y horarios */
+.eco-footer__store-address {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 0.55rem;
+  color: var(--eco-ink-soft);
+  text-decoration: none;
+  font-size: 0.88rem;
+  line-height: 1.55;
+  transition: var(--eco-transition);
+  margin-bottom: 1.35rem;
+}
+
+.eco-footer__store-address:hover {
+  color: var(--eco-green-dark);
+}
+
+.eco-footer__store-address svg {
+  flex-shrink: 0;
+  margin-top: 0.18rem;
+}
+
+.eco-footer__hours {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.45rem;
+  max-width: 22rem;
+}
+
+.eco-footer__hours li {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 1rem;
+  font-size: 0.86rem;
+}
+
+.eco-footer__hours .eco-footer__day {
+  color: var(--eco-ink-soft);
+}
+
+.eco-footer__hours .eco-footer__time {
+  color: var(--eco-ink);
+  white-space: nowrap;
+}
+
+.eco-footer__hours .eco-footer__time--closed {
+  color: var(--eco-ink-muted);
+}
+
+/* --------------------------------------------------------------------------
+   5.3 Barra inferior (columna en móvil → fila en tablet/desktop)
+   -------------------------------------------------------------------------- */
+.eco-footer__bottom {
+  background: var(--eco-bg-soft);
+  border-top: 1px solid var(--eco-line);
+}
+
+.eco-footer__bottom-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 1rem;
+  padding-top: 1.4rem;
+  padding-bottom: 1.4rem;
+}
+
+.eco-footer__copyright {
+  margin: 0;
+  font-size: 0.8rem;
+  color: var(--eco-ink-muted);
+}
+
+.eco-footer__legal {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5rem 1.5rem;
+}
+
+.eco-footer__legal a {
+  color: var(--eco-ink-soft);
+  text-decoration: none;
+  font-size: 0.8rem;
+  transition: var(--eco-transition);
+}
+
+.eco-footer__legal a:hover,
+.eco-footer__legal a:focus-visible {
+  color: var(--eco-green-dark);
+}
+
+@media (min-width: 768px) {
+  .eco-footer__bottom-inner {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+  }
+  .eco-footer__legal {
+    justify-content: flex-end;
+  }
+}

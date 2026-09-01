@@ -1,0 +1,37 @@
+{
+  "summary": "Completed frontend testing for Product Detail page certification block and technical data sheets. Tested 8 products total (5 with tech sheets + 3 random products). All certification blocks render correctly on every product page with ES-ECO-023-MA text and 4 certification images. All 5 products with technical data sheets (ACA70, ACE70, ALMP100, AMM400, AMT400) display complete description blocks, nutrition tables, and downloadable PDF links. All static assets (4 SVGs + 5 PDFs) return HTTP 200.",
+  "backend_issues": {
+    "critical_bugs": [],
+    "flaky_endpoints": []
+  },
+  "frontend_issues": {
+    "ui_bugs": [],
+    "integration_issues": [],
+    "design_issues": []
+  },
+  "passed_tests": [
+    "Certification block renders on ALL product pages (tested 8 products: ACA70, ACE70, ALMP100, AMM400, AMT400, CACN150, AMG100, AVP5)",
+    "Certification block positioned BELOW SKU with data-testid='product-certifications'",
+    "Certification intro text contains 'ES-ECO-023-MA' on all products",
+    "Exactly 4 certification badges present (data-testid='certification-badge-1' through 'certification-badge-4')",
+    "All 4 certification images load successfully (naturalWidth > 0)",
+    "ACA70 (Açaí) - Description tab shows ingredients '100% açaí', origin 'Brasil', nutrition table (8 rows with values 2263 kJ/541 kcal, 54g fat, 9.8g protein), tech sheet PDF /docs/ACAI-FT-ECOANDES.pdf",
+    "ACE70 (Acerola) - Description tab shows ingredients '100% acerola', origin 'Brasil', nutrition table (9 rows with values 1443 kJ/345 kcal, >10g Vitamin C), tech sheet PDF /docs/ACEROLA-FT-ECOANDES-2023.pdf",
+    "ALMP100 (Almendra) - Description tab shows ingredients '100% almendra', origin 'España', nutrition table (8 rows with values 1670 kJ/399 kcal, 5.7g fat, 21.6g protein), tech sheet PDF /docs/FICHA-TECNICA-ALMENDRA-PELADA-2025.pdf",
+    "AMM400 (Almidón de Maíz Nativo) - Description tab shows ingredients '100% maíz nativo', origin 'Austria', nutrition table (8 rows with values 1481 kJ/354 kcal, 0.1g fat, 87g carbs), tech sheet PDF /docs/ALMIDON-DE-MAIZ-NATIVO-FT-ECOANDES.pdf",
+    "AMT400 (Almidón de Mandioca) - Description tab shows ingredients '100% almidón de mandioca', origin 'Brasil', nutrition table (8 rows with values 1498 kJ/358 kcal, 0.02g fat, 88.69g carbs), tech sheet PDF /docs/ALMIDON-DE-MANDIOCA-FT-ECOANDES.pdf",
+    "All 4 certification SVGs return HTTP 200 (/certifications/cert-1.svg through cert-4.svg)",
+    "All 5 tech sheet PDFs return HTTP 200 and have correct content-type",
+    "Tabs navigation working correctly (Description, Nutrition, Technical Sheet tabs)",
+    "Download buttons present with data-testid='technical-sheet-download-button' and correct PDF hrefs"
+  ],
+  "test_report_links": [],
+  "success_percentage": {
+    "frontend": "100%",
+    "backend": "N/A (frontend-only testing)"
+  },
+  "action_item_for_main_agent": "",
+  "updated_files": [],
+  "should_call_test_agent_after_fix": false,
+  "should_main_agent_test_itself": false
+}
