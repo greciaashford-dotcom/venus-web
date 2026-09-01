@@ -237,6 +237,7 @@
     "techSheetTitle": "Product technical sheet",
     "techSheetDesc": "Download the technical sheet in PDF with all detailed information.",
     "downloadPdf": "Download PDF",
+    "viewPdf": "View Document",
     "techSheetEmpty": "Technical sheet not available for this product.",
     "relatedTitle": "Related products",
     "bestSellersTitle": "Best sellers",

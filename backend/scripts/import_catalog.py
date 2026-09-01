@@ -172,6 +172,14 @@ async def build():
             fmt = norm_format(p.get("fmt") or w.get("fmt"))
             price_retail = w.get("pvp", 0.0)
             price_pro = p.get("price_pro") or w.get("price_pro") or 0.0
+            # Bulk formats (>1 kg) are priced per kg in the Excel; convert to total
+            unit_price_kg = round(price_retail, 2)
+            unit_price_kg_pro = round(price_pro, 2)
+            bulk_fixed = False
+            if weight > 1.0:
+                price_retail = round(price_retail * weight, 2)
+                price_pro = round(price_pro * weight, 2)
+                bulk_fixed = True
             members.append({
                 "sku": sku,
                 "name": fmt,
@@ -184,6 +192,9 @@ async def build():
                 "ean": p.get("ean") or w.get("ean") or "",
                 "available_retail": sku in web,
                 "available_professional": sku in pro,
+                "unit_price_kg": unit_price_kg,
+                "unit_price_kg_professional": unit_price_kg_pro,
+                "bulk_price_fixed": bulk_fixed,
             })
         # order variations by weight asc
         members.sort(key=lambda m: m["weight_kg"])

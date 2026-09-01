@@ -1,0 +1,16 @@
+{
+  "summary": "Validated bulk price fix (>1kg formats) and PDF preview on product techsheet tab. Backend: 10/10 pytest tests pass covering the 4 spec SKUs (CACN150/CACN5=185.50/137.40, QRB500/QRB5=49.80/36.90, SGIR250/SGIR5=33.60/24.90, MCP300/MCP5=94.90/70.30), base price = min(variation retail) for all 4 parents (7.69/5.65/2.70/8.33), full catalog scan confirms every variation with weight_kg>1 & bulk_price_fixed=true satisfies price_retail ≈ unit_price_kg*weight_kg (±0.05) and NO variation with weight_kg>1 remains unfixed with price>0, and no small (<=1kg) format was accidentally flagged. Frontend: on /producto/cacao-nibs-criollo-bio, techsheet-card, techsheet-preview, technical-sheet-view-button, technical-sheet-download-button all present/visible; both buttons href = https://green-andes.preview.emergentagent.com/api/files/ecoandes/tech-sheets/4c567e4f925f40cb9a3dc3287a673bad.pdf; canvas rendered inside preview (190x268) with visible PDF thumbnail; no raw 'product.viewPdf' i18n key visible; description/nutrition/techsheet/reviews tabs all present; variations 150g/1kg/5kg visible.",
+  "backend_issues": {"critical": [], "minor": []},
+  "frontend_issues": {"ui_bugs": [], "integration_issues": [], "design_issues": []},
+  "test_report_links": ["/app/backend/tests/test_bulk_prices.py", "/app/test_reports/pytest/bulk_prices.xml"],
+  "action_items": [],
+  "critical_code_review_comments": [],
+  "updated_files": ["/app/backend/tests/test_bulk_prices.py"],
+  "success_rate": {"backend": "100%", "frontend": "100%"},
+  "test_credentials": "admin@ecoandes.com / Admin123! (not needed for these tests)",
+  "seed_data_creation": "None",
+  "retest_needed": false,
+  "should_main_agent_self_test": false,
+  "context_for_next_testing_agent": "test_bulk_prices.py validates the bulk-price fix (weight>1 variations must have price = unit_price_kg * weight_kg with bulk_price_fixed=true). Frontend PDF preview uses react-pdf and renders as canvas inside data-testid='techsheet-preview'; splash 'SALTAR' button must be dismissed first. Slug for cacao nibs: cacao-nibs-criollo-bio.",
+  "rca of the issue": "N/A - fix verified working."
+}

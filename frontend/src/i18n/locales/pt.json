@@ -237,6 +237,7 @@
     "techSheetTitle": "Ficha técnica do produto",
     "techSheetDesc": "Descarregue a ficha técnica em PDF com toda a informação detalhada.",
     "downloadPdf": "Descarregar PDF",
+    "viewPdf": "Ver Documento",
     "techSheetEmpty": "Ficha técnica não disponível para este produto.",
     "relatedTitle": "Produtos relacionados",
     "bestSellersTitle": "Os mais vendidos",

@@ -18,6 +18,7 @@ import TrustBadges from "../components/TrustBadges";
 import ProductCarousel from "../components/ProductCarousel";
 import ProductReviews from "../components/ProductReviews";
 import StarRating from "../components/StarRating";
+import TechSheetPreview from "../components/TechSheetPreview";
 import Seo from "../components/Seo";
 
 const WHATSAPP = "34696173094";
@@ -535,23 +536,24 @@ export default function ProductDetail() {
           {/* Tech sheet */}
           <TabsContent value="techsheet" className="mt-6" data-testid="product-technical-sheet-tab">
             {techUrl ? (
-              <div className="rounded-2xl border border-bone-200 bg-white p-5 sm:p-6 max-w-xl" data-testid="techsheet-card">
-                <div className="flex items-start gap-4">
-                  <div className="w-11 h-11 rounded-full bg-sage-50 border border-sage-200 flex items-center justify-center shrink-0">
-                    <FileDown className="text-sage-600" size={19} />
-                  </div>
-                  <div className="min-w-0">
+              <div className="rounded-2xl border border-bone-200 bg-white p-5 sm:p-6 max-w-2xl" data-testid="techsheet-card">
+                <div className="flex items-start gap-5">
+                  <TechSheetPreview url={techUrl} alt={`${product.name} — ficha técnica`} />
+                  <div className="min-w-0 flex-1">
+                    <div className="w-11 h-11 rounded-full bg-sage-50 border border-sage-200 flex items-center justify-center mb-3">
+                      <FileDown className="text-sage-600" size={19} />
+                    </div>
                     <div className="font-heading text-lg text-ink leading-snug">{t("product.techSheetTitle")}</div>
                     <p className="text-sm text-ink-soft mt-1 leading-relaxed">{t("product.techSheetDesc")}</p>
+                    <div className="mt-5 flex flex-col sm:flex-row gap-2.5">
+                      <a href={techUrl} target="_blank" rel="noopener noreferrer" className="btn-outline w-full sm:w-auto inline-flex items-center justify-center gap-2" data-testid="technical-sheet-view-button">
+                        <FileDown size={15} /> {t("product.viewPdf") || "Ver Documento"}
+                      </a>
+                      <a href={techUrl} target="_blank" rel="noopener noreferrer" download className="btn-primary w-full sm:w-auto inline-flex items-center justify-center gap-2" data-testid="technical-sheet-download-button">
+                        <FileDown size={15} /> {t("product.downloadPdf")}
+                      </a>
+                    </div>
                   </div>
-                </div>
-                <div className="mt-5 flex flex-col sm:flex-row gap-2.5">
-                  <a href={techUrl} target="_blank" rel="noopener noreferrer" className="btn-outline w-full sm:w-auto inline-flex items-center justify-center gap-2" data-testid="technical-sheet-view-button">
-                    <FileDown size={15} /> Ver Documento
-                  </a>
-                  <a href={techUrl} target="_blank" rel="noopener noreferrer" download className="btn-primary w-full sm:w-auto inline-flex items-center justify-center gap-2" data-testid="technical-sheet-download-button">
-                    <FileDown size={15} /> {t("product.downloadPdf")}
-                  </a>
                 </div>
               </div>
             ) : (
