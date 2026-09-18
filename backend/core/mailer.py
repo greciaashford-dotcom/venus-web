@@ -1,6 +1,7 @@
 """Resend email sender."""
 import asyncio
 import logging
+from pathlib import Path
 from typing import Optional
 
 import resend
@@ -8,6 +9,52 @@ import resend
 from core.config import RESEND_API_KEY, SENDER_EMAIL, ADMIN_NOTIFICATION_EMAIL, STORE_NOTIFICATION_EMAIL
 
 logger = logging.getLogger(__name__)
+
+# ---------- Logo corporativo embebido (CID inline) ----------
+_LOGO_PATH = Path(__file__).resolve().parent.parent / "assets" / "logo-ecoandes-email.png"
+try:
+    _LOGO_BYTES = list(_LOGO_PATH.read_bytes())
+except Exception as _e:  # noqa: BLE001
+    logger.warning("Email logo not found at %s: %s", _LOGO_PATH, _e)
+    _LOGO_BYTES = None
+
+
+def _logo_attachment() -> Optional[dict]:
+    """Adjunto inline del logo, referenciado en el HTML como <img src='cid:ecoandes-logo'>."""
+    if not _LOGO_BYTES:
+        return None
+    return {
+        "content": _LOGO_BYTES,
+        "filename": "ecoandes-logo.png",
+        "content_id": "ecoandes-logo",
+        "content_type": "image/png",
+    }
+
+
+def _signature_html() -> str:
+    """Firma electrónica corporativa (logo a la izquierda, datos a la derecha)."""
+    logo_cell = (
+        '<td style="vertical-align:middle;padding-right:18px;width:160px;">'
+        '<img src="cid:ecoandes-logo" width="150" alt="ECOANDES" '
+        'style="display:block;width:150px;height:auto;border:0;"/></td>'
+        if _LOGO_BYTES else ""
+    )
+    return f"""
+    <table role="presentation" width="100%" style="border-collapse:collapse;">
+      <tr>
+        {logo_cell}
+        <td style="vertical-align:middle;border-left:2px solid #E1EAD3;padding-left:18px;color:#2D332F;font-size:12px;line-height:1.7;font-family:Manrope,Arial,sans-serif;">
+          <strong style="color:#2D332F;font-size:13px;">ECOANDES IMPORT EXPORT SL</strong><br/>
+          C/Ferrocarril, 16 Edif 12 nave 4<br/>
+          28880 Meco-Madrid<br/>
+          Cif: B87015830<br/>
+          Tel: +34- 91 830 72 66<br/>
+          <a href="https://www.productosecoandes.com" style="color:#4A6B4D;text-decoration:none;">www.productosecoandes.com</a><br/>
+          <a href="mailto:info@productosecoandes.com" style="color:#4A6B4D;text-decoration:none;">info@productosecoandes.com</a>
+        </td>
+      </tr>
+    </table>
+    """
 
 
 def _order_email_html(order: dict) -> str:
@@ -67,9 +114,9 @@ def _order_email_html(order: dict) -> str:
           {addr.get('postal_code', '')} {addr.get('city', '')}, {addr.get('province', '')}<br/>
           {addr.get('country', '')}
         </p>
-        <p style="color:#9BA39D;font-size:11px;text-align:center;margin-top:40px;letter-spacing:0.1em;">
-          Ecoandes · Productos ecológicos de los Andes
-        </p>
+        <div style="margin-top:36px;padding-top:24px;border-top:1px solid #EAE6DF;">
+          {_signature_html()}
+        </div>
       </div>
     </div>
     """
@@ -87,6 +134,9 @@ async def send_order_confirmation(order: dict) -> Optional[str]:
         "subject": f"Confirmación de pedido #{order.get('order_number', '')} · Ecoandes",
         "html": _order_email_html(order),
     }
+    att = _logo_attachment()
+    if att:
+        params["attachments"] = [att]
     try:
         resp = await asyncio.to_thread(resend.Emails.send, params)
         return resp.get("id") if isinstance(resp, dict) else None
@@ -131,6 +181,9 @@ def _pickup_email_html(order: dict) -> str:
           {('Tel: ' + addr.get('phone')) if addr.get('phone') else ''}<br/>
           Email: {order.get('email', '')}
         </p>
+        <div style="margin-top:28px;padding-top:20px;border-top:1px solid #EAE6DF;">
+          {_signature_html()}
+        </div>
       </div>
     </div>
     """
@@ -151,6 +204,9 @@ async def send_pickup_notification(order: dict) -> Optional[str]:
         "subject": f"🛍️ Recogida en tienda · Pedido #{order.get('order_number', '')} · Ecoandes",
         "html": _pickup_email_html(order),
     }
+    att = _logo_attachment()
+    if att:
+        params["attachments"] = [att]
     try:
         resp = await asyncio.to_thread(resend.Emails.send, params)
         return resp.get("id") if isinstance(resp, dict) else None
@@ -193,14 +249,14 @@ def _wrap(title: str, body_html: str, accent: str = "#72A638") -> str:
           </span>
         </div>
 
+        <!-- Firma corporativa -->
+        <div style="background:#FFFFFF;border:1px solid #E7E3D8;border-top:none;padding:20px 32px;">
+          {_signature_html()}
+        </div>
+
         <!-- Footer -->
-        <div style="background:#2D332F;border-radius:0 0 14px 14px;padding:22px 32px;text-align:center;">
-          <div style="color:#C9D3C5;font-size:12px;line-height:1.8;">
-            <strong style="color:#FFFFFF;">EcoAndes · Productos ecológicos de los Andes</strong><br/>
-            Mercado Barceló · C. de Barceló, 6 · Local 204 · 28004 Madrid<br/>
-            <a href="https://productosecoandes.com" style="color:#A9CB7E;text-decoration:none;">productosecoandes.com</a>
-          </div>
-          <div style="color:#6E766F;font-size:10px;margin-top:12px;letter-spacing:0.08em;">
+        <div style="background:#2D332F;border-radius:0 0 14px 14px;padding:16px 32px;text-align:center;">
+          <div style="color:#6E766F;font-size:10px;letter-spacing:0.08em;">
             © EcoAndes · Compra salud, compra BIO
           </div>
         </div>
@@ -219,6 +275,9 @@ async def _send(to: str, subject: str, html: str) -> Optional[str]:
         return None
     resend.api_key = RESEND_API_KEY
     params = {"from": SENDER_EMAIL, "to": [to], "subject": subject, "html": html}
+    att = _logo_attachment()
+    if att:
+        params["attachments"] = [att]
     try:
         resp = await asyncio.to_thread(resend.Emails.send, params)
         return resp.get("id") if isinstance(resp, dict) else None
@@ -386,6 +445,9 @@ async def _send_company(subject: str, html: str) -> Optional[str]:
         return None
     resend.api_key = RESEND_API_KEY
     params = {"from": SENDER_EMAIL, "to": recipients, "subject": subject, "html": html}
+    att = _logo_attachment()
+    if att:
+        params["attachments"] = [att]
     try:
         resp = await asyncio.to_thread(resend.Emails.send, params)
         return resp.get("id") if isinstance(resp, dict) else None

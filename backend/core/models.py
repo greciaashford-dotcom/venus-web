@@ -191,7 +191,7 @@ class NewsletterSubscribe(BaseModel):
 
 
 # ---------- Order ----------
-OrderStatus = Literal["Pendiente portes", "Pendiente", "Pagado", "Enviado", "Completado", "Cancelado", "Reembolsado"]
+OrderStatus = Literal["Pendiente portes", "Pendiente", "Pagado", "Enviado", "Completado", "Cancelado", "Reembolsado", "Devuelto"]
 PaymentMethod = Literal["stripe", "paypal", "transfer", "other", "pending_quote"]
 DeliveryMethod = Literal["shipping", "pickup"]
 

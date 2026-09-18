@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import { Leaf, BadgeCheck, Sprout, Package, FileDown, PlayCircle } from "lucide-react";
 import { api, resolveAsset } from "../lib/api";
+import Seo from "../components/Seo";
 
 const IMG1 = "/tienda-ecoandes-barcelo.jpg";
 
@@ -40,6 +41,7 @@ export default function About() {
 
   return (
     <div className="max-w-6xl mx-auto px-6 lg:px-12 py-20" data-testid="about-page">
+      <Seo title="Sobre EcoAndes · Productos ecológicos del origen a tu mesa" description="Conoce EcoAndes: importamos y distribuimos superalimentos, semillas, harinas y legumbres ecológicas (BIO) con certificación europea, del origen a tu mesa." />
       {/* Intro */}
       <div className="overline mb-3">{t("about.overline")}</div>
       <h1 className="font-heading text-4xl md:text-5xl font-light max-w-3xl leading-[1.08]">

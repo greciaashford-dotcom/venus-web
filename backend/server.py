@@ -24,7 +24,7 @@ from routes.community import router as community_router  # noqa: E402
 from routes.files import router as files_router  # noqa: E402
 from routes.hero import router as hero_router, seed_hero_if_empty  # noqa: E402
 from routes.orders import router as orders_router  # noqa: E402
-from routes.payments import router as payments_router, webhook_router  # noqa: E402
+from routes.payments import router as payments_router, webhook_router, refund_api_router  # noqa: E402
 from routes.products import router as products_router  # noqa: E402
 from routes.reviews import router as reviews_router  # noqa: E402
 from routes.whatsapp import router as whatsapp_router  # noqa: E402
@@ -61,6 +61,7 @@ app.include_router(orders_router)
 app.include_router(admin_router)
 app.include_router(payments_router)
 app.include_router(webhook_router)
+app.include_router(refund_api_router)
 app.include_router(files_router)
 app.include_router(hero_router)
 app.include_router(community_router)

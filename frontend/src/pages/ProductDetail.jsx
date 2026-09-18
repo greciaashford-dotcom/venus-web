@@ -175,10 +175,21 @@ export default function ProductDetail() {
     name: product.name,
     description: seoDesc,
     sku: product.sku,
+    mpn: product.sku,
     category: product.category,
+    ...(typeof window !== "undefined" ? { url: window.location.href } : {}),
     ...(seoImage ? { image: [seoImage] } : {}),
     brand: { "@type": "Brand", name: "EcoAndes" },
     ...(product.origin_country ? { countryOfOrigin: product.origin_country } : {}),
+    ...(product.web_rating && product.web_reviews
+      ? {
+          aggregateRating: {
+            "@type": "AggregateRating",
+            ratingValue: Number(product.web_rating).toFixed(1),
+            reviewCount: product.web_reviews,
+          },
+        }
+      : {}),
     ...(offerPrices.length
       ? {
           offers: {

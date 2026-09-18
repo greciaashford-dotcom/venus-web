@@ -2,6 +2,7 @@ import React from "react";
 import { useTranslation } from "react-i18next";
 import { MapPin, Mail, Phone, MessageCircle, Store, Clock } from "lucide-react";
 import { STORE, STORE_HOURS, STORE_MAPS_URL, WAREHOUSE_MAPS_URL, STORE_MAP_EMBED_URL } from "../data/storeInfo";
+import Seo from "../components/Seo";
 
 const PHONE_DISPLAY = "918 30 72 66";
 const PHONE_TEL = "+34918307266";
@@ -12,6 +13,7 @@ export default function Contact() {
   const { t } = useTranslation();
   return (
     <div className="max-w-5xl mx-auto px-6 lg:px-12 py-20" data-testid="contact-page">
+      <Seo title="Contacto · EcoAndes" description="Contacta con EcoAndes: tienda en el Mercado de Barceló (Madrid), teléfono, email y WhatsApp. Atención a particulares y profesionales (B2B)." />
       <div className="overline mb-3">{t("contact.overline")}</div>
       <h1 className="font-heading text-4xl md:text-5xl font-light max-w-3xl leading-[1.08]">
         {t("contact.title")}

@@ -7,6 +7,7 @@ export default function PaymentSuccess() {
   const { t } = useTranslation();
   const [params] = useSearchParams();
   const sessionId = params.get("session_id");
+  const paymentIntentId = params.get("payment_intent");
   const orderNumber = params.get("order_number");
   const provider = params.get("provider");
   const offline = params.get("offline") || params.get("transfer");
@@ -21,7 +22,18 @@ export default function PaymentSuccess() {
     const poll = async () => {
       if (!active) return;
       try {
-        if (sessionId && !provider) {
+        if (paymentIntentId) {
+          const { data } = await api.get(`/payments/stripe/intent-status/${paymentIntentId}`);
+          setOrder(data.order || null);
+          if (data.payment_status === "succeeded") {
+            setStatus("success");
+            return;
+          }
+          if (data.payment_status === "processing") {
+            setStatus("pending");
+            return;
+          }
+        } else if (sessionId && !provider) {
           const { data } = await api.get(`/payments/stripe/status/${sessionId}`);
           setOrder(data.order || null);
           if (data.payment_status === "paid" || data.status === "complete") {
@@ -50,7 +62,7 @@ export default function PaymentSuccess() {
     };
     poll();
     return () => { active = false; };
-  }, [sessionId, orderNumber, provider, offline, isQuote]);
+  }, [sessionId, paymentIntentId, orderNumber, provider, offline, isQuote]);
 
   return (
     <div className="max-w-2xl mx-auto px-6 py-24 text-center" data-testid="payment-success-page">

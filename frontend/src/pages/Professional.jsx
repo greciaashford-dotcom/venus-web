@@ -2,12 +2,14 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import { useAuth } from "../context/AuthContext";
+import Seo from "../components/Seo";
 
 export default function Professional() {
   const { t } = useTranslation();
   const { user } = useAuth();
   return (
     <div className="max-w-5xl mx-auto px-6 lg:px-12 py-20" data-testid="b2b-page">
+      <Seo title="Venta a profesionales (B2B) · EcoAndes" description="Precios y condiciones especiales para profesionales, tiendas y hostelería. Compra ingredientes ecológicos a granel al por mayor con EcoAndes." />
       <div className="overline mb-3">{t("professional.overline")}</div>
       <h1 className="font-heading text-4xl md:text-5xl font-light max-w-3xl leading-[1.08]">
         {t("professional.title")}

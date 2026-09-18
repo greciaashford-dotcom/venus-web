@@ -567,7 +567,7 @@ async def admin_list_orders(
     return orders
 
 
-ORDER_STATUSES = ["Pendiente portes", "Pendiente", "Pagado", "Enviado", "Completado", "Cancelado"]
+ORDER_STATUSES = ["Pendiente portes", "Pendiente", "Pagado", "Enviado", "Completado", "Cancelado", "Reembolsado", "Devuelto"]
 
 
 @router.get("/admin/status-counts", dependencies=[Depends(require_admin)])

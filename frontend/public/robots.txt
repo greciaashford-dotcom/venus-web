@@ -1,0 +1,12 @@
+User-agent: *
+Allow: /
+Disallow: /admin
+Disallow: /checkout
+Disallow: /cuenta
+Disallow: /login
+Disallow: /registro
+Disallow: /pago/
+Disallow: /lista-deseos
+Disallow: /comparar
+
+Sitemap: https://productosecoandes.com/sitemap.xml

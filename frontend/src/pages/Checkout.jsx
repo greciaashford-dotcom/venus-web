@@ -9,6 +9,7 @@ import { useAuth } from "../context/AuthContext";
 import { STORE } from "../data/storeInfo";
 import { buildCartSnapshot, rememberGuestEmail } from "../components/CartTracker";
 import { isSpain, isValidSpanishPostalCode, provinceForPostalCode } from "../lib/esPostal";
+import StripeCardModal from "../components/StripeCardModal";
 // Logos de medios de pago (SVG inline, sin peticiones externas)
 const CardLogos = () => (
   <span className="inline-flex items-center gap-1.5 align-middle" data-testid="card-logos">
@@ -39,6 +40,7 @@ export default function Checkout() {
   const { user } = useAuth();
   const nav = useNavigate();
   const [submitting, setSubmitting] = useState(false);
+  const [stripeModal, setStripeModal] = useState(null); // { clientSecret, amount, orderNumber }
   const [shipping, setShipping] = useState(null);
   const [method, setMethod] = useState("stripe");
   const [delivery, setDelivery] = useState("shipping");
@@ -255,12 +257,16 @@ export default function Checkout() {
         return;
       }
       if (method === "stripe") {
-        const { data: sess } = await api.post("/payments/stripe/checkout", {
+        // Flujo on-site con Stripe Payment Element (PaymentIntents)
+        const { data: intent } = await api.post("/payments/stripe/create-intent", {
           order_id: order.id,
-          origin_url: window.location.origin,
         });
-        clearCart();
-        window.location.href = sess.url;
+        setStripeModal({
+          clientSecret: intent.client_secret,
+          amount: intent.amount,
+          orderNumber: order.order_number,
+        });
+        setSubmitting(false);
         return;
       }
       if (method === "paypal") {
@@ -549,6 +555,19 @@ export default function Checkout() {
           </button>
         </aside>
       </form>
+
+      {stripeModal && (
+        <StripeCardModal
+          clientSecret={stripeModal.clientSecret}
+          amount={stripeModal.amount}
+          orderNumber={stripeModal.orderNumber}
+          onClose={() => setStripeModal(null)}
+          onSuccess={(pi) => {
+            clearCart();
+            nav(`/pago/success?order_number=${encodeURIComponent(stripeModal.orderNumber)}&payment_intent=${pi}`);
+          }}
+        />
+      )}
     </div>
   );
 }
